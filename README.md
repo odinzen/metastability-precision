@@ -57,7 +57,7 @@ The main steps and the tables they write:
 
 The entropy scripts import Hermes (version 0.2.0, doi 10.5281/zenodo.23573417) from a checkout named by the
 `HERMES_DIR` environment variable. They read the molecular-dynamics trajectories, which are deposited on Zenodo (about
-16 GB; doi to be added) rather than kept here.
+16 GB; doi 10.5281/zenodo.23677025, https://zenodo.org/records/23677025) rather than kept here.
 
 ## Calculations on Sol
 
@@ -83,5 +83,5 @@ the database release. The inputs that `fetch_inputs.py` downloads keep the licen
 
 ## Citation
 
-Please cite the article (details to follow on publication) and, for the entropy calculations, Hermes
-(doi 10.5281/zenodo.23573417).
+Please cite the article (details to follow on publication), the molecular-dynamics trajectories
+(doi 10.5281/zenodo.23677025) and, for the entropy calculations, Hermes (doi 10.5281/zenodo.23573417).
