@@ -130,7 +130,7 @@ def figure2():
     save(fig, "fig2_calorimetry_benchmark")
 
 
-def figure3():
+def figure4():
     """Phase-purity gain of each selection against the computed margin it rested on."""
     d = pd.read_csv(RES / "chen_rerun_today.csv")
     band = 22.5
@@ -152,13 +152,14 @@ def figure3():
     # Legend below the axes: every corner of the plot holds data.
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=1)
     rho = spearmanr(margin, d.score_diff).statistic
-    print(f"figure 3 Spearman rho = {rho:.2f}")
-    save(fig, "fig3_synthesis_outcome_vs_margin")
+    print(f"figure 4 Spearman rho = {rho:.2f}")
+    save(fig, "fig4_synthesis_outcome_vs_margin")
 
 
-def figure5():
-    """(a) Metastability precision of every decision in both datasets; (b) A-Lab outcome against precision;
-    (c) calibration against measured stability decisions; (d) observed oxides resolved and expected right, by family."""
+def figure3():
+    """(a) Calibration of Phi(p) against measured decisions; (b) observed oxides resolved and expected right, by family;
+    (c) metastability precision of every decision of both campaigns; (d) A-Lab outcome against precision."""
+    from scipy.stats import norm
     chen = pd.read_csv(RES / "precision_chen.csv")
     alab = pd.read_csv(RES / "precision_alab.csv")
     alab = alab[~alab.database_inconsistency.astype(bool)]  # scored as in precision_analysis.py
@@ -167,7 +168,52 @@ def figure5():
     fig = plt.figure(figsize=(183 * MM, 160 * MM))
     gs = fig.add_gridspec(2, 2, width_ratios=[1.1, 1], height_ratios=[1, 1.05], hspace=0.5)
     axes = [fig.add_subplot(gs[0, 0]), fig.add_subplot(gs[0, 1]), fig.add_subplot(gs[1, 0]), fig.add_subplot(gs[1, 1])]
+
+    # a: share of decisions measurement confirms, against p, with the Gaussian prediction (precision_calibration.py)
+    cal = pd.read_csv(RES / "precision_calibration_bins.csv")
+    dec = pd.read_csv(RES / "precision_calibration_decisions.csv")
     ax = axes[0]
+    p = np.logspace(np.log10(0.03), np.log10(30), 400)
+    ax.plot(p, norm.cdf(p), color="0.1", lw=1.0, zorder=2, label="predicted, Φ(p)")
+    # The two shares the abstract quotes, drawn across the range of p they cover.
+    for span, share, lab in (((0.03, 1), dec.right[dec.p <= 1].mean(), "confirmed, p ≤ 1 and p > 1"),
+                             ((1, 30), dec.right[dec.p > 1].mean(), None)):
+        ax.plot(span, [share] * 2, color="0.55", lw=2.2, solid_capstyle="butt", zorder=1, label=lab)
+    ax.errorbar(cal.p_mean, cal.observed, yerr=[cal.observed - cal.ci_low, cal.ci_high - cal.observed], fmt="o",
+                ms=5, mfc="white", mec="0.05", ecolor="0.3", elinewidth=0.8, capsize=2.5, zorder=3,
+                label="confirmed, bins of p")
+    ax.axvline(1, color="0.1", lw=0.9, ls="--", zorder=1)
+    ax.set_xscale("log")
+    ax.set_xlim(0.03, 30)
+    ax.set_ylim(0, 1.04)
+    ax.set_xlabel("Metastability precision, p")
+    ax.set_ylabel("Share of decisions right")
+    ax.grid(True, **GRID)
+    ax.legend(loc="lower right")
+    panel_label(ax, "a")
+
+    # b: observed oxides by family, share resolved (bars) and share expected right (diamonds)
+    mp = pd.read_csv(RES / "precision_mp_observed.csv")
+    ox = mp[mp.oxide.astype(bool)].assign(right=lambda d: norm.cdf(d.margin_meV.abs() / 22.5))
+    stats = (ox.groupby("family").agg(n=("p", "size"), pct=("resolved", lambda s: 100 * s.mean()),
+                                      right=("right", lambda s: 100 * s.mean())).sort_values("pct"))
+    ax = axes[1]
+    y = np.arange(len(stats))
+    ax.barh(y, stats.pct, height=0.62, color="0.6", edgecolor="0.1", lw=0.5, zorder=3, label="resolved, p > 1")
+    ax.plot(stats.right, y, ls="none", marker="D", ms=4.5, mfc="white", mec="0.05", mew=0.7, zorder=4,
+            label="expected right")
+    ax.axvline(100 * ox.resolved.mean(), color="0.1", lw=0.9, ls="--", zorder=2)
+    ax.axvline(100 * ox.right.mean(), color="0.1", lw=0.9, ls=":", zorder=2)
+    ax.set_yticks(y)
+    ax.set_yticklabels([f"{n.capitalize()} ({int(r.n):,})" for n, r in stats.iterrows()], fontsize=6.5)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-0.6, len(stats) - 0.4)
+    ax.set_xlabel("Observed oxides (%)")
+    ax.grid(True, axis="x", **GRID)
+    ax.legend(loc="lower center", bbox_to_anchor=(0.55, 1.0), ncol=2, fontsize=6.5)
+    panel_label(ax, "b")
+
+    ax = axes[2]
     groups = [("Chen et al., precursor pair", chen.p_selection_measured_scatter, "o", "0.2"),
               ("Chen et al., target stability", chen[col], "s", "0.6"),
               ("A-Lab, target stability", alab[col], "^", "white")]
@@ -181,9 +227,9 @@ def figure5():
     ax.set_yticklabels([f"{g[0]}\n{int((g[1] > 1).sum())} of {len(g[1])} above 1" for g in groups][::-1])
     ax.set_xlabel("Metastability precision (margin / 22.5 meV per atom)")
     ax.grid(True, axis="x", which="major", **GRID)
-    panel_label(ax, "a")
+    panel_label(ax, "c")
 
-    ax = axes[1]
+    ax = axes[3]
     order = [("obtained", "o", "0.2"), ("partial", "D", "0.55"), ("inconclusive", "s", "0.85"),
              ("not obtained", "v", "white")]
     for i, (out, mk, face) in enumerate(order):
@@ -199,44 +245,10 @@ def figure5():
     ax.set_yticklabels([f"{o[0]} (n = {int((alab.outcome == o[0]).sum())})" for o in order][::-1])
     ax.set_xlabel("Metastability precision of target stability")
     ax.grid(True, axis="x", which="major", **GRID)
-    panel_label(ax, "b")
-
-    # c: does precision predict whether measurement confirms the computed decision? (precision_calibration.py)
-    cal = pd.read_csv(RES / "precision_calibration_bins.csv")
-    ax = axes[2]
-    ax.plot([0, 1.0], [0, 1.0], color="0.5", lw=0.8, zorder=1)
-    ax.errorbar(cal.predicted, cal.observed, yerr=[cal.observed - cal.ci_low, cal.ci_high - cal.observed], fmt="o",
-                ms=5, mfc="white", mec="0.05", ecolor="0.3", elinewidth=0.8, capsize=2.5, zorder=3)
-    ax.set_xlim(0, 1.02)  # PNAS: numerical axes start at zero
-    ax.set_ylim(0, 1.04)
-    ax.set_xlabel("Predicted probability that the decision is right")
-    ax.set_ylabel("Share confirmed by measurement")
-    ax.grid(True, **GRID)
-    panel_label(ax, "c")
-
-    # d: observed oxides by family, share resolved (bars) and share expected right (diamonds)
-    from scipy.stats import norm
-    mp = pd.read_csv(RES / "precision_mp_observed.csv")
-    ox = mp[mp.oxide.astype(bool)].assign(right=lambda d: norm.cdf(d.margin_meV.abs() / 22.5))
-    stats = (ox.groupby("family").agg(n=("p", "size"), pct=("resolved", lambda s: 100 * s.mean()),
-                                      right=("right", lambda s: 100 * s.mean())).sort_values("pct"))
-    ax = axes[3]
-    y = np.arange(len(stats))
-    ax.barh(y, stats.pct, height=0.62, color="0.6", edgecolor="0.1", lw=0.5, zorder=3, label="resolved, p > 1")
-    ax.plot(stats.right, y, ls="none", marker="D", ms=4.5, mfc="white", mec="0.05", mew=0.7, zorder=4,
-            label="expected right")
-    ax.axvline(100 * ox.resolved.mean(), color="0.1", lw=0.9, ls="--", zorder=2)
-    ax.axvline(100 * ox.right.mean(), color="0.1", lw=0.9, ls=":", zorder=2)
-    ax.set_yticks(y)
-    ax.set_yticklabels([f"{n.capitalize()} ({int(r.n):,})" for n, r in stats.iterrows()], fontsize=6.5)
-    ax.set_xlim(0, 100)
-    ax.set_ylim(-0.6, len(stats) - 0.4)
-    ax.set_xlabel("Observed oxides (%)")
-    ax.grid(True, axis="x", **GRID)
-    ax.legend(loc="lower center", bbox_to_anchor=(0.55, 1.0), ncol=2, fontsize=6.5)
     panel_label(ax, "d")
+
     fig.subplots_adjust(left=0.2, right=0.97, top=0.95, bottom=0.08, wspace=0.75)
-    save(fig, "fig5_metastability_precision")
+    save(fig, "fig3_metastability_precision")
 
 
 def tex_formula(f):
@@ -247,7 +259,7 @@ def tex_formula(f):
 MEV_PER_J_MOL = 1000 / 96485.33  # T dS in J/mol atoms to meV per atom
 
 
-def figure4(path=RES / "hermes_vs_measured.csv"):
+def figure5(path=RES / "hermes_vs_measured.csv"):
     """Hermes vibrational entropy from the Sol MD against measured entropy, and the error as T dS, with the harmonic
     phonons of the same potential beside it."""
     if not path.exists():
@@ -352,7 +364,7 @@ def figure4(path=RES / "hermes_vs_measured.csv"):
     panel_label(ax, "b")
     decision_margins_at_temperature(ax_d)
     fig.tight_layout(w_pad=2.0, h_pad=2.0)
-    save(fig, "fig4_finite_temperature_entropy")
+    save(fig, "fig5_finite_temperature_entropy")
 
 
 def decision_margins_at_temperature(ax, path=RES / "precision_temperature.csv"):
