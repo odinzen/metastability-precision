@@ -1,0 +1,16 @@
+# Analysis (the versions the paper used)
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.5
+openpyxl==3.1.5
+pymatgen==2026.5.4
+monty==2026.7.16
+mp-api==0.46.5
+emmet-core==0.87.2
+matplotlib==3.11.1
+# Machine-learned potentials, phonons and molecular dynamics (sol/env.yml holds the GPU build used on Sol)
+ase==3.29.0
+phonopy==4.4.0
+orb-models==0.5.5
+mace-torch==0.3.16
+torch==2.13.0

@@ -1,0 +1,178 @@
+compound,unresolved_decisions,measured,role,decisions
+Li3PO4,5,False,competitor or precursor,Chen2024 stability Li3Fe2(PO4)3; Chen2024 stability Li3Sc2(PO4)3; Chen2024 stability Li3V2(PO4)3; Chen2024 stability LiMgPO4; Chen2024 stability LiMnPO4
+LiBO2,5,True,competitor or precursor,Chen2024 selection Li3Pr2(BO3)3; Chen2024 selection Li3Y2(BO3)3; Chen2024 selection LiSi2BO6; Chen2024 selection LiZnBO3; Chen2024 stability LiZnBO3
+KPO3,4,False,competitor or precursor,Chen2024 selection KLi(PO3)2; Chen2024 selection KTa2PO8; Chen2024 stability KLi(PO3)2; Chen2024 stability KTa2PO8
+KTiPO5,3,False,competitor or precursor,A-Lab2023 stability K2TiCr(PO4)3; A-Lab2023 stability K4TiSn3(PO5)4; A-Lab2023 stability KNaTi2(PO5)2
+LiNbO3,3,True,competitor or precursor,Chen2024 selection LiNbWO6; Chen2024 stability LiNbGeO5; Chen2024 stability LiNbWO6
+LiPO3,3,True,competitor or precursor,Chen2024 selection KLi(PO3)2; Chen2024 selection Li3Fe2(PO4)3; Chen2024 stability KLi(PO3)2
+Mn3(PO4)2,3,False,competitor or precursor,A-Lab2023 stability Mn2VPO7; A-Lab2023 stability NaMnFe(PO4)2; Chen2024 stability LiMnPO4
+Na3Fe3(PO4)4,3,False,competitor or precursor,A-Lab2023 stability Na3Ca18Fe(PO4)14; A-Lab2023 stability Na7Mg7Fe5(PO4)12; A-Lab2023 stability NaMnFe(PO4)2
+Ba3V2O8,2,False,competitor or precursor,A-Lab2023 stability Ba6Na2Ta2V2O17; A-Lab2023 stability Ba6Na2V2Sb2O17
+Ca(PO3)2,2,False,competitor or precursor,A-Lab2023 stability CaMn(PO3)4; A-Lab2023 stability CaNi(PO3)4
+CaTiO3,2,True,competitor or precursor,A-Lab2023 stability Ca2Ti3O8; A-Lab2023 stability Ca3Ti3Cr2O12
+KLi(PO3)2,2,False,target,Chen2024 selection KLi(PO3)2; Chen2024 stability KLi(PO3)2
+KTa2PO8,2,False,target,Chen2024 selection KTa2PO8; Chen2024 stability KTa2PO8
+KTiNbO5,2,False,target,Chen2024 selection KTiNbO5; Chen2024 stability KTiNbO5
+Li2Ge7O15,2,False,competitor or precursor,Chen2024 stability LiGeBO4; Chen2024 stability LiNbGeO5
+Li2TiGeO5,2,False,target,Chen2024 selection Li2TiGeO5; Chen2024 stability Li2TiGeO5
+Li3B7O12,2,False,competitor or precursor,Chen2024 stability LiGeBO4; Chen2024 stability LiSi2BO6
+Li3Fe2(PO4)3,2,False,target,Chen2024 selection Li3Fe2(PO4)3; Chen2024 stability Li3Fe2(PO4)3
+Li3Pr2(BO3)3,2,False,target,Chen2024 selection Li3Pr2(BO3)3; Chen2024 stability Li3Pr2(BO3)3
+LiNbWO6,2,False,target,Chen2024 selection LiNbWO6; Chen2024 stability LiNbWO6
+LiSi2BO6,2,False,target,Chen2024 selection LiSi2BO6; Chen2024 stability LiSi2BO6
+LiZnBO3,2,False,target,Chen2024 selection LiZnBO3; Chen2024 stability LiZnBO3
+Mg(PO3)2,2,False,competitor or precursor,A-Lab2023 stability MgCuP2O7; A-Lab2023 stability MgNi(PO3)4
+Mg3(PO4)2,2,True,competitor or precursor,A-Lab2023 stability Na7Mg7Fe5(PO4)12; Chen2024 stability LiMgPO4
+Mn(PO3)2,2,False,competitor or precursor,A-Lab2023 stability CaMn(PO3)4; A-Lab2023 stability Mn7(P2O7)4
+Na2Al2B2O7,2,False,target,Chen2024 selection Na2Al2B2O7; Chen2024 stability Na2Al2B2O7
+NaBO2,2,True,competitor or precursor,Chen2024 selection Na2Al2B2O7; Chen2024 selection NaSiBO4
+NaSiBO4,2,False,target,Chen2024 selection NaSiBO4; Chen2024 stability NaSiBO4
+Ni(PO3)2,2,False,competitor or precursor,A-Lab2023 stability CaNi(PO3)4; A-Lab2023 stability MgNi(PO3)4
+Al5BO9,1,False,competitor or precursor,Chen2024 stability Na2Al2B2O7
+AlPO4,1,True,competitor or precursor,Chen2024 stability K3Al2(PO4)3
+Ba2WO5,1,False,competitor or precursor,A-Lab2023 stability KBaPrWO6
+Ba3NaSbO6,1,False,competitor or precursor,A-Lab2023 stability Ba6Na2V2Sb2O17
+Ba4Na(SbO4)3,1,False,competitor or precursor,A-Lab2023 stability Ba6Na2V2Sb2O17
+Ba4Ta2O9,1,False,competitor or precursor,A-Lab2023 stability Ba6Na2Ta2V2O17
+Ba6La2Fe4O15,1,False,competitor or precursor,A-Lab2023 stability Ba9Ca3La4(Fe4O15)2
+Ba6Na2Ta2V2O17,1,False,target,A-Lab2023 stability Ba6Na2Ta2V2O17
+Ba6Na2V2Sb2O17,1,False,target,A-Lab2023 stability Ba6Na2V2Sb2O17
+Ba9Ca3La4(Fe4O15)2,1,False,target,A-Lab2023 stability Ba9Ca3La4(Fe4O15)2
+Ca2Fe2O5,1,True,competitor or precursor,A-Lab2023 stability Ba9Ca3La4(Fe4O15)2
+Ca2P2O7,1,True,competitor or precursor,A-Lab2023 stability CaFe2P2O9
+Ca2P6O17,1,False,competitor or precursor,A-Lab2023 stability CaCo(PO3)4
+Ca2Sn3O8,1,False,target,A-Lab2023 stability Ca2Sn3O8
+Ca2Ti3O8,1,False,target,A-Lab2023 stability Ca2Ti3O8
+Ca3(PO4)2,1,True,competitor or precursor,A-Lab2023 stability CaTiNiP2O9
+Ca3Ti3Cr2O12,1,False,target,A-Lab2023 stability Ca3Ti3Cr2O12
+Ca9Cr(PO4)7,1,False,competitor or precursor,A-Lab2023 stability CaCr2P2O9
+CaCo(PO3)4,1,False,target,A-Lab2023 stability CaCo(PO3)4
+CaCr2P2O9,1,False,target,A-Lab2023 stability CaCr2P2O9
+CaFe2P2O9,1,False,target,A-Lab2023 stability CaFe2P2O9
+CaFe3P3O13,1,False,competitor or precursor,A-Lab2023 stability CaFe2P2O9
+CaGa4O7,1,False,competitor or precursor,A-Lab2023 stability CaGd2Zr(GaO3)4
+CaGd2Zr(GaO3)4,1,False,target,A-Lab2023 stability CaGd2Zr(GaO3)4
+CaMg(SiO3)2,1,False,competitor or precursor,A-Lab2023 stability NaCaMgFe(SiO3)4
+CaMn(PO3)4,1,False,target,A-Lab2023 stability CaMn(PO3)4
+CaNi(PO3)4,1,False,target,A-Lab2023 stability CaNi(PO3)4
+CaSnO3,1,False,competitor or precursor,A-Lab2023 stability Ca2Sn3O8
+CaTi2O5,1,False,competitor or precursor,A-Lab2023 stability Ca2Ti3O8
+CaTiNiP2O9,1,False,target,A-Lab2023 stability CaTiNiP2O9
+CaZrO3,1,True,competitor or precursor,A-Lab2023 stability CaGd2Zr(GaO3)4
+Co2P2O7,1,False,competitor or precursor,A-Lab2023 stability CaCo(PO3)4
+CrPO4,1,False,competitor or precursor,A-Lab2023 stability CaCr2P2O9
+Cu3(PO4)2,1,False,competitor or precursor,A-Lab2023 stability MgCuP2O7
+FePO4,1,False,competitor or precursor,Chen2024 stability Li3Fe2(PO4)3
+FeSb3Pb4O13,1,False,target,A-Lab2023 stability FeSb3Pb4O13
+Gd3Ga5O12,1,False,competitor or precursor,A-Lab2023 stability CaGd2Zr(GaO3)4
+InSb(P2O7)2,1,False,competitor or precursor,A-Lab2023 stability InSb3(PO4)6
+InSb3(PO4)6,1,False,target,A-Lab2023 stability InSb3(PO4)6
+K2MgV2O7,1,False,competitor or precursor,A-Lab2023 stability KMg3V3CuO12
+K2Ta4O11,1,False,competitor or precursor,Chen2024 stability KTa2PO8
+K2Ti6O13,1,False,competitor or precursor,Chen2024 stability KTiNbO5
+K2TiCr(PO4)3,1,False,target,A-Lab2023 stability K2TiCr(PO4)3
+K2W2O7,1,False,competitor or precursor,Chen2024 stability KNbWO6
+K2W4O13,1,False,competitor or precursor,Chen2024 stability KNbWO6
+K2WO4,1,True,competitor or precursor,A-Lab2023 stability KBaPrWO6
+K3Al(PO4)2,1,False,competitor or precursor,Chen2024 stability K3Al2(PO4)3
+K3Al2(PO4)3,1,False,target,Chen2024 stability K3Al2(PO4)3
+K3Fe2(PO4)3,1,False,competitor or precursor,A-Lab2023 stability K4MgFe3(PO4)5
+K3Fe5(PO4)6,1,False,competitor or precursor,A-Lab2023 stability K4MgFe3(PO4)5
+K3PO4,1,True,competitor or precursor,A-Lab2023 stability KNaP6(PbO3)8
+K4MgFe3(PO4)5,1,False,target,A-Lab2023 stability K4MgFe3(PO4)5
+K4Nb6O17,1,False,competitor or precursor,Chen2024 stability KTiNbO5
+K4TiSn3(PO5)4,1,False,target,A-Lab2023 stability K4TiSn3(PO5)4
+KBaPrWO6,1,False,target,A-Lab2023 stability KBaPrWO6
+KCrP2O7,1,False,competitor or precursor,A-Lab2023 stability K2TiCr(PO4)3
+KMg3V3CuO12,1,False,target,A-Lab2023 stability KMg3V3CuO12
+KMgPO4,1,False,competitor or precursor,A-Lab2023 stability K4MgFe3(PO4)5
+KMn2O4,1,False,competitor or precursor,A-Lab2023 stability KMn3O6
+KMn3O6,1,False,target,A-Lab2023 stability KMn3O6
+KMn4O8,1,False,competitor or precursor,A-Lab2023 stability KMn3O6
+KNaP6(PbO3)8,1,False,target,A-Lab2023 stability KNaP6(PbO3)8
+KNaTi2(PO5)2,1,False,target,A-Lab2023 stability KNaTi2(PO5)2
+KNb3O8,1,False,competitor or precursor,Chen2024 stability KNbWO6
+KNbO3,1,False,competitor or precursor,Chen2024 selection KTiNbO5
+KNbWO6,1,False,target,Chen2024 stability KNbWO6
+KSnPO5,1,False,competitor or precursor,A-Lab2023 stability K4TiSn3(PO5)4
+LaFeO3,1,True,competitor or precursor,A-Lab2023 stability Ba9Ca3La4(Fe4O15)2
+Li2GeO3,1,False,competitor or precursor,Chen2024 stability Li2TiGeO5
+Li2Si2O5,1,True,competitor or precursor,Chen2024 stability LiSi2BO6
+Li2SiO3,1,True,competitor or precursor,Chen2024 stability Li2TiSiO5
+Li2TiO3,1,True,competitor or precursor,Chen2024 selection Li2TiGeO5
+Li2TiSiO5,1,False,target,Chen2024 stability Li2TiSiO5
+Li3BO3,1,False,competitor or precursor,Chen2024 stability Li3Pr2(BO3)3
+Li3Sc2(PO4)3,1,False,target,Chen2024 stability Li3Sc2(PO4)3
+Li3V2(PO4)3,1,False,target,Chen2024 stability Li3V2(PO4)3
+Li3Y2(BO3)3,1,False,target,Chen2024 selection Li3Y2(BO3)3
+Li4Ge5O12,1,False,competitor or precursor,Chen2024 stability LiGeBO4
+Li4Zn(PO4)2,1,False,competitor or precursor,Chen2024 stability LiZnPO4
+LiGeBO4,1,False,target,Chen2024 stability LiGeBO4
+LiMgPO4,1,False,target,Chen2024 stability LiMgPO4
+LiMnPO4,1,False,target,Chen2024 stability LiMnPO4
+LiNb3O8,1,False,competitor or precursor,Chen2024 stability LiNbGeO5
+LiNbGeO5,1,False,target,Chen2024 stability LiNbGeO5
+LiZnPO4,1,False,target,Chen2024 stability LiZnPO4
+Mg2P2O7,1,False,competitor or precursor,A-Lab2023 stability MgCuP2O7
+Mg2V2O7,1,True,competitor or precursor,A-Lab2023 stability KMg3V3CuO12
+Mg2V6Cu4O21,1,False,competitor or precursor,A-Lab2023 stability MgV4Cu3O14
+Mg3MnNi3O8,1,False,target,A-Lab2023 stability Mg3MnNi3O8
+Mg3NiO4,1,False,target,A-Lab2023 stability Mg3NiO4
+Mg3V2O8,1,False,competitor or precursor,A-Lab2023 stability KMg3V3CuO12
+Mg6MnO8,1,False,competitor or precursor,A-Lab2023 stability Mg3MnNi3O8
+MgCuP2O7,1,False,target,A-Lab2023 stability MgCuP2O7
+MgNi(PO3)4,1,False,target,A-Lab2023 stability MgNi(PO3)4
+MgNiO2,1,False,competitor or precursor,A-Lab2023 stability Mg3NiO4
+MgTi2(PO5)2,1,False,competitor or precursor,A-Lab2023 stability MgTi4(PO4)6
+MgTi2NiO6,1,False,target,A-Lab2023 stability MgTi2NiO6
+MgTi2O5,1,True,competitor or precursor,A-Lab2023 stability MgTi2NiO6
+MgTi4(PO4)6,1,False,target,A-Lab2023 stability MgTi4(PO4)6
+MgV4Cu3O14,1,False,target,A-Lab2023 stability MgV4Cu3O14
+Mn(Ni3O4)2,1,False,competitor or precursor,A-Lab2023 stability Mg3MnNi3O8
+Mn2P2O7,1,False,competitor or precursor,A-Lab2023 stability Mn7(P2O7)4
+Mn2VPO7,1,False,target,A-Lab2023 stability Mn2VPO7
+Mn2ZnO4,1,True,competitor or precursor,A-Lab2023 stability Mn4Zn3(NiO6)2
+Mn4Zn3(NiO6)2,1,False,target,A-Lab2023 stability Mn4Zn3(NiO6)2
+Mn7(P2O7)4,1,False,target,A-Lab2023 stability Mn7(P2O7)4
+MnNiO3,1,False,competitor or precursor,A-Lab2023 stability Mn4Zn3(NiO6)2
+MnPO4,1,False,competitor or precursor,A-Lab2023 stability Mn7(P2O7)4
+MnV2O6,1,False,competitor or precursor,A-Lab2023 stability Mn2VPO7
+Na2B4O7,1,True,competitor or precursor,Chen2024 stability Na2Al2B2O7
+Na2Si2O5,1,True,competitor or precursor,Chen2024 stability NaSiBO4
+Na3B7O12,1,False,competitor or precursor,Chen2024 stability NaSiBO4
+Na3BO3,1,False,competitor or precursor,Chen2024 stability NaSrBO3
+Na3Ca18Fe(PO4)14,1,False,target,A-Lab2023 stability Na3Ca18Fe(PO4)14
+Na3Fe(PO4)2,1,False,competitor or precursor,A-Lab2023 stability Na3Ca18Fe(PO4)14
+Na3SbO4,1,False,competitor or precursor,A-Lab2023 stability Ba6Na2V2Sb2O17
+Na3V3Cr2O12,1,False,target,A-Lab2023 stability Na3V3Cr2O12
+Na3VO4,1,True,competitor or precursor,A-Lab2023 stability Ba6Na2Ta2V2O17
+Na4Mg3P4O15,1,False,competitor or precursor,A-Lab2023 stability Na7Mg7Fe5(PO4)12
+Na7Mg7Fe5(PO4)12,1,False,target,A-Lab2023 stability Na7Mg7Fe5(PO4)12
+NaAlO2,1,True,competitor or precursor,Chen2024 stability Na2Al2B2O7
+NaCa10(PO4)7,1,False,competitor or precursor,A-Lab2023 stability Na3Ca18Fe(PO4)14
+NaCaMgFe(SiO3)4,1,False,target,A-Lab2023 stability NaCaMgFe(SiO3)4
+NaFe(SiO3)2,1,False,competitor or precursor,A-Lab2023 stability NaCaMgFe(SiO3)4
+NaMnFe(PO4)2,1,False,target,A-Lab2023 stability NaMnFe(PO4)2
+NaP3(PbO3)4,1,False,competitor or precursor,A-Lab2023 stability KNaP6(PbO3)8
+NaSrBO3,1,False,target,Chen2024 stability NaSrBO3
+NaTiPO5,1,False,competitor or precursor,A-Lab2023 stability KNaTi2(PO5)2
+NaVO3,1,True,competitor or precursor,A-Lab2023 stability Na3V3Cr2O12
+Ni3(PO4)2,1,False,competitor or precursor,A-Lab2023 stability CaTiNiP2O9
+P2Pb3O8,1,False,competitor or precursor,A-Lab2023 stability KNaP6(PbO3)8
+PrBO3,1,False,competitor or precursor,Chen2024 stability Li3Pr2(BO3)3
+Sb2PbO6,1,False,competitor or precursor,A-Lab2023 stability FeSb3Pb4O13
+SbPO5,1,False,competitor or precursor,A-Lab2023 stability InSb3(PO4)6
+ScPO4,1,True,competitor or precursor,Chen2024 stability Li3Sc2(PO4)3
+Sr3(BO3)2,1,False,competitor or precursor,Chen2024 stability NaSrBO3
+Ta2PbO6,1,False,competitor or precursor,A-Lab2023 stability Ta4PbO11
+Ta4PbO11,1,False,target,A-Lab2023 stability Ta4PbO11
+TaPO5,1,False,competitor or precursor,Chen2024 stability KTa2PO8
+Ti2Ni(PO5)2,1,False,competitor or precursor,A-Lab2023 stability CaTiNiP2O9
+TiP2O7,1,False,competitor or precursor,A-Lab2023 stability MgTi4(PO4)6
+V18Ag7O48,1,False,competitor or precursor,A-Lab2023 stability V3AgO8
+V2Cu2O7,1,False,competitor or precursor,A-Lab2023 stability MgV4Cu3O14
+V3AgO8,1,False,target,A-Lab2023 stability V3AgO8
+VPO4,1,False,competitor or precursor,Chen2024 stability Li3V2(PO4)3
+Y3Ga5O12,1,False,competitor or precursor,A-Lab2023 stability Y3In2Ga3O12
+Y3In2(GaO4)3,1,False,competitor or precursor,A-Lab2023 stability Y3In2Ga3O12
+Zn3(PO4)2,1,False,competitor or precursor,Chen2024 stability LiZnPO4

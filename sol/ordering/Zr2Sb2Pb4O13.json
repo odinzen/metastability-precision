@@ -1,0 +1,266 @@
+{
+ "tag": "Zr2Sb2Pb4O13",
+ "target": "Zr2Sb2Pb4O13",
+ "groups": "Sb/Zr",
+ "T_K": 1173.15,
+ "atoms": 84,
+ "model": "orb_v3_conservative_inf_omat",
+ "device": "cuda",
+ "fmax_target": 0.02,
+ "max_steps": 600,
+ "seed": 20261024,
+ "ideal_entropy_kB_per_atom": 0.1126506464355973,
+ "ordered": {
+  "label": "ordered",
+  "E_per_atom": -6.90106927780878,
+  "E_unrelaxed_per_atom": -6.899614606584821,
+  "steps": 135,
+  "fmax": 0.016762323677539825,
+  "converged": true,
+  "volume_per_atom": 15.001059441161328,
+  "seconds": 7.7
+ },
+ "random": [
+  {
+   "label": "random_01",
+   "E_per_atom": -6.891910371326265,
+   "E_unrelaxed_per_atom": -6.831913539341518,
+   "steps": 164,
+   "fmax": 0.014477778226137161,
+   "converged": true,
+   "volume_per_atom": 15.03468631704312,
+   "seconds": 4.7
+  },
+  {
+   "label": "random_02",
+   "E_per_atom": -6.8975408644903276,
+   "E_unrelaxed_per_atom": -6.831361316499256,
+   "steps": 155,
+   "fmax": 0.017335914075374603,
+   "converged": true,
+   "volume_per_atom": 15.022068109258328,
+   "seconds": 4.5
+  },
+  {
+   "label": "random_03",
+   "E_per_atom": -6.898681640625,
+   "E_unrelaxed_per_atom": -6.846221197219122,
+   "steps": 188,
+   "fmax": 0.012402265332639217,
+   "converged": true,
+   "volume_per_atom": 15.020108790926063,
+   "seconds": 5.4
+  },
+  {
+   "label": "random_04",
+   "E_per_atom": -6.892559959774926,
+   "E_unrelaxed_per_atom": -6.820350283668155,
+   "steps": 142,
+   "fmax": 0.018233899027109146,
+   "converged": true,
+   "volume_per_atom": 15.05666427370001,
+   "seconds": 4.1
+  },
+  {
+   "label": "random_05",
+   "E_per_atom": -6.894937424432664,
+   "E_unrelaxed_per_atom": -6.8392690022786455,
+   "steps": 160,
+   "fmax": 0.012011397629976273,
+   "converged": true,
+   "volume_per_atom": 15.051124343269631,
+   "seconds": 4.6
+  },
+  {
+   "label": "random_06",
+   "E_per_atom": -6.8972894577752974,
+   "E_unrelaxed_per_atom": -6.844113304501488,
+   "steps": 149,
+   "fmax": 0.015425680205225945,
+   "converged": true,
+   "volume_per_atom": 15.053337428548636,
+   "seconds": 4.3
+  },
+  {
+   "label": "random_07",
+   "E_per_atom": -6.895552135649181,
+   "E_unrelaxed_per_atom": -6.809859502883184,
+   "steps": 161,
+   "fmax": 0.015488935634493828,
+   "converged": true,
+   "volume_per_atom": 15.052693454843686,
+   "seconds": 4.6
+  },
+  {
+   "label": "random_08",
+   "E_per_atom": -6.898689633324032,
+   "E_unrelaxed_per_atom": -6.846590314592634,
+   "steps": 166,
+   "fmax": 0.018959755077958107,
+   "converged": true,
+   "volume_per_atom": 15.046647427851095,
+   "seconds": 4.6
+  },
+  {
+   "label": "random_09",
+   "E_per_atom": -6.8952142624627974,
+   "E_unrelaxed_per_atom": -6.811116536458333,
+   "steps": 600,
+   "fmax": 0.057255249470472336,
+   "converged": false,
+   "volume_per_atom": 15.025271299567795,
+   "seconds": 16.5
+  },
+  {
+   "label": "random_10",
+   "E_per_atom": -6.8944854736328125,
+   "E_unrelaxed_per_atom": -6.808145432245164,
+   "steps": 114,
+   "fmax": 0.015220604836940765,
+   "converged": true,
+   "volume_per_atom": 15.021264462547615,
+   "seconds": 3.1
+  },
+  {
+   "label": "random_11",
+   "E_per_atom": -6.89141845703125,
+   "E_unrelaxed_per_atom": -6.830705188569569,
+   "steps": 108,
+   "fmax": 0.014162025414407253,
+   "converged": true,
+   "volume_per_atom": 15.019912589561091,
+   "seconds": 2.9
+  },
+  {
+   "label": "random_12",
+   "E_per_atom": -6.898923601422991,
+   "E_unrelaxed_per_atom": -6.8456609816778276,
+   "steps": 160,
+   "fmax": 0.010950305499136448,
+   "converged": true,
+   "volume_per_atom": 15.04426554610564,
+   "seconds": 4.4
+  },
+  {
+   "label": "random_13",
+   "E_per_atom": -6.894065493629093,
+   "E_unrelaxed_per_atom": -6.835736229306176,
+   "steps": 156,
+   "fmax": 0.013821247033774853,
+   "converged": true,
+   "volume_per_atom": 15.046939863364265,
+   "seconds": 4.2
+  },
+  {
+   "label": "random_14",
+   "E_per_atom": -6.898233322870164,
+   "E_unrelaxed_per_atom": -6.816927228655134,
+   "steps": 156,
+   "fmax": 0.015474006533622742,
+   "converged": true,
+   "volume_per_atom": 15.063241938355945,
+   "seconds": 4.2
+  },
+  {
+   "label": "random_15",
+   "E_per_atom": -6.896661667596726,
+   "E_unrelaxed_per_atom": -6.81277102515811,
+   "steps": 131,
+   "fmax": 0.011665254831314087,
+   "converged": true,
+   "volume_per_atom": 15.017742525101642,
+   "seconds": 3.6
+  },
+  {
+   "label": "random_16",
+   "E_per_atom": -6.897041684105282,
+   "E_unrelaxed_per_atom": -6.844796316964286,
+   "steps": 170,
+   "fmax": 0.017890915274620056,
+   "converged": true,
+   "volume_per_atom": 15.028446676689152,
+   "seconds": 4.6
+  },
+  {
+   "label": "random_17",
+   "E_per_atom": -6.8982798258463545,
+   "E_unrelaxed_per_atom": -6.818582443963914,
+   "steps": 154,
+   "fmax": 0.016284357756376266,
+   "converged": true,
+   "volume_per_atom": 15.043722345070128,
+   "seconds": 4.2
+  },
+  {
+   "label": "random_18",
+   "E_per_atom": -6.895330519903274,
+   "E_unrelaxed_per_atom": -6.83824956984747,
+   "steps": 176,
+   "fmax": 0.01411081850528717,
+   "converged": true,
+   "volume_per_atom": 15.037530258979741,
+   "seconds": 4.8
+  },
+  {
+   "label": "random_19",
+   "E_per_atom": -6.89765130905878,
+   "E_unrelaxed_per_atom": -6.8458607991536455,
+   "steps": 146,
+   "fmax": 0.01566043496131897,
+   "converged": true,
+   "volume_per_atom": 15.030764296393702,
+   "seconds": 4.0
+  },
+  {
+   "label": "random_20",
+   "E_per_atom": -6.896202450706845,
+   "E_unrelaxed_per_atom": -6.798293340773809,
+   "steps": 155,
+   "fmax": 0.01689194142818451,
+   "converged": true,
+   "volume_per_atom": 15.032674033860328,
+   "seconds": 4.2
+  },
+  {
+   "label": "random_21",
+   "E_per_atom": -6.899237496512277,
+   "E_unrelaxed_per_atom": -6.837362380254836,
+   "steps": 122,
+   "fmax": 0.005856793373823166,
+   "converged": true,
+   "volume_per_atom": 15.01512145945891,
+   "seconds": 3.3
+  },
+  {
+   "label": "random_22",
+   "E_per_atom": -6.8996393112909224,
+   "E_unrelaxed_per_atom": -6.820169358026414,
+   "steps": 113,
+   "fmax": 0.018450794741511345,
+   "converged": true,
+   "volume_per_atom": 15.03439710090818,
+   "seconds": 3.1
+  },
+  {
+   "label": "random_23",
+   "E_per_atom": -6.897914341517857,
+   "E_unrelaxed_per_atom": -6.8313446044921875,
+   "steps": 123,
+   "fmax": 0.0160575769841671,
+   "converged": true,
+   "volume_per_atom": 15.055491688503434,
+   "seconds": 3.3
+  },
+  {
+   "label": "random_24",
+   "E_per_atom": -6.895682198660714,
+   "E_unrelaxed_per_atom": -6.8254205612909224,
+   "steps": 144,
+   "fmax": 0.018909139558672905,
+   "converged": true,
+   "volume_per_atom": 15.058876481283681,
+   "seconds": 3.9
+  }
+ ],
+ "complete": true
+}

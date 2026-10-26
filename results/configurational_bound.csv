@@ -1,0 +1,34 @@
+target,ordering,mixing,note,offline,vacancy_left_out,T_synthesis_K,S_bound_kB_per_atom,TS_bound_meV_atom,S_refined_kB_per_atom,TS_refined_meV_atom,stability_margin_meV
+Mg3NiO4,likely disordered,Mg/Ni,,True,False,1273.15,0.2812,30.8,0.2812,30.8,-8.1
+Mn4Zn3(NiO6)2,ambiguous,Mn/Ni,,False,False,1273.15,0.1819,20.0,0.0,0.0,-18.7
+Zn3Ni4(SbO6)2,likely disordered,Ni/Sb,,False,False,1173.15,0.1819,18.4,0.1821,18.4,-29.1
+NaCaMgFe(SiO3)4,likely disordered,Ca/Na ; Fe/Mg,"manual model, Na/Ca and Mg/Fe on separate sites (the automated one mixed all four)",False,False,1273.15,0.1386,15.2,0.2773,30.4,-0.5
+MgTi2NiO6,ambiguous,Mg/Ni,,False,False,1273.15,0.1386,15.2,0.0,0.0,-0.8
+KBaPrWO6,ambiguous,Ba/K,,False,False,1273.15,0.1386,15.2,0.0,0.0,-4.2
+Ba2ZrSnO6,ambiguous,Sn/Zr,,False,False,1273.15,0.1386,15.2,0.1386,15.2,-26.0
+MgCuP2O7,likely disordered,Cu/Mg,,False,False,1273.15,0.126,13.8,0.126,13.8,-4.9
+Hf2Sb2Pb4O13,ambiguous,Hf/Sb,,False,False,1173.15,0.132,13.3,0.0,0.0,-36.4
+Zr2Sb2Pb4O13,ambiguous,Sb/Zr,,False,False,1173.15,0.132,13.3,0.0,0.0,-25.6
+Sn2Sb2Pb4O13,ambiguous,Sb/Sn,,False,False,1073.15,0.132,12.2,0.0,0.0,-23.0
+Na3Ca18Fe(PO4)14,ambiguous,Ca/Fe/Na,,False,False,973.15,0.1378,11.6,0.0,0.0,-5.4
+KNaP6(PbO3)8,likely disordered,K/Na/Pb,"one 4f site holds K, Na and 2 of the 8 Pb",False,False,1273.15,0.104,11.4,0.104,11.4,-9.2
+Na7Mg7Fe5(PO4)12,ambiguous,Na/vacancy ; Fe/Mg,,False,True,1273.15,0.1032,11.3,0.0,0.0,-1.3
+InSb3Pb4O13,ambiguous,In/Sb,,False,False,1173.15,0.1071,10.8,0.0,0.0,-28.2
+Mn2VPO7,ambiguous,P/V,,False,False,973.15,0.126,10.6,0.0,0.0,-0.5
+Ba9Ca3La4(Fe4O15)2,ambiguous,Ca/La,refined model; the Ba/Ca alternative also tested is not counted,False,False,1373.15,0.0885,10.5,0.0885,10.5,-7.9
+MgV4Cu3O14,ambiguous,Cu/Mg,,False,False,1173.15,0.1022,10.3,0.0,0.0,-0.3
+FeSb3Pb4O13,ambiguous,Fe/Sb,,False,False,1073.15,0.1071,9.9,0.1071,9.9,-19.3
+KNaTi2(PO5)2,ambiguous,K/Na,,False,False,1273.15,0.0866,9.5,0.0,0.0,1.9
+KPr9(Si3O13)2,ambiguous,K/Pr,,False,False,1373.15,0.0774,9.2,0.0774,9.2,-49.1
+NaMnFe(PO4)2,ambiguous,Fe/Mn,,False,False,973.15,0.1066,8.9,0.0,0.0,-2.2
+K2TiCr(PO4)3,ambiguous,Cr/Ti,,False,False,1373.15,0.073,8.6,0.0,0.0,-6.4
+K4TiSn3(PO5)4,ambiguous,Sn/Ti,,False,False,1373.15,0.0703,8.3,0.0,0.0,-1.9
+MgNi(PO3)4,ambiguous,Mg/Ni,,False,False,1173.15,0.077,7.8,0.0,0.0,-1.2
+CaNi(PO3)4,ambiguous,Ca/Ni,,False,False,1073.15,0.077,7.1,0.0,0.0,-7.1
+K4MgFe3(PO4)5,ambiguous,Fe/Mg,,False,False,1173.15,0.0682,6.9,0.0,0.0,-1.8
+InSb3(PO4)6,ambiguous,In/Sb,,False,False,1173.15,0.0662,6.7,0.0,0.0,-4.7
+CaCo(PO3)4,ambiguous,Ca/Co,,False,False,973.15,0.077,6.5,0.0,0.0,-18.0
+CaMn(PO3)4,ambiguous,Ca/Mn,,False,False,973.15,0.077,6.5,0.0,0.0,-7.5
+MgTi4(PO4)6,ambiguous,Mg/vacancy,,False,True,1273.15,0.0,0.0,0.0,0.0,-6.6
+KNa2Ga3(SiO4)3,ambiguous,,,False,False,1173.15,0.0,0.0,0.0,0.0,-31.9
+KMn3O6,likely disordered,K/vacancy,,False,True,1173.15,0.0,0.0,0.1386,14.0,-18.9

@@ -1,0 +1,9 @@
+set,n,resolved,expected_right,expected_right_resolved,expected_right_unresolved,expected_wrong,expected_wrong_in_unresolved
+observed oxides,10047,5105,8173.484,0.968,0.654,1873.516,1709.576
+"observed oxides, fewer-element phases only",3613,1661,2880.757,,,732.243,
+"observed oxides, involves an element",1598,1373,1510.776,,,87.224,
+"observed oxides, own polymorph",1580,559,1176.754,,,403.246,
+"observed oxides, same-order neighbour",3256,1512,2605.196,,,650.804,
+Chen et al. selections,35,23,29.736,,,5.264,
+Chen et al. stability,35,13,26.416,,,8.584,
+A-Lab stability,54,13,37.353,,,16.647,

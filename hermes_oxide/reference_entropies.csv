@@ -1,0 +1,53 @@
+compound,T_K,S_J_per_K_mol,S_per_mol_atoms,atoms_per_fu,integration_spread,S298,S298_source,Cp_source,Cp_points,Cp_T_range,mixed_source,S298_page,S298_id
+MgO,298.15,26.924,13.462,2.0,0.0,26.924,paper:nist_janaf,NIST-JANAF table Mg-010 (S tabulated),,,False,janaf.nist.gov/tables/Mg-010,
+MgO,600.0,57.006,28.503,2.0,0.0,26.924,paper:nist_janaf,NIST-JANAF table Mg-010 (S tabulated),,,False,janaf.nist.gov/tables/Mg-010,
+MgO,1000.0,82.262,41.131,2.0,0.0,26.924,paper:nist_janaf,NIST-JANAF table Mg-010 (S tabulated),,,False,janaf.nist.gov/tables/Mg-010,
+Al2O3,298.15,50.95,10.19,5.0,0.0,50.95,paper:nist_janaf,NIST-JANAF table Al-096 (S tabulated),,,False,janaf.nist.gov/tables/Al-096,
+Al2O3,600.0,119.345,23.869,5.0,0.0,50.95,paper:nist_janaf,NIST-JANAF table Al-096 (S tabulated),,,False,janaf.nist.gov/tables/Al-096,
+Al2O3,1000.0,180.21,36.042,5.0,0.0,50.95,paper:nist_janaf,NIST-JANAF table Al-096 (S tabulated),,,False,janaf.nist.gov/tables/Al-096,
+TiO2,298.15,50.292,16.764,3.0,0.0,50.292,paper:nist_janaf,NIST-JANAF table O-045 (S tabulated),,,False,janaf.nist.gov/tables/O-045,
+TiO2,600.0,94.712,31.5707,3.0,0.0,50.292,paper:nist_janaf,NIST-JANAF table O-045 (S tabulated),,,False,janaf.nist.gov/tables/O-045,
+TiO2,1000.0,131.822,43.9407,3.0,0.0,50.292,paper:nist_janaf,NIST-JANAF table O-045 (S tabulated),,,False,janaf.nist.gov/tables/O-045,
+La2O3,298.15,127.319,25.4638,5.0,0.0,127.319,paper:barin1995,paper:barin1995,18.0,298.15-2000,False,1051,meas:barin1995:standard_entropy_La2O3
+La2O3,600.0,209.438,41.8875,5.0,1.696,127.319,paper:barin1995,paper:barin1995,18.0,298.15-2000,False,1051,meas:barin1995:standard_entropy_La2O3
+La2O3,1000.0,275.09,55.018,5.0,1.849,127.319,paper:barin1995,paper:barin1995,18.0,298.15-2000,False,1051,meas:barin1995:standard_entropy_La2O3
+Lu2O3,298.15,109.956,21.9912,5.0,0.0,109.956,paper:barin1995,paper:barin1995,17.0,298.15-2000,False,1107,meas:barin1995:standard_entropy_Lu2O3
+Lu2O3,600.0,188.586,37.7171,5.0,0.984,109.956,paper:barin1995,paper:barin1995,17.0,298.15-2000,False,1107,meas:barin1995:standard_entropy_Lu2O3
+Lu2O3,1000.0,251.833,50.3666,5.0,1.127,109.956,paper:barin1995,paper:barin1995,17.0,298.15-2000,False,1107,meas:barin1995:standard_entropy_Lu2O3
+Sc2O3,298.15,76.998,15.3996,5.0,0.0,76.998,paper:barin1995,paper:barin1995,25.0,298.15-2700,False,1576,meas:barin1995:standard_entropy_Sc2O3
+Sc2O3,600.0,152.045,30.409,5.0,0.181,76.998,paper:barin1995,paper:barin1995,25.0,298.15-2700,False,1576,meas:barin1995:standard_entropy_Sc2O3
+Sc2O3,1000.0,213.924,42.7848,5.0,0.733,76.998,paper:barin1995,paper:barin1995,25.0,298.15-2700,False,1576,meas:barin1995:standard_entropy_Sc2O3
+SrTiO3,298.15,108.801,21.7602,5.0,0.0,108.801,paper:barin1995,paper:barin1995,22.0,298.15-2300,False,1695,meas:barin1995:standard_entropy_SrTiO3
+SrTiO3,600.0,187.436,37.4871,5.0,0.201,108.801,paper:barin1995,paper:barin1995,22.0,298.15-2300,False,1695,meas:barin1995:standard_entropy_SrTiO3
+SrTiO3,1000.0,251.649,50.3297,5.0,0.343,108.801,paper:barin1995,paper:barin1995,22.0,298.15-2300,False,1695,meas:barin1995:standard_entropy_SrTiO3
+MgTiO3,298.15,74.559,14.9118,5.0,0.0,74.559,paper:barin1995,paper:barin1995,18.0,298.15-1900,False,1137,meas:barin1995:standard_entropy_MgTiO3
+MgTiO3,600.0,149.087,29.8175,5.0,0.217,74.559,paper:barin1995,paper:barin1995,18.0,298.15-1900,False,1137,meas:barin1995:standard_entropy_MgTiO3
+MgTiO3,1000.0,212.684,42.5367,5.0,0.337,74.559,paper:barin1995,paper:barin1995,18.0,298.15-1900,False,1137,meas:barin1995:standard_entropy_MgTiO3
+Y2O3,298.15,99.16,19.832,5.0,0.0,99.16,paper:tkv,paper:barin1995,9.0,298.15-1000,True,TKV no.157,meas:tkv:standard_entropy_Y2O3
+Y2O3,600.0,178.571,35.7141,5.0,0.334,99.16,paper:tkv,paper:barin1995,9.0,298.15-1000,True,TKV no.157,meas:tkv:standard_entropy_Y2O3
+Y2O3,1000.0,242.04,48.408,5.0,0.483,99.16,paper:tkv,paper:barin1995,9.0,298.15-1000,True,TKV no.157,meas:tkv:standard_entropy_Y2O3
+Mg3(PO4)2,298.15,189.2,14.5538,13.0,0.0,189.2,paper:tkv,paper:barin1995,14.0,298.15-1600,True,TKV no.374 (brutto Mg3O8P2),meas:tkv:standard_entropy_Mg3(PO4)2
+Mg3(PO4)2,600.0,361.201,27.7847,13.0,0.892,189.2,paper:tkv,paper:barin1995,14.0,298.15-1600,True,TKV no.374 (brutto Mg3O8P2),meas:tkv:standard_entropy_Mg3(PO4)2
+Mg3(PO4)2,1000.0,522.83,40.2177,13.0,1.072,189.2,paper:tkv,paper:barin1995,14.0,298.15-1600,True,TKV no.374 (brutto Mg3O8P2),meas:tkv:standard_entropy_Mg3(PO4)2
+CaO,298.15,38.212,19.106,2.0,0.0,38.212,paper:nist_janaf,NIST-JANAF table Ca-027 (S tabulated),,,False,janaf.nist.gov/tables/Ca-027,
+CaO,600.0,71.052,35.526,2.0,0.0,38.212,paper:nist_janaf,NIST-JANAF table Ca-027 (S tabulated),,,False,janaf.nist.gov/tables/Ca-027,
+CaO,1000.0,97.7,48.85,2.0,0.0,38.212,paper:nist_janaf,NIST-JANAF table Ca-027 (S tabulated),,,False,janaf.nist.gov/tables/Ca-027,
+ZrO2,298.15,50.359,16.7863,3.0,0.0,50.359,paper:nist_janaf,NIST-JANAF table O-054 (S tabulated),,,False,janaf.nist.gov/tables/O-054,
+ZrO2,600.0,95.356,31.7853,3.0,0.0,50.359,paper:nist_janaf,NIST-JANAF table O-054 (S tabulated),,,False,janaf.nist.gov/tables/O-054,
+ZrO2,1000.0,132.682,44.2273,3.0,0.0,50.359,paper:nist_janaf,NIST-JANAF table O-054 (S tabulated),,,False,janaf.nist.gov/tables/O-054,
+SiO2,298.15,41.463,13.821,3.0,0.0,41.463,paper:nist_janaf,NIST-JANAF table O-039 (S tabulated),,,False,janaf.nist.gov/tables/O-039,
+SiO2,600.0,79.808,26.6027,3.0,0.0,41.463,paper:nist_janaf,NIST-JANAF table O-039 (S tabulated),,,False,janaf.nist.gov/tables/O-039,
+SiO2,1000.0,116.018,38.6727,3.0,0.0,41.463,paper:nist_janaf,NIST-JANAF table O-039 (S tabulated),,,False,janaf.nist.gov/tables/O-039,
+CaTiO3,298.15,93.638,18.7276,5.0,0.0,93.638,paper:barin1995,paper:barin1995,14.0,298.15-1500,False,584,meas:barin1995:standard_entropy_CaTiO3
+CaTiO3,600.0,172.557,34.5114,5.0,0.157,93.638,paper:barin1995,paper:barin1995,14.0,298.15-1500,False,584,meas:barin1995:standard_entropy_CaTiO3
+CaTiO3,1000.0,237.445,47.489,5.0,0.298,93.638,paper:barin1995,paper:barin1995,14.0,298.15-1500,False,584,meas:barin1995:standard_entropy_CaTiO3
+CaZrO3,298.15,100.081,20.0162,5.0,0.0,100.081,paper:barin1995,paper:barin1995,9.0,298.15-1000,False,589,meas:barin1995:standard_entropy_CaZrO3
+CaZrO3,600.0,176.895,35.3791,5.0,0.229,100.081,paper:barin1995,paper:barin1995,9.0,298.15-1000,False,589,meas:barin1995:standard_entropy_CaZrO3
+CaZrO3,1000.0,240.025,48.005,5.0,0.366,100.081,paper:barin1995,paper:barin1995,9.0,298.15-1000,False,589,meas:barin1995:standard_entropy_CaZrO3
+ZrSiO4,298.15,84.03,14.005,6.0,0.0,84.03,paper:robie_hemingway_1995,paper:robie_hemingway_1995,15.0,298.15-1600,False,341,meas:robie_hemingway_1995:standard_entropy_ZrSiO4
+ZrSiO4,600.0,166.181,27.6969,6.0,0.154,84.03,paper:robie_hemingway_1995,paper:robie_hemingway_1995,15.0,298.15-1600,False,341,meas:robie_hemingway_1995:standard_entropy_ZrSiO4
+ZrSiO4,1000.0,238.223,39.7038,6.0,0.271,84.03,paper:robie_hemingway_1995,paper:robie_hemingway_1995,15.0,298.15-1600,False,341,meas:robie_hemingway_1995:standard_entropy_ZrSiO4
+Mg2SiO4,298.15,94.11,13.4443,7.0,0.0,94.11,paper:robiehemingway1995,paper:robiehemingway1995+paper:barin1995,8.0,298.15-1500,True,335,meas:robiehemingway1995:S298_forsterite
+Mg2SiO4,600.0,191.614,27.3734,7.0,0.222,94.11,paper:robiehemingway1995,paper:robiehemingway1995+paper:barin1995,8.0,298.15-1500,True,335,meas:robiehemingway1995:S298_forsterite
+Mg2SiO4,1000.0,276.309,39.4728,7.0,0.678,94.11,paper:robiehemingway1995,paper:robiehemingway1995+paper:barin1995,8.0,298.15-1500,True,335,meas:robiehemingway1995:S298_forsterite
+La2Zr2O7,298.15,238.53,21.6845,11.0,0.0,238.53,paper:bolech_1997,,0.0,,False,438,meas:bolech_1997:standard_entropy_La2Zr2O7

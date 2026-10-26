@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Odinzen LLC
+
+The data, results and figures in this repository (results/, the run lists, structures and outputs under sol/, the
+tables under hermes_oxide/ and mlip_benchmark/, and figures/ apart from make_figures.py) are licensed under the
+Creative Commons Attribution 4.0 International License. You may share and adapt them for any purpose, including
+commercially, provided you give appropriate credit, link to the license, and indicate whether changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+
+    M. E. Bustamante, K. Lilova, "Calorimetry of phosphates, rare-earth oxides and titanates sets the precision of
+    computed metastability in their automated synthesis" (submitted).
+
+The Materials Project entries under data/raw/mp and data/raw/mp_r2scan are Materials Project data, distributed under
+its CC BY 4.0 terms (A. Jain et al., APL Materials 1, 011002 (2013)). The measured values in results/ are from the
+published sources each row names. Inputs downloaded by fetch_inputs.py keep the licenses of their sources.
+
+The software in this repository is licensed separately under the MIT License; see LICENSE.

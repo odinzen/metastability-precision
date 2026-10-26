@@ -1,0 +1,8 @@
+model,geometry,n,mean_signed,mean_abs,slope,share_recovered,residual_sd,mean_abs_vs_dft
+DFT (MP GGA/GGA+U),MP,69,31.5,36.7,-0.143,0.857,22.5,0.0
+Orb-v3 cons. 20 A,e_relaxed,69,28.0,39.3,-0.16,0.84,26.4,10.2
+Orb-v3 cons. 20 A,e_mp_geometry,69,27.6,39.2,-0.159,0.841,26.6,10.3
+Orb-v3 cons. inf (LLZO model),e_relaxed,69,26.0,38.1,-0.155,0.845,27.3,10.0
+Orb-v3 cons. inf (LLZO model),e_mp_geometry,69,25.9,38.4,-0.153,0.847,27.8,10.0
+MACE-MP-0 medium,e_relaxed,69,26.6,43.9,-0.205,0.795,30.3,16.6
+MACE-MP-0 medium,e_mp_geometry,69,25.6,42.9,-0.196,0.804,30.3,15.6

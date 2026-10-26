@@ -1,0 +1,15 @@
+{
+ "model": "orb_v3_conservative_20_omat float64",
+ "cif": "pilot/MgO_conventional.cif",
+ "supercell": 3,
+ "a_relaxed": 2.1281700867967737,
+ "lattice_a": 4.256340173593546,
+ "n_displacements": 2,
+ "min_frequency_THz": 0.5208547657543415,
+ "imaginary_fraction": 0.0,
+ "S_harmonic_per_mol_atoms": {
+  "298.15": 14.547381687029308,
+  "600.0": 29.488851060552683,
+  "1000.0": 41.64737693157418
+ }
+}

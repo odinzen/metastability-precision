@@ -1,0 +1,15 @@
+{
+ "model": "orb_v3_conservative_20_omat float64",
+ "cif": "pilot/SrTiO3_conventional.cif",
+ "supercell": 3,
+ "a_relaxed": 2.3125163043260137,
+ "lattice_a": 3.9543472566951716,
+ "n_displacements": 30,
+ "min_frequency_THz": -2.569368106377365,
+ "imaginary_fraction": 0.010947145061728395,
+ "S_harmonic_per_mol_atoms": {
+  "298.15": 22.73871544100146,
+  "600.0": 38.059139782578264,
+  "1000.0": 50.19774986610783
+ }
+}

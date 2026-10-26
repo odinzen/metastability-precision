@@ -1,0 +1,63 @@
+family,compound,paper,page,table,T_K,atoms_per_fu,measured_kJ,dft_kJ,error_kJ,error_meV_atom,measured_meV_atom,error_meV_atom_lowest_polymorph_refs,mp_e_above_hull_meV,oxides,note,r2scan_error_meV_atom
+titanates and zirconates,SrTiO3,paper:sahu_navrotsky_2013,3673.0,Table III (thermochemical cycle); value in text Sec. III(3) Calculation of Surface and Formation Enthalpy,298.15,5.0,-131.54,-117.12,14.42,29.9,-272.7,52.2,0.0,1 SrO+1 TiO2,,-2.8
+titanates and zirconates,CaTiO3,paper:sahu_navrotsky_2013,3673.0,Table III (thermochemical cycle); value in text Sec. III(3) Calculation of Surface and Formation Enthalpy,298.15,5.0,-83.76,-74.79,8.97,18.6,-173.6,40.9,0.0,1 CaO+1 TiO2,,0.1
+RE titanate pyrochlores,Sm2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-115.4,-85.1,30.3,28.5,-108.7,48.8,10.2,1 Sm2O3+2 TiO2,,5.9
+RE titanate pyrochlores,Eu2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-106.1,-82.46,23.64,22.3,-100.0,42.6,0.0,1 Eu2O3+2 TiO2,,-24.4
+RE titanate pyrochlores,Gd2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-113.4,-74.56,38.84,36.6,-106.8,56.9,8.7,1 Gd2O3+2 TiO2,,13.9
+RE titanate pyrochlores,Tb2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-105.5,-91.06,14.44,13.6,-99.4,33.9,0.0,1 Tb2O3+2 TiO2,,2.5
+RE titanate pyrochlores,Dy2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-97.8,-83.31,14.49,13.7,-92.1,34.0,0.0,1 Dy2O3+2 TiO2,,3.8
+RE titanate pyrochlores,Ho2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-87.5,-75.05,12.45,11.7,-82.4,32.0,0.0,1 Ho2O3+2 TiO2,,2.9
+RE titanate pyrochlores,Er2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-79.6,-48.59,31.01,29.2,-75.0,49.5,12.2,1 Er2O3+2 TiO2,,12.9
+RE titanate pyrochlores,Tm2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-79.1,-61.35,17.75,16.7,-74.5,37.0,0.0,1 Tm2O3+2 TiO2,,10.3
+RE titanate pyrochlores,Y2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,1860.0,Table 1,298.0,11.0,-86.2,-61.68,24.52,23.1,-81.2,43.4,9.2,1 Y2O3+2 TiO2,,1.7
+RE titanate pyrochlores,La2Zr2O7,paper:la2zr2o7_pyrochlore_2009,3353.0,Table III / Abstract,298.0,11.0,-107.3,-84.16,23.14,21.8,-101.1,32.9,0.0,1 La2O3+2 ZrO2,,16.3
+La perovskites,LaCrO3,paper:cheng_navrotsky_2005,194.0,Table III,298.15,5.0,-73.06,-42.67,30.39,63.0,-151.4,75.2,0.0,0.5 La2O3+0.5 Cr2O3,,27.7
+La perovskites,LaFeO3,paper:cheng_navrotsky_2005,194.0,Table III,298.15,5.0,-64.58,-35.94,28.64,59.4,-133.9,71.6,0.0,0.5 La2O3+0.5 Fe2O3,,37.1
+La perovskites,LaFeO3,paper:cheng_navrotsky_2005,194.0,Table III,298.15,5.0,-64.6,-35.94,28.66,59.4,-133.9,71.6,0.0,0.5 La2O3+0.5 Fe2O3,,37.1
+La perovskites,LaAlO3,paper:cheng_navrotsky_2003,2504.0,Table III,298.15,5.0,-69.61,-40.55,29.06,60.2,-144.3,72.4,0.0,0.5 La2O3+0.5 Al2O3,,20.7
+La perovskites,LaScO3,paper:cheng_navrotsky_2003,2504.0,Table III,298.15,5.0,-38.64,-19.94,18.7,38.8,-80.1,51.0,0.0,0.5 La2O3+0.5 Sc2O3,,19.3
+La perovskites,LaInO3,paper:cheng_navrotsky_2003,2504.0,Table III,298.15,5.0,-23.99,-3.08,20.91,43.3,-49.7,55.5,5.8,0.5 La2O3+0.5 In2O3,,19.6
+titanates and zirconates,BaZrO3,paper:goncalves_2014_bazro3,17845.0,"Table 5 (DHf,ox) + Table 4 cycle",298.15,5.0,-115.12,-106.88,8.24,17.1,-238.6,17.1,0.0,1 BaO+1 ZrO2,,-12.7
+spinels,MgAl2O4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-36.48,-36.73,-0.24,-0.4,-54.0,-0.4,0.0,1 MgO+1 Al2O3,,10.4
+spinels,Al2CoO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-37.24,-50.08,-12.85,-19.0,-55.1,-19.0,0.0,1 Al2O3+1 CoO,,14.5
+spinels,Al2NiO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-3.1,-4.85,-1.75,-2.6,-4.6,-2.6,0.0,1 Al2O3+1 NiO,,-14.3
+spinels,Al2CuO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,21.63,38.81,17.18,25.4,32.0,25.4,57.5,1 Al2O3+1 CuO,,42.6
+spinels,Al2ZnO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-44.18,-41.77,2.41,3.6,-65.4,3.6,0.0,1 Al2O3+1 ZnO,,-3.9
+spinels,Mg(FeO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-18.54,-6.34,12.19,18.1,-27.4,18.1,0.0,1 MgO+1 Fe2O3,,-32.0
+spinels,Fe2CoO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-24.64,6.91,31.55,46.7,-36.5,46.7,10.2,1 Fe2O3+1 CoO,,-6.6
+spinels,Fe2NiO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-5.1,-15.98,-10.88,-16.1,-7.6,-16.1,0.0,1 Fe2O3+1 NiO,,-171.9
+spinels,Fe2CuO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,21.13,55.04,33.91,50.2,31.3,50.2,81.5,1 Fe2O3+1 CuO,,-23.9
+spinels,Zn(FeO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-11.17,-9.45,1.72,2.6,-16.5,2.6,0.0,1 ZnO+1 Fe2O3,,-59.8
+spinels,Zn(FeO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-11.72,-9.45,2.27,3.4,-17.3,3.4,0.0,1 ZnO+1 Fe2O3,,-59.0
+spinels,Cd(FeO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,7.41,-8.84,-16.24,-24.0,11.0,-24.0,0.0,1 CdO+1 Fe2O3,,-61.7
+spinels,Mg(GaO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-40.21,-29.9,10.31,15.3,-59.5,15.3,0.0,1 MgO+1 Ga2O3,,10.8
+spinels,Ga2CoO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-31.51,-25.98,5.53,8.2,-46.6,8.2,0.0,1 Ga2O3+1 CoO,,10.5
+spinels,Ga2NiO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-3.43,-28.11,-24.68,-36.5,-5.1,-36.5,0.0,1 Ga2O3+1 NiO,,-56.3
+spinels,Zn(GaO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-35.35,-30.1,5.26,7.8,-52.3,7.8,0.0,1 ZnO+1 Ga2O3,,-6.6
+spinels,Cd(GaO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-7.61,-16.92,-9.31,-13.8,-11.3,-13.8,0.0,1 CdO+1 Ga2O3,,-4.7
+spinels,MgMn2O4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-11.38,-23.8,-12.42,-18.4,-16.9,-13.5,0.0,1 MgO+1 Mn2O3,,12.8
+spinels,Mn2CoO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-15.82,-27.73,-11.92,-17.6,-23.4,-12.8,0.0,1 Mn2O3+1 CoO,,24.5
+spinels,Mn2NiO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,2.01,4.85,2.85,4.2,3.0,9.1,12.5,1 Mn2O3+1 NiO,,-2.5
+spinels,Mn2ZnO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-27.49,-24.97,2.52,3.7,-40.7,8.6,0.0,1 Mn2O3+1 ZnO,,17.4
+spinels,Mn2CdO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-31.34,-29.77,1.57,2.3,-46.4,7.2,0.0,1 Mn2O3+1 CdO,,35.8
+spinels,Mg2TiO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-25.19,-35.21,-10.03,-14.8,-37.3,1.1,0.0,2 MgO+1 TiO2,,-2.8
+spinels,Ti(CoO2)2,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-25.27,-12.0,13.27,19.7,-37.4,35.6,9.2,1 TiO2+2 CoO,,76.4
+spinels,Co2GeO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-58.99,-26.22,32.77,48.5,-87.3,48.5,0.0,2 CoO+1 GeO2,,57.7
+spinels,Ni2GeO4,paper:navrotsky_kleppa_1968,487.0,Table 4,970.0,7.0,-39.75,-51.35,-11.61,-17.2,-58.9,-17.2,0.0,2 NiO+1 GeO2,,-36.9
+spinels,MgAl2O4,paper:navrotsky_kleppa_mgal2o4_spinel,193.0,Results and Discussion text / Table I,970.0,7.0,-36.4,-36.73,-0.33,-0.5,-53.9,-0.5,0.0,1 MgO+1 Al2O3,,10.3
+RE orthophosphates,ScPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-209.8,-164.68,45.12,77.9,-362.4,84.0,0.0,0.5 Sc2O3+0.5 P2O5,,6.3
+RE orthophosphates,YPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-282.6,-239.31,43.29,74.8,-488.2,80.9,0.0,0.5 Y2O3+0.5 P2O5,,5.7
+RE orthophosphates,LaPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-321.4,-279.57,41.83,72.3,-555.2,88.5,0.0,0.5 La2O3+0.5 P2O5,,-1.5
+RE orthophosphates,CePO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-317.2,-241.89,75.31,130.1,-547.9,136.2,0.0,0.5 Ce2O3+0.5 P2O5,,31.0
+RE orthophosphates,PrPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-312.2,-280.2,32.0,55.3,-539.3,72.0,0.0,0.5 Pr2O3+0.5 P2O5,,-20.2
+RE orthophosphates,NdPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-312.0,-272.3,39.7,68.6,-538.9,87.1,0.0,0.5 Nd2O3+0.5 P2O5,,-6.2
+RE orthophosphates,SmPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-301.8,-256.9,44.9,77.6,-521.3,83.6,0.0,0.5 Sm2O3+0.5 P2O5,,7.8
+RE orthophosphates,EuPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-286.8,-215.22,71.58,123.7,-495.4,129.7,0.0,0.5 Eu2O3+0.5 P2O5,,23.0
+RE orthophosphates,GdPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-296.2,-241.9,54.3,93.8,-511.6,99.9,0.0,0.5 Gd2O3+0.5 P2O5,,21.8
+RE orthophosphates,TbPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-286.1,-245.93,40.17,69.4,-494.2,75.5,0.0,0.5 Tb2O3+0.5 P2O5,,1.5
+RE orthophosphates,TbPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-283.5,-245.93,37.57,64.9,-489.7,71.0,0.0,0.5 Tb2O3+0.5 P2O5,,-3.0
+RE orthophosphates,DyPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-283.9,-242.09,41.81,72.2,-490.4,78.3,0.0,0.5 Dy2O3+0.5 P2O5,,4.8
+RE orthophosphates,HoPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-278.8,-238.32,40.48,69.9,-481.6,76.0,0.0,0.5 Ho2O3+0.5 P2O5,,3.6
+RE orthophosphates,ErPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-275.6,-234.86,40.74,70.4,-476.1,76.5,0.0,0.5 Er2O3+0.5 P2O5,,3.5
+RE orthophosphates,TmPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-268.0,-231.3,36.7,63.4,-462.9,69.5,0.0,0.5 Tm2O3+0.5 P2O5,,-3.7
+RE orthophosphates,LuPO4,paper:ushakov_2001_re_orthophosphates,2628.0,Table VI,298.0,6.0,-263.9,-222.96,40.94,70.7,-455.9,76.8,0.0,0.5 Lu2O3+0.5 P2O5,,5.4

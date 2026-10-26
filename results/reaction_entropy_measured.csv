@@ -1,0 +1,43 @@
+compound,oxides,dS298_per_atom,source_spread_per_atom,compound_source,TdS_1000K_meV_atom,TdS_1300K_meV_atom
+Al2Fe3(SiO4)3,3 SiO2 + 1 Al2O3 + 3 FeO,-0.75,0.294,paper:robie_hemingway_1995,-7.8,-10.1
+Ca12Al14O33,7 Al2O3 + 12 CaO,3.926,0.034,paper:barin1995,40.7,52.9
+Ca2Al2SiO7,1 SiO2 + 1 Al2O3 + 2 CaO,3.439,0.189,paper:robie_hemingway_1995,35.6,46.3
+Ca2MgSi2O7,2 SiO2 + 2 CaO + 1 MgO,2.185,0.361,paper:robie_hemingway_1995,22.7,29.4
+Ca3Al2(SiO4)3,3 SiO2 + 1 Al2O3 + 3 CaO,-1.493,0.314,paper:robie_hemingway_1995,-15.5,-20.1
+Ca3Al2O6,1 Al2O3 + 3 CaO,3.665,0.042,paper:barin1995,38.0,49.4
+Ca3Fe2(SiO4)3,3 SiO2 + 1 Fe2O3 + 3 CaO,-0.501,0.314,paper:robie_hemingway_1995,-5.2,-6.8
+Ca3Mg(SiO4)2,2 SiO2 + 3 CaO + 1 MgO,2.044,0.319,paper:robie_hemingway_1995,21.2,27.5
+CaAl2(SiO4)2,2 SiO2 + 1 Al2O3 + 1 CaO,2.093,0.313,paper:robie_hemingway_1995,21.7,28.2
+CaAl4O7,2 Al2O3 + 1 CaO,3.142,0.02,paper:barin1995,32.6,42.3
+CaFe(SiO3)2,2 SiO2 + 1 FeO + 1 CaO,-0.769,0.402,paper:robie_hemingway_1995,-8.0,-10.4
+CaMg(SiO3)2,2 SiO2 + 1 CaO + 1 MgO,-0.536,0.419,paper:robie_hemingway_1995,-5.6,-7.2
+CaMoO4,1 MoO3 + 1 CaO,1.105,0.033,paper:barin1995,11.4,14.9
+CaSiO3,1 SiO2 + 1 CaO,0.215,0.603,paper:tkv,2.2,2.9
+CaTiO3,1 CaO + 1 TiO2,1.027,0.089,paper:barin1995,10.6,13.8
+CaTiSiO5,1 SiO2 + 1 CaO + 1 TiO2,-0.096,0.298,paper:robie_hemingway_1995,-1.0,-1.3
+CaWO4,1 WO3 + 1 CaO,2.046,0.029,paper:barin1995,21.2,27.6
+CaZrO3,1 CaO + 1 ZrO2,2.302,0.07,paper:barin1995,23.9,31.0
+Fe2SiO4,1 SiO2 + 2 FeO,-1.71,1.106,paper:nea_iron_2013,-17.7,-23.0
+FeSiO3,1 SiO2 + 1 FeO,-1.523,0.388,paper:nea_iron_2013,-15.8,-20.5
+FeWO4,1 WO3 + 1 FeO,-0.811,0.007,paper:barin1995,-8.4,-10.9
+KAl(SiO3)2,2 SiO2 + 0.5 K2O + 0.5 Al2O3,4.473,0.495,paper:robie_hemingway_1995,46.4,60.3
+KAlSiO4,1 SiO2 + 0.5 K2O + 0.5 Al2O3,2.75,0.43,paper:robie_hemingway_1995,28.5,37.1
+La2Zr2O7,1 La2O3 + 2 ZrO2,0.954,0.118,paper:bolech_1997,9.9,12.9
+LaFeO3,0.5 La2O3 + 0.5 Fe2O3,2.121,0.092,paper:tkv,22.0,28.6
+Mg2Al4Si5O18,5 SiO2 + 2 Al2O3 + 2 MgO,1.522,0.35,paper:robie_hemingway_1995,15.8,20.5
+Mg2SiO4,1 SiO2 + 2 MgO,-0.172,0.467,paper:robiehemingway1995,-1.8,-2.3
+Mg3Al2(SiO4)3,3 SiO2 + 1 Al2O3 + 3 MgO,0.508,0.319,paper:robie_hemingway_1995,5.3,6.8
+MgTiO3,1 TiO2 + 1 MgO,-0.531,0.096,paper:barin1995,-5.5,-7.2
+MgWO4,1 WO3 + 1 MgO,-0.278,0.035,paper:barin1995,-2.9,-3.7
+Mn2SiO4,2 MnO + 1 SiO2,-1.224,0.793,paper:robie_hemingway_1995,-12.7,-16.5
+MnWO4,1 MnO + 1 WO3,0.528,0.307,paper:barin1995,5.5,7.1
+MoPbO4,1 MoO3 + 1 PbO,3.641,0.01,paper:barin1995,37.7,49.1
+Na2MoO4,1 MoO3 + 1 Na2O,0.944,0.041,paper:barin1995,9.8,12.7
+Na2SiO3,1 SiO2 + 1 Na2O,-0.466,0.393,paper:nist_webbook,-4.8,-6.3
+Na2WO4,1 WO3 + 1 Na2O,1.34,0.038,paper:barin1995,13.9,18.0
+NaAl(SiO3)2,2 SiO2 + 0.5 Al2O3 + 0.5 Na2O,-1.242,0.402,paper:robie_hemingway_1995,-12.9,-16.7
+NaAlSiO4,1 SiO2 + 0.5 Al2O3 + 0.5 Na2O,2.842,0.297,paper:robie_hemingway_1995,29.5,38.3
+PbWO4,1 WO3 + 1 PbO,4.297,0.006,paper:barin1995,44.5,57.9
+TiAl2O5,1 Al2O3 + 1 TiO2,1.047,0.045,paper:barin1995,10.9,14.1
+ZnWO4,1 WO3 + 1 ZnO,1.692,0.017,paper:barin1995,17.5,22.8
+ZrSiO4,1 SiO2 + 1 ZrO2,-1.287,0.387,paper:tkv,-13.3,-17.3

@@ -1,0 +1,122 @@
+{
+ "Al2O3_Rm3c_3x3x2.extxyz": {
+  "cif": "structures/Al2O3_Rm3c.cif",
+  "reps": "3x3x2",
+  "n_atoms": 540,
+  "steps": 91,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00017,
+  "volume_per_atom": 8.74675,
+  "seconds": 214.1,
+  "weights_from": "weights/"
+ },
+ "La2O3_Pm3m1_5x5x4.extxyz": {
+  "cif": "structures/La2O3_Pm3m1.cif",
+  "reps": "5x5x4",
+  "n_atoms": 500,
+  "steps": 800,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00204,
+  "volume_per_atom": 16.61115,
+  "seconds": 1300.3,
+  "weights_from": "weights/"
+ },
+ "Lu2O3_Iam3_2x2x2.extxyz": {
+  "cif": "structures/Lu2O3_Iam3.cif",
+  "reps": "2x2x2",
+  "n_atoms": 640,
+  "steps": 91,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00125,
+  "volume_per_atom": 13.88964,
+  "seconds": 59.1,
+  "weights_from": "weights/"
+ },
+ "Mg3PO42_P2_1c_4x2x2.extxyz": {
+  "cif": "structures/Mg3PO42_P2_1c.cif",
+  "reps": "4x2x2",
+  "n_atoms": 416,
+  "steps": 800,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00095,
+  "volume_per_atom": 12.67915,
+  "seconds": 190.3,
+  "weights_from": "weights/"
+ },
+ "MgO_Fmm3m_4x4x4.extxyz": {
+  "cif": "structures/MgO_Fmm3m.cif",
+  "reps": "4x4x4",
+  "n_atoms": 512,
+  "steps": 0,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.0,
+  "volume_per_atom": 9.63969,
+  "seconds": 83.6,
+  "weights_from": "weights/"
+ },
+ "MgTiO3_Rm3_3x3x2.extxyz": {
+  "cif": "structures/MgTiO3_Rm3.cif",
+  "reps": "3x3x2",
+  "n_atoms": 540,
+  "steps": 313,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00107,
+  "volume_per_atom": 10.55178,
+  "seconds": 127.4,
+  "weights_from": "weights/"
+ },
+ "Sc2O3_Iam3_2x2x2.extxyz": {
+  "cif": "structures/Sc2O3_Iam3.cif",
+  "reps": "2x2x2",
+  "n_atoms": 640,
+  "steps": 119,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00028,
+  "volume_per_atom": 12.18787,
+  "seconds": 58.3,
+  "weights_from": "weights/"
+ },
+ "SrTiO3_Pmm3m_5x5x5.extxyz": {
+  "cif": "structures/SrTiO3_Pmm3m.cif",
+  "reps": "5x5x5",
+  "n_atoms": 625,
+  "steps": 24,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.0,
+  "volume_per_atom": 12.2694,
+  "seconds": 117.2,
+  "weights_from": "weights/"
+ },
+ "TiO2_P4_2mnm_4x4x5.extxyz": {
+  "cif": "structures/TiO2_P4_2mnm.cif",
+  "reps": "4x4x5",
+  "n_atoms": 480,
+  "steps": 51,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00319,
+  "volume_per_atom": 10.70839,
+  "seconds": 38.0,
+  "weights_from": "weights/"
+ },
+ "Y2O3_Iam3_2x2x2.extxyz": {
+  "cif": "structures/Y2O3_Iam3.cif",
+  "reps": "2x2x2",
+  "n_atoms": 640,
+  "steps": 79,
+  "max_steps": 800,
+  "fmax_target": 0.005,
+  "fmax_final": 0.00071,
+  "volume_per_atom": 15.12765,
+  "seconds": 35.5,
+  "weights_from": "weights/"
+ }
+}
