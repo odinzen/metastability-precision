@@ -1,10 +1,10 @@
 """The uncertainty of a computed decision, shared by every precision script.
 
-Closed-shell oxides take the calorimetric scatter, 22.5 meV per atom, which the calibration supports (fitted 13, 95%
-interval 8 to 25, precision_calibration.py). A decision whose target holds an open-shell 3d or 4f cation takes 43 meV
-per atom, the lowest value the open-shell decisions of the calibration allow (fitted 93, interval 43 upward), so its
-probabilities are upper bounds. Open shell is judged from the most likely oxidation states, so d0 cations such as V(V)
-and Cr(VI) count as closed.
+Closed-shell oxides take the calorimetric scatter, 22.5 meV per atom, which the calibration supports (fitted 22, 95%
+interval 15 to 37, on the closed-shell decisions of precision_calibration.py). A decision whose target holds an
+open-shell 3d or 4f cation takes 43 meV per atom, the lowest value the open-shell compiled decisions allow (fitted 93,
+interval 43 upward), so its probabilities are upper bounds. Open shell is judged from the most likely oxidation states,
+so d0 cations such as V(V) and Cr(VI) count as closed.
 """
 from functools import lru_cache
 

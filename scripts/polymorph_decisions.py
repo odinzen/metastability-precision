@@ -3,7 +3,7 @@
 Each pair is a decision whose true sign is known: the metastable polymorph lies above the stable one by the measured
 enthalpy. The computed margin is the Materials Project energy difference of the two polymorphs, each the
 lowest-energy entry of the formula that the database matches to an experimental (ICSD) structure and that lies in the
-listed space groups (symmetry found with spglib at 0.1 A). Two polymorphs share their space group with another observed
+listed space groups (symmetry found with spglib at 0.1 A). Three polymorphs share their space group with another observed
 phase of lower energy and are named by entry (NAMED). The database's corrections cancel between two entries of one
 composition. Writes results/polymorph_decisions.csv in the column
 layout of precision_calibration_decisions.csv.
@@ -26,8 +26,9 @@ warnings.filterwarnings("ignore")
 ROOT = Path(__file__).resolve().parents[1]
 # The lowest observed C2/c SiO2 entry is moganite (mp-12787, 2.43 g/cm3); coesite is mp-11684 (2.80, against 2.91 from
 # its measured molar volume of 20.64 cm3/mol). The lowest observed P2_1/n Ca2SiO4 entry has 56 atoms per cell; larnite,
-# Z = 4, is mp-4180 with 28.
-NAMED = {("SiO2", "coesite"): 11684, ("Ca2SiO4", "beta (larnite)"): 4180}
+# Z = 4, is mp-4180 with 28. Walstromite and wollastonite are both triclinic; walstromite is mp-4428, 5.2% denser than
+# wollastonite mp-4429 as the measured molar volumes are (37.94 against 39.93 cm3/mol, Akaogi et al. 2004).
+NAMED = {("SiO2", "coesite"): 11684, ("Ca2SiO4", "beta (larnite)"): 4180, ("CaSiO3", "walstromite"): 4428}
 
 
 def chemsys(formula):
