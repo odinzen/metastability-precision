@@ -1,0 +1,24 @@
+compound,formula,measured_meV_atom,gga_meV_atom,denser_stable_pct,r2scan_meV_atom,sg_r2scan,sg_gga,sigma,gga_right,gga_p,r2scan_right,r2scan_p
+SiO2 (cristobalite),SiO2,7.95,-7.55,13.9,4.75,92/154,92/154,22.5,False,0.336,True,0.211
+SiO2 (tridymite),SiO2,11.06,-7.43,14.8,6.12,9/154,9/154,22.5,False,0.33,True,0.272
+SiO2 (coesite),SiO2,10.12,29.99,-11.4,13.1,15/154,15/154,22.5,True,1.333,True,0.582
+SiO2 (stishovite),SiO2,179.24,185.58,-40.1,,,,22.5,True,8.248,,
+GeO2 (quartz-type),GeO2,67.02,-3.79,47.2,79.58,152/136,152/136,22.5,False,0.168,True,3.537
+TiO2 (anatase),TiO2,9.02,-30.82,9.6,-9.53,141/136,141/136,22.5,False,1.37,False,0.424
+TiO2 (brookite),TiO2,2.46,-17.01,3.0,-6.49,61/136,61/136,22.5,False,0.756,False,0.288
+Al2O3 (kappa),Al2O3,31.22,16.89,5.9,20.83,33/167,33/167,22.5,True,0.751,True,0.926
+Al2SiO5 (andalusite),Al2SiO5,5.05,-19.35,16.3,2.04,58/2,58/2,22.5,False,0.86,True,0.091
+Al2SiO5 (sillimanite),Al2SiO5,9.98,-11.9,13.0,4.67,62/2,62/2,22.5,False,0.529,True,0.208
+MgSiO3 (ilmenite (akimotoite)),MgSiO3,122.3,109.21,-16.1,,,,22.5,True,4.854,,
+MgSiO3 (perovskite (bridgmanite)),MgSiO3,228.22,209.17,-22.4,,,,22.5,True,9.296,,
+CaSiO3 (pseudowollastonite),CaSiO3,12.29,20.22,-0.2,,,,22.5,True,0.899,,
+CaSiO3 (walstromite),CaSiO3,21.56,22.94,-4.9,,,,22.5,True,1.02,,
+FeTiO3 (LiNbO3-type),FeTiO3,27.98,19.73,-0.3,,,,43.0,True,0.459,,
+Ni2SiO4 (spinel),Ni2SiO4,8.67,26.81,-8.7,,,,43.0,True,0.623,,
+Co2SiO4 (spinel),Co2SiO4,16.66,63.7,-9.1,,,,43.0,True,1.481,,
+Co2SiO4 (modified spinel),Co2SiO4,13.32,46.12,-6.9,,,,43.0,True,1.073,,
+Fe2SiO4 (spinel),Fe2SiO4,4.35,38.64,-9.4,,,,43.0,True,0.899,,
+Ca2SiO4 (beta (larnite)),Ca2SiO4,15.55,35.16,-10.2,,,,22.5,True,1.563,,
+Fe2O3 (epsilon),Fe2O3,58.45,115.84,7.0,,,,43.0,True,2.694,,
+HfO2 (tetragonal),HfO2,29.02,54.77,-3.8,50.88,137/14,137/14,22.5,True,2.434,True,2.261
+ZrO2 (cubic),ZrO2,11.75,32.67,-3.2,28.55,225/137,225/137,22.5,True,1.452,True,1.269

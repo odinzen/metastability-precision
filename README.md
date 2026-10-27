@@ -47,6 +47,7 @@ The main steps and the tables they write:
 | Machine-learned potentials against calorimetry | `mlip_benchmark/compare.py` | `results/mlip_vs_measured*.csv` |
 | Metastability precision of the two campaigns, with sigma from `scripts/sigma_model.py` | `scripts/precision_analysis.py` | `results/precision_chen.csv`, `results/precision_alab.csv` |
 | Measured metastable polymorphs against the database | `scripts/polymorph_decisions.py` | `results/polymorph_decisions.csv` |
+| The same polymorph pairs with r2SCAN energies | `scripts/polymorph_r2scan.py` | `results/polymorph_r2scan.csv` |
 | Calibration against measured decisions, and the error model | `scripts/precision_calibration.py` | `results/precision_calibration_*.csv`, `results/precision_error_model.csv`, `results/precision_sigma_by_family.csv`, `results/precision_expected_correct.csv` |
 | Precision of every observed oxide (`--rescore` reapplies sigma to the saved release) | `scripts/precision_mp_observed.py` | `results/precision_mp_observed.csv` |
 | Robustness of the precursor ranking | `scripts/chen_ranking_robustness.py` | `results/chen_ranking_robustness.csv` |
