@@ -3,8 +3,9 @@ population of Sun et al. 2016 on today's release: each phase's stability margin 
 Stable phases use the decomposition enthalpy (depth below the hull of all other phases); metastable phases use the
 energy above the hull. GGA/GGA+U thermo, as in the rest of the paper.
 
-The scatter of 22.5 meV/atom is measured for oxides; for other chemistries it is an extrapolation, reported
-separately. The family offset is not added: within one phase diagram the target and its competitors share a
+Oxides take sigma from sigma_model.py (22.5 meV/atom, or 43 with an open-shell 3d or 4f cation); for other
+chemistries 22.5 is an extrapolation, reported separately. `--rescore` reapplies sigma to the saved table without
+querying the database again, so the numbers stay on the release the paper used. The family offset is not added: within one phase diagram the target and its competitors share a
 chemistry, so the proportional offset largely cancels between them while the random scatter does not.
 
 Each phase is also labelled by what it competes with on the hull (its decomposition products): its own polymorph,
@@ -20,10 +21,11 @@ from pymatgen.core import Composition
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pull_mp_systems import api_key  # noqa: E402
+from sigma_model import SIGMA_CLOSED, sigma_for  # noqa: E402
 from mp_api.client import MPRester  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-SIGMA = 22.5
+OUT = ROOT / "results" / "precision_mp_observed.csv"
 ACID = {"P": "phosphates", "B": "borates", "Si": "silicates", "Ti": "titanates", "Ge": "germanates",
         "V": "vanadates", "Nb": "niobates", "W": "tungstates", "Mo": "molybdates"}
 NON_OXIDE_ANIONS = {"C", "N", "S", "H", "Se", "Te", "F", "Cl", "Br", "I"}
@@ -80,9 +82,19 @@ def main():
                          margin_meV=margin, family=family(els), oxide="O" in els and not set(els) & NON_OXIDE_ANIONS,
                          competitor=competitor(formula, len(els), products)))
     df = pd.DataFrame(rows).drop_duplicates("mpid")
-    df["p"] = df.margin_meV.abs() / SIGMA
+    report(score(df))
+
+
+def score(df):
+    df["margin_meV"] = df.margin_meV.round(4)  # rescoring rereads the table; fixed digits keep the file stable
+    df["sigma"] = [sigma_for(f) if ox else SIGMA_CLOSED for f, ox in zip(df.formula, df.oxide)]
+    df["p"] = (df.margin_meV.abs() / df.sigma).round(6)
     df["resolved"] = df.p > 1
-    df.to_csv(ROOT / "results" / "precision_mp_observed.csv", index=False)
+    df.to_csv(OUT, index=False)
+    return df
+
+
+def report(df):
     print(f"ICSD-observed phases with GGA/GGA+U thermo (2+ elements): {len(df)} (Sun et al. 2016: 29,902)")
     for lab, g in (("all", df), ("oxides (calibrated)", df[df.oxide]), ("other (extrapolated)", df[~df.oxide])):
         print(f"{lab:22s} n={len(g):6d} resolved {100 * g.resolved.mean():4.0f}% | stable {int(g.stable.sum())} "
@@ -97,4 +109,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--rescore" in sys.argv:
+        report(score(pd.read_csv(OUT)))
+    else:
+        main()

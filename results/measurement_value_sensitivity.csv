@@ -1,0 +1,4 @@
+case,right_computed,right_literature,right_with_new,resolved_computed,resolved_literature,resolved_with_new
+sigma_cal 3,89.81,90.22,101.75,40.0,39.47,66.83
+sigma_cal 10,89.81,90.2,99.65,40.0,39.47,61.32
+rho 0,89.81,91.58,101.65,40.0,42.65,67.01

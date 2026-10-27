@@ -1,0 +1,8 @@
+set,n,sd,mean,within_1sigma,within_2sigma,wrong
+"calorimetric, all",69,22.361,-0.0,0.652,0.942,
+"calorimetric, closed-shell",24,22.552,2.708,0.667,0.917,
+"calorimetric, open-shell",45,22.378,-1.444,0.644,0.956,
+"compiled, |measured| 0 to 25",33,15.608,-2.203,0.848,1.0,10.0
+"compiled, |measured| 25 to 75",27,24.666,9.363,0.593,0.926,1.0
+"compiled, |measured| 75 to 150",25,52.754,31.06,0.52,0.8,1.0
+"compiled, |measured| 150 to inf",34,58.509,28.076,0.559,0.765,1.0

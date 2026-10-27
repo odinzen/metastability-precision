@@ -9,9 +9,9 @@ reaction per mole of atoms at the synthesis temperature T then shifts the margin
 
     margin(T) = margin(0 K) - T * dS_rxn(T),   dS_rxn = S(target) - sum_j f_j S(product j)
 
-with f_j the atom fractions of the products. The scatter at T adds the error of a computed entropy of reaction, 0.23 J
-per K per mole of atoms (RMS against measurement at 1000 K, harmonic_reaction_entropy.py), to the 22.5 meV per atom of
-the energy. T is the A-Lab recipe temperature, or the median of the temperatures at which Chen et al. fired the tested
+with f_j the atom fractions of the products. The scatter at T adds the error of a computed entropy of reaction, 0.6 J
+per K per mole of atoms (the spread between MD and phonons; 0.23 against measurement as the low case), to the sigma of
+the energy (sigma_model.py). T is the A-Lab recipe temperature, or the median of the temperatures at which Chen et al. fired the tested
 pair (MOESM7 file names). Targets with no recorded temperature (the failed A-Lab targets, whose recipes the
 supplementary table leaves blank, and LiNbWO6) take the median of their campaign and are also evaluated across its
 full range of firing temperatures. Decisions with any phase still missing are reported and skipped.
@@ -35,29 +35,31 @@ from scipy.stats import norm
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
-SIGMA, S_ERR = 22.5, 0.23  # meV per atom; J per K per mole of atoms
+# Error of a computed entropy of reaction, J/(K mol atoms): 0.6, the spread between MD and phonons for the same phases
+# (the reaction errors of the five validation reactions, 0.23 for phonons and 0.24 for MD, are the low case).
+S_ERR, S_ERR_LOW_PHONON, S_ERR_LOW_MD = 0.6, 0.23, 0.24
 MEV_PER_J_MOL = 1000 / 96485.33
 # Phonopy leaves imaginary modes out of the entropy. A phase with a fraction f of them loses 3 f modes per atom, each
-# worth k (1 + ln(kT / h nu)) at a typical |nu| of 2 THz, about 82 f J/(K mol atoms) at 1000 K. That loss, weighted by
+# worth k (1 + ln(kT / h nu)) at a typical |nu| of 2 THz, about 83 f J/(K mol atoms) at 1000 K. That loss, weighted by
 # each phase's share of the reaction, is carried as a further term of the scatter at T; 0.005 is about 4 meV per atom.
 IMAG_MAX = 0.005
 IMAG_TERM_MAX = 5.0  # meV per atom; above it the MD entropy of reaction is used where every phase has one
 # MD entropies (md_entropy_step_e.py): the spectrum route, 0.24 J/(K mol atoms) RMS against measured entropies of
 # reaction at 1000 K in the round-2 validation; only runs that stayed vibrating crystals count.
 MD_TEMPS = (950.0, 1250.0)
-S_ERR_MD = 0.24
-NU_IMAG = 2e12  # Hz
+NU_IMAG, NU_SENSITIVITY = 2e12, (1e12, 4e12)  # Hz
 K_OVER_H = 1.380649e-23 / 6.62607015e-34
 R_GAS = 8.314462618
 
 
-def imaginary_loss(f, T):
+def imaginary_loss(f, T, nu=NU_IMAG):
     """Entropy (J/(K mol atoms)) a phase with a fraction f of imaginary modes is missing at T."""
-    return 3 * f * R_GAS * (1 + np.log(K_OVER_H * T / NU_IMAG))
+    return 3 * f * R_GAS * (1 + np.log(K_OVER_H * T / nu))
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import rerun_chen_today as chen_code  # noqa: E402
+from sigma_model import sigma_for  # noqa: E402
 
 
 def red(f):
@@ -167,13 +169,7 @@ def build_decisions():
     return decisions, span, unbalanced
 
 
-def main(phonon_dirs):
-    s = entropy_table(phonon_dirs)
-    md = {}
-    if (RES / "md_entropy_step_e.csv").exists():
-        m = pd.read_csv(RES / "md_entropy_step_e.csv")
-        md = {(red(r.compound), r.T_K): r.S_vdos for r in m[m.crystal].itertuples()}
-    decisions, span, unbalanced = build_decisions()
+def evaluate(s, md, decisions, span, s_err=S_ERR, s_err_md=S_ERR, nu=NU_IMAG):
     rows, missing = [], set()
     for ds, kind, target, t, products, margin, T in decisions:
         need = {t, *products}
@@ -183,19 +179,19 @@ def main(phonon_dirs):
             continue
         recorded = bool(np.isfinite(T))
         temps = [T] if recorded else [float(np.median(span[ds])), span[ds].min(), span[ds].max()]
-
+        sigma = sigma_for(target)
         weights = {t: 1.0, **products}
 
         def at(T):
             TdS = T * (S_at(s, t, T) - sum(f * S_at(s, p, T) for p, f in sorted(products.items()))) * MEV_PER_J_MOL
-            imag = T * sum(w * imaginary_loss(s[p][3], T) for p, w in sorted(weights.items())) * MEV_PER_J_MOL
-            return TdS, margin - TdS, np.sqrt(SIGMA ** 2 + (T * S_ERR * MEV_PER_J_MOL) ** 2 + imag ** 2), imag
+            imag = T * sum(w * imaginary_loss(s[p][3], T, nu) for p, w in sorted(weights.items())) * MEV_PER_J_MOL
+            return TdS, margin - TdS, np.sqrt(sigma ** 2 + (T * s_err * MEV_PER_J_MOL) ** 2 + imag ** 2), imag
 
         TdS, m_T, sig_T, imag_T = at(temps[0])
         p_range = [abs(m) / sg for _, m, sg, _ in map(at, temps)]
 
         # MD entropy of reaction, where every phase stayed a vibrating crystal at both MD temperatures; linear in T
-        # between them (and a little beyond, 923 to 1273 K).
+        # between them (and a little beyond, 923 to 1273 K). MD samples every mode, so it carries no imaginary term.
         TdS_md = m_T_md = p_md = np.nan
         p_range_md = []
         if all((p, T_md) in md for p in need for T_md in MD_TEMPS):
@@ -203,7 +199,7 @@ def main(phonon_dirs):
                 ds_md = [md[(t, T_md)] - sum(f * md[(p, T_md)] for p, f in sorted(products.items())) for T_md in MD_TEMPS]
                 slope = (ds_md[1] - ds_md[0]) / (MD_TEMPS[1] - MD_TEMPS[0])
                 TdS = T * (ds_md[0] + slope * (T - MD_TEMPS[0])) * MEV_PER_J_MOL  # linear, extrapolated at the ends
-                return TdS, margin - TdS, np.hypot(SIGMA, T * S_ERR_MD * MEV_PER_J_MOL)
+                return TdS, margin - TdS, np.hypot(sigma, T * s_err_md * MEV_PER_J_MOL)
 
             TdS_md, m_T_md, sig_md = at_md(temps[0])
             p_md = abs(m_T_md) / sig_md
@@ -213,8 +209,8 @@ def main(phonon_dirs):
         use_md = imag_T > IMAG_TERM_MAX and np.isfinite(p_md)
         m_final, p_final = (m_T_md, p_md) if use_md else (m_T, abs(m_T) / sig_T)
         rows.append(dict(dataset=ds, decision=kind, target=target, T_K=temps[0], T_recorded=recorded,
-                         margin_0K=margin, TdS_rxn_meV=round(TdS, 1), margin_T=round(m_T, 1), p_0K=abs(margin) / SIGMA,
-                         sigma_T=round(sig_T, 1), imaginary_term_meV=round(imag_T, 1),
+                         sigma_0K=sigma, margin_0K=margin, TdS_rxn_meV=round(TdS, 1), margin_T=round(m_T, 1),
+                         p_0K=abs(margin) / sigma, sigma_T=round(sig_T, 1), imaginary_term_meV=round(imag_T, 1),
                          p_T=abs(m_T) / sig_T, p_T_min_over_range=min(p_range), p_T_max_over_range=max(p_range),
                          flips=bool(np.sign(m_T) != np.sign(margin)), all_converged=all(s[f][2] for f in need),
                          max_imaginary_fraction=max(s[f][3] for f in need),
@@ -229,27 +225,52 @@ def main(phonon_dirs):
     p_cols = [c for c in out.columns if c.startswith("p_")]
     out[p_cols] = out[p_cols].round(4)
     out[["P_right_T", "P_right_final", "max_imaginary_fraction"]] = out[["P_right_T", "P_right_final", "max_imaginary_fraction"]].round(6)
+    return out, missing
+
+
+def counts(out):
+    """Resolved at 0 K and at T, sign changes and expected right, per dataset and decision type."""
+    rows = []
+    for (ds, kind), g in out.groupby(["dataset", "decision"]):
+        rows.append(dict(dataset=ds, decision=kind, n=len(g), resolved_0K=int((g.p_0K > 1).sum()),
+                         resolved_T=int((g.p_final > 1).sum()), sign_changes=int(g.flips_final.sum()),
+                         sign_changes_resolved_0K=int((g.flips_final & (g.p_0K > 1)).sum()),
+                         expected_right_0K=round(float(norm.cdf(g.p_0K).sum()), 1),
+                         expected_right_T=round(float(g.P_right_final.sum()), 1)))
+    return pd.DataFrame(rows)
+
+
+def main(phonon_dirs):
+    s = entropy_table(phonon_dirs)
+    md = {}
+    if (RES / "md_entropy_step_e.csv").exists():
+        m = pd.read_csv(RES / "md_entropy_step_e.csv")
+        md = {(red(r.compound), r.T_K): r.S_vdos for r in m[m.crystal].itertuples()}
+    decisions, span, unbalanced = build_decisions()
+    out, missing = evaluate(s, md, decisions, span)
     out.to_csv(RES / "precision_temperature.csv", index=False)
     print(f"{len(out)} of {len(decisions)} decisions computed; phases still missing: {len(missing)}; "
           f"selections whose pair does not balance to the target: {unbalanced}")
     if missing:
         print("missing phases:", sorted(missing))
-    if len(out):
-        for (ds, kind), g in out.groupby(["dataset", "decision"]):
-            print(f"{ds} {kind}: n={len(g)}, median |T dS| {g.TdS_rxn_meV.abs().median():.1f} meV/atom, resolved 0 K "
-                  f"{(g.p_0K > 1).sum()} -> at T {(g.p_T > 1).sum()}, sign changes {g.flips.sum()}, "
-                  f"expected right {g.P_right_T.sum():.1f}")
-            h = g[g.harmonic_ok]
-            print(f"    sigma at T median {g.sigma_T.median():.1f}, max {g.sigma_T.max():.1f}; imaginary term above 5 meV "
-                  f"for {(g.imaginary_term_meV > 5).sum()}; harmonic-reliable n={len(h)}: resolved 0 K "
-                  f"{(h.p_0K > 1).sum()} -> at T {(h.p_T > 1).sum()}, sign changes {h.flips.sum()}")
-            print(f"    final: MD for {(g.entropy_source == 'MD').sum()} of {(g.imaginary_term_meV > IMAG_TERM_MAX).sum()} "
-                  f"with the imaginary term above {IMAG_TERM_MAX} meV; resolved {(g.p_final > 1).sum()}, sign changes "
-                  f"{g.flips_final.sum()}, expected right {g.P_right_final.sum():.1f}")
-        both = out[np.isfinite(out.TdS_rxn_md_meV) & (out.imaginary_term_meV <= IMAG_TERM_MAX)]
-        diff = both.TdS_rxn_md_meV - both.TdS_rxn_meV
-        print(f"cross-check, decisions with both a reliable harmonic and an MD entropy (n={len(both)}): MD minus harmonic "
-              f"T dS median {diff.median():+.1f}, RMS {np.sqrt((diff ** 2).mean()):.1f}, max |{diff.abs().max():.1f}| meV/atom")
+    print(counts(out).to_string(index=False))
+    for (ds, kind), g in out.groupby(["dataset", "decision"]):
+        print(f"{ds} {kind}: median |T dS| {g.TdS_rxn_meV.abs().median():.1f} meV/atom; sigma at T median "
+              f"{g.sigma_T.median():.1f}; imaginary term above {IMAG_TERM_MAX} meV for "
+              f"{(g.imaginary_term_meV > IMAG_TERM_MAX).sum()}, MD used for {(g.entropy_source == 'MD').sum()}")
+    flips = out[out.flips_final]
+    print("sign changes:", ", ".join(f"{r.target} ({r.decision}, p_0K {r.p_0K:.2f})" for r in flips.itertuples()))
+    # Sensitivity: the low entropy error of the validation reactions, and the frequency assumed for imaginary modes.
+    cases = [("central", S_ERR, S_ERR, NU_IMAG), ("validation error 0.23/0.24", S_ERR_LOW_PHONON, S_ERR_LOW_MD, NU_IMAG)]
+    cases += [(f"nu {nu / 1e12:g} THz", S_ERR, S_ERR, nu) for nu in NU_SENSITIVITY]
+    sens = pd.concat([counts(evaluate(s, md, decisions, span, a, b, nu)[0]).assign(case=name)
+                      for name, a, b, nu in cases])
+    sens.to_csv(RES / "precision_temperature_sensitivity.csv", index=False)
+    print(sens.to_string(index=False))
+    both = out[np.isfinite(out.TdS_rxn_md_meV) & (out.imaginary_term_meV <= IMAG_TERM_MAX)]
+    diff = both.TdS_rxn_md_meV - both.TdS_rxn_meV
+    print(f"cross-check, decisions with both a reliable harmonic and an MD entropy (n={len(both)}): MD minus harmonic "
+          f"T dS median {diff.median():+.1f}, RMS {np.sqrt((diff ** 2).mean()):.1f}, max |{diff.abs().max():.1f}| meV/atom")
 
 
 if __name__ == "__main__":

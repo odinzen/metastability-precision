@@ -1,0 +1,13 @@
+dataset,decision,n,resolved_0K,resolved_T,sign_changes,sign_changes_resolved_0K,expected_right_0K,expected_right_T,case
+A-Lab2023,stability,54,10,8,9,0,35.1,34.9,central
+Chen2024,selection,34,20,19,4,0,28.3,28.2,central
+Chen2024,stability,35,10,13,3,0,25.8,26.7,central
+A-Lab2023,stability,54,10,8,9,0,35.1,35.1,validation error 0.23/0.24
+Chen2024,selection,34,20,20,4,0,28.3,28.3,validation error 0.23/0.24
+Chen2024,stability,35,10,13,3,0,25.8,26.9,validation error 0.23/0.24
+A-Lab2023,stability,54,10,8,9,0,35.1,34.9,nu 1 THz
+Chen2024,selection,34,20,19,4,0,28.3,28.2,nu 1 THz
+Chen2024,stability,35,10,12,3,0,25.8,26.6,nu 1 THz
+A-Lab2023,stability,54,10,8,9,0,35.1,35.1,nu 4 THz
+Chen2024,selection,34,20,19,4,0,28.3,28.2,nu 4 THz
+Chen2024,stability,35,10,14,3,0,25.8,26.9,nu 4 THz

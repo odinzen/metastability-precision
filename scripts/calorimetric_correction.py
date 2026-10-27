@@ -1,8 +1,8 @@
 """Apply the calorimetric correction to the decisions themselves and count what changes.
 
-The benchmark gives DFT = 0.8575 * measured + 8.8 meV/atom for the enthalpy of formation from the binary oxides.
+The benchmark trend gives DFT = slope * measured + intercept for the enthalpy of formation from the binary oxides.
 Inverting it, every oxide entry with three or more elements has its energy relative to the lower-order hull (binary
-phases and elements, so the binary oxides for an oxide) replaced by (E_DFT - 8.8) / 0.8575; binary and elemental
+phases and elements, so the binary oxides for an oxide) replaced by (E_DFT - intercept) / slope; binary and elemental
 entries are unchanged. The Chen et al. selection code and the stability margins are then rerun on the corrected
 entries. If the offset cancels between a target and its competitors, as the precision analysis assumes, few decisions
 should change; a second variant with the slope alone shows how much of any change comes from the intercept.
@@ -25,16 +25,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import rerun_chen_today as chen_rerun  # noqa: E402
 from precision_analysis import INCONCLUSIVE  # noqa: E402
 from pull_mp_systems import mp_number  # noqa: E402
+from sigma_model import sigma_for  # noqa: E402
 
 warnings.filterwarnings("ignore")
 ROOT = Path(__file__).resolve().parents[1]
-SLOPE, INTERCEPT = 0.8575, 0.0088  # DFT / measured, and eV/atom; refit by benchmark_dft_vs_measured.csv below
-SIGMA = 22.5
 
 
 def fit():
     d = pd.read_csv(ROOT / "results" / "benchmark_dft_vs_measured.csv").dropna(subset=["error_meV_atom"])
-    d = d[d.family != "Li cathode oxides"]  # the 69 values of the paper
+    d = d.drop_duplicates(["compound", "measured_meV_atom"])  # the 69 values of Fig. 2 and of sigma
     k, c = np.polyfit(d.measured_meV_atom, d.error_meV_atom, 1)
     return 1 + k, c / 1000
 
@@ -116,19 +115,21 @@ def main():
         print(f"\n== correction: {v}")
         sel = ch.dropna(subset=["invE_none", f"invE_{v}"])
         d = sel[f"invE_{v}"] - sel.invE_none
+        s_sel = sel.target.map(sigma_for)
         print(f"Chen selection, n={len(sel)}: tested pair selected {int(ch[f'selected_{v}'].sum())} "
               f"(uncorrected {int(ch.selected_none.sum())}), ranked first {int(ch[f'top_{v}'].sum())} "
               f"(uncorrected {int(ch.top_none.sum())}); inverse hull energy change median {d.median():+.1f}, "
-              f"range {d.min():+.1f} to {d.max():+.1f} meV/atom; resolved {int((sel[f'invE_{v}'].abs() > SIGMA).sum())} "
-              f"(uncorrected {int((sel.invE_none.abs() > SIGMA).sum())})")
+              f"range {d.min():+.1f} to {d.max():+.1f} meV/atom; resolved {int((sel[f'invE_{v}'].abs() > s_sel).sum())} "
+              f"(uncorrected {int((sel.invE_none.abs() > s_sel).sum())})")
         for lab, g in (("Chen stability", chs), ("A-Lab stability", alab)):
             g = g.dropna(subset=["stability_none", f"stability_{v}"])
             a, b = g.stability_none, g[f"stability_{v}"]
+            sg = g.target.map(sigma_for)
             flip = ((a < 0) != (b < 0)).sum()
-            cross = ((a.abs() > SIGMA) != (b.abs() > SIGMA)).sum()
+            cross = ((a.abs() > sg) != (b.abs() > sg)).sum()
             print(f"{lab}, n={len(g)}: change median {(b - a).median():+.1f}, range {(b - a).min():+.1f} to "
                   f"{(b - a).max():+.1f}; below hull {int((a < 0).sum())} -> {int((b < 0).sum())} (sign flips {flip}); "
-                  f"resolved {int((a.abs() > SIGMA).sum())} -> {int((b.abs() > SIGMA).sum())} (crossings {cross})")
+                  f"resolved {int((a.abs() > sg).sum())} -> {int((b.abs() > sg).sum())} (crossings {cross})")
     print("\nChen pairs whose selection changes under the full correction:")
     print(ch[(ch.selected_none != ch.selected_full) | (ch.top_none != ch.top_full)].to_string(index=False))
 

@@ -1,9 +1,10 @@
-"""Figures 1 to 5 and the SI figures from the result tables, greyscale house style, 600 dpi PNG and vector PDF.
+"""Manuscript figures 1 to 5 and Extended Data from the result tables, greyscale house style, 600 dpi PNG and vector PDF.
 
 No titles, captions or provenance lines on the images: the document's figure legends carry that text.
 Identity is carried by marker shape and grey shade together, never by shade alone.
 """
 import re
+import sys
 from pathlib import Path
 
 import matplotlib
@@ -12,8 +13,11 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from sigma_model import sigma_for  # noqa: E402
+
 matplotlib.use("Agg")
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 RES = ROOT / "results"
 OUT = Path(__file__).resolve().parent
 MM = 1 / 25.4
@@ -133,16 +137,17 @@ def figure2():
 def figure4():
     """Phase-purity gain of each selection against the computed margin it rested on."""
     d = pd.read_csv(RES / "chen_rerun_today.csv")
-    band = 22.5
+    band = 22.5  # the closed-shell sigma; open-shell targets take 43 (sigma_model.py)
     margin = d.pub_invE_meV.abs().clip(lower=0.1)
+    sigma = d.target.map(sigma_for)
     fig, ax = plt.subplots(figsize=(89 * MM, 80 * MM))
     ax.axvspan(0.1, band, color="0.9", zorder=0, lw=0)
     ax.axhline(0, color="0.55", lw=0.8, zorder=1)
-    inside = margin <= band
+    inside = margin <= sigma
     ax.scatter(margin[inside], d.score_diff[inside], marker="o", s=22, facecolor="white", edgecolor="0.05",
-               lw=0.7, zorder=3, label=f"margin within {band:g} meV per atom (n = {int(inside.sum())})")
+               lw=0.7, zorder=3, label=f"unresolved, p ≤ 1 (n = {int(inside.sum())})")
     ax.scatter(margin[~inside], d.score_diff[~inside], marker="s", s=20, facecolor="0.25", edgecolor="0.05",
-               lw=0.5, zorder=3, label=f"margin beyond (n = {int((~inside).sum())})")
+               lw=0.5, zorder=3, label=f"resolved, p > 1 (n = {int((~inside).sum())})")
     ax.set_xscale("log")
     ax.set_xlim(0.1, 400)
     ax.set_ylim(-0.3, 0.9)
@@ -172,16 +177,19 @@ def figure3():
     # a: share of decisions measurement confirms, against p, with the Gaussian prediction (precision_calibration.py)
     cal = pd.read_csv(RES / "precision_calibration_bins.csv")
     dec = pd.read_csv(RES / "precision_calibration_decisions.csv")
+    closed = dec[~dec.open_shell.astype(bool)]
     ax = axes[0]
     p = np.logspace(np.log10(0.03), np.log10(30), 400)
     ax.plot(p, norm.cdf(p), color="0.1", lw=1.0, zorder=2, label="predicted, Φ(p)")
-    # The two shares the abstract quotes, drawn across the range of p they cover.
-    for span, share, lab in (((0.03, 1), dec.right[dec.p <= 1].mean(), "confirmed, p ≤ 1 and p > 1"),
-                             ((1, 30), dec.right[dec.p > 1].mean(), None)):
+    # The two closed-shell shares the abstract quotes, drawn across the range of p they cover.
+    for span, share, lab in (((0.03, 1), closed.right[closed.p <= 1].mean(), "closed-shell, p ≤ 1 and p > 1"),
+                             ((1, 30), closed.right[closed.p > 1].mean(), None)):
         ax.plot(span, [share] * 2, color="0.55", lw=2.2, solid_capstyle="butt", zorder=1, label=lab)
-    ax.errorbar(cal.p_mean, cal.observed, yerr=[cal.observed - cal.ci_low, cal.ci_high - cal.observed], fmt="o",
-                ms=5, mfc="white", mec="0.05", ecolor="0.3", elinewidth=0.8, capsize=2.5, zorder=3,
-                label="confirmed, bins of p")
+    for name, mk, face, shift, lab in (("all", "o", "white", 0.94, "all decisions, bins of p"),
+                                       ("closed-shell", "s", "0.25", 1.06, "closed-shell, bins of p")):
+        c = cal[cal.set == name]
+        ax.errorbar(c.p_mean * shift, c.observed, yerr=[c.observed - c.ci_low, c.ci_high - c.observed], fmt=mk,
+                    ms=4.5, mfc=face, mec="0.05", ecolor="0.3", elinewidth=0.8, capsize=2.5, zorder=3, label=lab)
     ax.axvline(1, color="0.1", lw=0.9, ls="--", zorder=1)
     ax.set_xscale("log")
     ax.set_xlim(0.03, 30)
@@ -194,7 +202,9 @@ def figure3():
 
     # b: observed oxides by family, share resolved (bars) and share expected right (diamonds)
     mp = pd.read_csv(RES / "precision_mp_observed.csv")
-    ox = mp[mp.oxide.astype(bool)].assign(right=lambda d: norm.cdf(d.margin_meV.abs() / 22.5))
+    # the 6,869 decisions the calibration covers: oxides whose competitors are other compounds
+    core = mp.oxide.astype(bool) & mp.competitor.isin(["fewer-element phases only", "same-order neighbour"])
+    ox = mp[core].assign(right=lambda d: norm.cdf(d.margin_meV.abs() / d.sigma))
     stats = (ox.groupby("family").agg(n=("p", "size"), pct=("resolved", lambda s: 100 * s.mean()),
                                       right=("right", lambda s: 100 * s.mean())).sort_values("pct"))
     ax = axes[1]
@@ -225,7 +235,7 @@ def figure3():
     ax.set_xlim(0.003, 70)
     ax.set_yticks(range(len(groups)))
     ax.set_yticklabels([f"{g[0]}\n{int((g[1] > 1).sum())} of {len(g[1])} above 1" for g in groups][::-1])
-    ax.set_xlabel("Metastability precision (margin / 22.5 meV per atom)")
+    ax.set_xlabel("Metastability precision, margin / σ")
     ax.grid(True, axis="x", which="major", **GRID)
     panel_label(ax, "c")
 

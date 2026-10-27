@@ -1,6 +1,7 @@
 """Metastability precision of the two synthesis datasets: each decision's margin divided by the measured uncertainty
-of the energies behind it, sigma = 22.5 meV per atom (DFT scatter about the calorimetric trend), with 24 (Hautier
-et al.) and 27.3 (Orb-v3 scatter) as sensitivity values. A ratio above 1 means the energies resolve the decision.
+of the energies behind it, sigma from sigma_model.py (22.5 meV per atom, the DFT scatter about the calorimetric trend,
+or 43 for a target with an open-shell 3d or 4f cation), with closed-shell values of 24 (Hautier et al.) and 27.3
+(Orb-v3 scatter) as sensitivity cases. A ratio above 1 means the energies resolve the decision.
 
 Margins:
 - Chen et al., selection margin: the published inverse hull energy of the tested pair (line between the precursors).
@@ -24,6 +25,7 @@ from scipy.stats import mannwhitneyu, spearmanr
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pull_mp_systems import mp_number  # noqa: E402
+from sigma_model import open_shell, sigma_for  # noqa: E402
 from emmet.core.mpid import AlphaID  # noqa: E402
 
 warnings.filterwarnings("ignore")
@@ -67,10 +69,12 @@ def main():
     # -220, where the A-Lab paper itself notes DFT puts LaMnO3 120 meV/atom above the hull). Reported, not scored.
     alab["database_inconsistency"] = alab.stability_margin_meV.abs() > 200
     alab = alab[alab.stability_margin_meV.notna()].copy()
-    for name, s in SIGMAS.items():
-        chen[f"p_selection_{name}"] = chen.selection_margin_meV / s
-        chen[f"p_stability_{name}"] = chen.stability_margin_meV.abs() / s
-        alab[f"p_stability_{name}"] = alab.stability_margin_meV.abs() / s
+    for df in (chen, alab):
+        df["open_shell"] = df.target.map(open_shell)
+    for name, closed in SIGMAS.items():
+        chen[f"p_selection_{name}"] = chen.selection_margin_meV / chen.target.map(lambda t: sigma_for(t, closed))
+        chen[f"p_stability_{name}"] = chen.stability_margin_meV.abs() / chen.target.map(lambda t: sigma_for(t, closed))
+        alab[f"p_stability_{name}"] = alab.stability_margin_meV.abs() / alab.target.map(lambda t: sigma_for(t, closed))
     chen.to_csv(ROOT / "results" / "precision_chen.csv", index=False)
     alab.to_csv(ROOT / "results" / "precision_alab.csv", index=False)
 
@@ -81,7 +85,7 @@ def main():
     lines = []
     for name, sig in SIGMAS.items():
         lines.append(dict(
-            sigma=name, sigma_meV=sig,
+            sigma=name, sigma_closed_meV=sig,
             chen_selection_resolved=int((chen[f"p_selection_{name}"] > 1).sum()),
             chen_stability_resolved=int((chen[f"p_stability_{name}"] > 1).sum()), chen_n=len(chen),
             alab_stability_resolved=int((scored[f"p_stability_{name}"] > 1).sum()), alab_n=len(scored)))
@@ -92,7 +96,7 @@ def main():
 
     print("\nA-Lab stability margins (meV/atom, negative = below the hull of all other phases):")
     print(alab.stability_margin_meV.describe().round(1).to_string())
-    print("\nA-Lab outcome by precision (sigma 22.5):")
+    print("\nA-Lab outcome by precision (sigma 22.5 closed-shell, 43 open-shell):")
     alab["resolved"] = alab[f"p_stability_{s}"] > 1
     print(pd.crosstab(alab.outcome, alab.resolved).to_string())
     ob = alab[alab.outcome == "obtained"][f"p_stability_{s}"]

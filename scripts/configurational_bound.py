@@ -11,6 +11,7 @@ Ideal mixing ignores the energy of disordering and assumes the competing phases 
 bound on how far disorder can move a margin. The ordering energies that tighten it come from Orb-v3 on Sol.
 """
 import re
+import sys
 import warnings
 from pathlib import Path
 
@@ -20,9 +21,10 @@ from pymatgen.core import Composition, Structure
 
 warnings.filterwarnings("ignore")
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sigma_model import sigma_for  # noqa: E402
 ALAB = ROOT / "data" / "raw" / "alab2023" / "unzipped"
 K_B_MEV = 8.617333e-2  # meV per K
-SIGMA = 22.5
 # Where the notes' wording would mix the wrong atoms, the group is taken from the refined model, with counts per
 # formula unit (checked against the occupancies of the A-Lab CIFs).
 OVERRIDES = {
@@ -128,7 +130,7 @@ def main():
     b = d.TS_bound_meV_atom
     print(f"\n{len(d)} targets ({(d.ordering == 'ambiguous').sum()} ambiguous, "
           f"{(d.ordering == 'likely disordered').sum()} likely disordered); T S bound median {b.median():.1f}, "
-          f"range {b.min():.1f}-{b.max():.1f} meV per atom; above sigma {(b > SIGMA).sum()}; "
+          f"range {b.min():.1f}-{b.max():.1f} meV per atom; above sigma {(b > d.target.map(sigma_for)).sum()}; "
           f"above |margin| {(b > d.stability_margin_meV.abs()).sum()} of {d.stability_margin_meV.notna().sum()}")
 
 

@@ -2,7 +2,7 @@
 carry the scatter measured against calorimetry?
 
 Each draw perturbs every entry of three or more elements in the target's chemical system by
-sigma * (sqrt(rho) * eta + sqrt(1 - rho) * xi) per atom, with eta shared by the system and xi drawn per entry; binary
+sigma * (sqrt(rho) * eta + sqrt(1 - rho) * xi) per atom, sigma from sigma_model.py for that entry, with eta shared by the system and xi drawn per entry; binary
 oxides and elements stay as computed (the database's fitted corrections anchor them to measurement). Their code then
 rebuilds the hull, the pairwise reactions and the ranking from scratch (rerun_chen_today.run with a perturbed loader).
 rho, the shared fraction of the variance, is set so that a compound-against-compound reaction keeps about 0.76 of the
@@ -26,8 +26,8 @@ from pymatgen.entries.computed_entries import ComputedEntry
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import rerun_chen_today as rc  # noqa: E402
+from sigma_model import sigma_for  # noqa: E402
 
-SIGMA = 0.0225  # eV per atom
 RHOS = (0.65, 0.0)
 SEED = 20261024
 
@@ -47,7 +47,8 @@ def perturbed_loader(rng, rho):
         out = []
         for i, (comp, energy) in enumerate(base):
             if len(comp.elements) >= 3:
-                energy += comp.num_atoms * SIGMA * (np.sqrt(rho) * eta + np.sqrt(1 - rho) * rng.standard_normal())
+                sigma = sigma_for(comp.reduced_formula) / 1000  # eV per atom
+                energy += comp.num_atoms * sigma * (np.sqrt(rho) * eta + np.sqrt(1 - rho) * rng.standard_normal())
             out.append(ComputedEntry(comp, energy, correction=0, entry_id=str(i)))
         return list(PhaseDiagram(out).stable_entries)
     return load

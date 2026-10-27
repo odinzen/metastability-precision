@@ -1,9 +1,10 @@
-set,n,resolved,expected_right,expected_right_resolved,expected_right_unresolved,expected_wrong,expected_wrong_in_unresolved
-observed oxides,10047,5105,8173.484,0.968,0.654,1873.516,1709.576
-"observed oxides, fewer-element phases only",3613,1661,2880.757,,,732.243,
-"observed oxides, involves an element",1598,1373,1510.776,,,87.224,
-"observed oxides, own polymorph",1580,559,1176.754,,,403.246,
-"observed oxides, same-order neighbour",3256,1512,2605.196,,,650.804,
-Chen et al. selections,35,23,29.736,,,5.264,
-Chen et al. stability,35,13,26.416,,,8.584,
-A-Lab stability,54,13,37.353,,,16.647,
+set,n,open_shell,resolved,expected_right,expected_right_resolved,expected_right_unresolved,expected_wrong,expected_wrong_in_unresolved
+observed oxides,10047,4299,4271,7849.902,0.965,0.646,2197.098,2046.844
+"observed oxides, against other compounds",6869,3159,2486,5222.466,0.954,0.65,1646.534,1532.099
+"observed oxides, fewer-element phases only",3613,1854,1268,2727.312,,,885.688,
+"observed oxides, involves an element",1598,631,1303,1483.054,,,114.946,
+"observed oxides, own polymorph",1580,509,482,1144.382,,,435.618,
+"observed oxides, same-order neighbour",3256,1305,1218,2495.154,,,760.846,
+Chen et al. selections,35,7,20,28.952,,,6.048,
+Chen et al. stability,35,7,10,25.804,,,9.196,
+A-Lab stability,54,34,10,35.056,,,18.944,

@@ -18,8 +18,9 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sigma_model import sigma_for  # noqa: E402
 K_B_MEV = 8.617333e-2
-SIGMA = 22.5
 
 
 def main(ordering_dir):
@@ -54,11 +55,15 @@ def main(ordering_dir):
     with pd.option_context("display.width", 220):
         print(df.drop(columns=["groups", "atoms", "n_random"]).to_string(index=False))
     sure = df.dF_disorder_upper_meV_atom < 0
+    sigma = df.target.map(sigma_for)
+    moved = (df.stability_margin_meV.abs() <= sigma) & (df.margin_at_T_worst.abs() > sigma)
     print(f"\n{len(df)} targets: disorder lowers the free energy for certain in {sure.sum()} "
           f"(by at least {df.gain_min_meV_atom[sure].median():.1f} meV/atom, median); certain gain above sigma in "
-          f"{(df.gain_min_meV_atom > SIGMA).sum()}, above |0 K margin| in "
+          f"{(df.gain_min_meV_atom > sigma).sum()}, above |0 K margin| in "
           f"{(df.gain_min_meV_atom > df.stability_margin_meV.abs()).sum()}; ordered not the lowest arrangement in "
           f"{df.ordered_not_lowest.sum()}; unconverged relaxations {df.unconverged.sum()}")
+    print(f"resolved at 0 K {(df.stability_margin_meV.abs() > sigma).sum()}, moved beyond sigma by the certain gain "
+          f"{moved.sum()}: {', '.join(df.target[moved])}")
 
 
 if __name__ == "__main__":
