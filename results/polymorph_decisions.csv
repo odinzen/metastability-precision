@@ -1,13 +1,19 @@
 compound,formula,n_elements,products,kind,measured_meV_atom,dft_meV_atom,error_meV_atom,sign_established,mp_metastable,sg_metastable,mp_stable,sg_stable
-SiO2 (cristobalite),SiO2,2,SiO2 (alpha-quartz),polymorph,7.95,-7.57,-15.52,True,mp-7029,96,mp-6930,154
+SiO2 (cristobalite),SiO2,2,SiO2 (alpha-quartz),polymorph,7.95,-7.55,-15.5,True,mp-6945,92,mp-6930,154
+SiO2 (tridymite),SiO2,2,SiO2 (alpha-quartz),polymorph,11.06,-7.43,-18.49,True,mp-640556,9,mp-6930,154
+SiO2 (coesite),SiO2,2,SiO2 (alpha-quartz),polymorph,10.02,29.99,19.97,True,mp-11684,15,mp-6930,154
+SiO2 (stishovite),SiO2,2,SiO2 (alpha-quartz),polymorph,170.66,185.58,14.92,True,mp-6947,136,mp-6930,154
 GeO2 (quartz-type),GeO2,2,GeO2 (rutile-type),polymorph,67.02,-3.79,-70.81,True,mp-733,152,mp-470,136
+TiO2 (anatase),TiO2,2,TiO2 (rutile),polymorph,18.31,-30.82,-49.13,True,mp-390,141,mp-2657,136
+Al2O3 (kappa),Al2O3,2,Al2O3 (corundum),polymorph,31.22,16.89,-14.33,True,mp-2254,33,mp-1143,167
 Al2SiO5 (andalusite),Al2SiO5,3,Al2SiO5 (kyanite),polymorph,5.05,-19.35,-24.4,True,mp-4753,58,mp-5065,2
 Al2SiO5 (sillimanite),Al2SiO5,3,Al2SiO5 (kyanite),polymorph,9.98,-11.9,-21.88,True,mp-4934,62,mp-5065,2
 MgSiO3 (low-clinoenstatite),MgSiO3,3,MgSiO3 (orthoenstatite),polymorph,0.7,-0.19,-0.89,False,mp-3470,14,mp-5834,61
+MgSiO3 (ilmenite (akimotoite)),MgSiO3,3,MgSiO3 (orthoenstatite),polymorph,122.3,109.21,-13.09,True,mp-5924,148,mp-5834,61
+MgSiO3 (perovskite (bridgmanite)),MgSiO3,3,MgSiO3 (orthoenstatite),polymorph,208.32,209.17,0.85,True,mp-3547,62,mp-5834,61
 CaSiO3 (pseudowollastonite),CaSiO3,3,CaSiO3 (wollastonite),polymorph,12.29,20.22,7.93,True,mp-561086,15,mp-5733,14
-Ca2SiO4 (beta (larnite)),Ca2SiO4,3,Ca2SiO4 (gamma),polymorph,15.55,8.24,-7.31,True,mp-2379939,14,mp-4481,62
-LiCoO2 (O2 (spinel-related)),LiCoO2,3,LiCoO2 (O3 (layered)),polymorph,21.32,32.26,10.94,True,mp-849273,227,mp-22526,166
+Ca2SiO4 (beta (larnite)),Ca2SiO4,3,Ca2SiO4 (gamma),polymorph,15.55,35.16,19.61,True,mp-4180,14,mp-4481,62
 TbPO4 (monazite),TbPO4,3,TbPO4 (xenotime),polymorph,4.49,40.06,35.57,False,mp-1190577,14,mp-4340,141
 Fe2O3 (epsilon),Fe2O3,2,Fe2O3 (hematite),polymorph,58.45,115.84,57.39,True,mp-542896,33,mp-19770,167
 HfO2 (tetragonal),HfO2,2,HfO2 (monoclinic),polymorph,29.02,54.77,25.75,True,mp-1018721,137,mp-352,14
-ZrO2 (cubic),ZrO2,2,ZrO2 (tetragonal),polymorph,11.75,32.67,20.92,False,mp-1565,225,mp-2574,137
+ZrO2 (cubic),ZrO2,2,ZrO2 (tetragonal),polymorph,11.75,32.67,20.92,True,mp-1565,225,mp-2574,137
