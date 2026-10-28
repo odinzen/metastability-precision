@@ -78,6 +78,14 @@ and the measured polymorph enthalpies (`results/polymorph_measured.csv`) are val
 page. They were extracted from the authors' provenance-tracked literature compilation, whose extraction scripts are not
 part of this repository.
 
+## Pre-registered predictions
+
+Before any of them is measured, the enthalpies of formation of 30 oxides with no calorimetric measurement, and how
+those measurements will settle 45 decisions of the two synthesis campaigns, were predicted and deposited on Zenodo on
+2026-10-28 (doi 10.5281/zenodo.23741115, https://zenodo.org/records/23741115). The record's README explains how to
+score the predictions against later measurements, and its `SHA256SUMS.txt` holds the checksums of the two prediction
+files as written.
+
 ## Licenses
 
 Code is under the MIT license (`LICENSE`). Data, results and figures are under CC BY 4.0 (`LICENSE-DATA`). The
@@ -87,4 +95,5 @@ the database release. The inputs that `fetch_inputs.py` downloads keep the licen
 ## Citation
 
 Please cite the article (details to follow on publication), the molecular-dynamics trajectories
-(doi 10.5281/zenodo.23677025) and, for the entropy calculations, Hermes (doi 10.5281/zenodo.23573417).
+(doi 10.5281/zenodo.23677025), the pre-registered predictions (doi 10.5281/zenodo.23741115) and, for the entropy
+calculations, Hermes (doi 10.5281/zenodo.23573417).
