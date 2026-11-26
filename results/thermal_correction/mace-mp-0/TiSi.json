@@ -1,0 +1,17 @@
+{
+ "tag": "TiSi",
+ "mlip": "mace",
+ "atoms": 8,
+ "supercell": [
+  3,
+  3,
+  2
+ ],
+ "n_displacements": 8,
+ "orientations": 1,
+ "e_static_eV_atom": -7.448135784993229,
+ "zpe_kJ_mol_atoms": 4.32885267468672,
+ "heat_content_kJ_mol_atoms": 4.027397519966961,
+ "min_frequency_THz": -1.2119787699823373e-07,
+ "imaginary_fraction": 0.0
+}

@@ -1,6 +1,6 @@
 """Metastability precision of the two synthesis datasets: each decision's margin divided by the measured uncertainty
 of the energies behind it, sigma from sigma_model.py (22.5 meV per atom, the DFT scatter about the calorimetric trend,
-or 43 for a target with an open-shell 3d or 4f cation), with closed-shell values of 24 (Hautier et al.) and 27.3
+or 34 for a target with an open-shell 3d or 4f cation), with closed-shell values of 24 (Hautier et al.) and 27.3
 (Orb-v3 scatter) as sensitivity cases. A ratio above 1 means the energies resolve the decision.
 
 Margins:
@@ -96,7 +96,7 @@ def main():
 
     print("\nA-Lab stability margins (meV/atom, negative = below the hull of all other phases):")
     print(alab.stability_margin_meV.describe().round(1).to_string())
-    print("\nA-Lab outcome by precision (sigma 22.5 closed-shell, 43 open-shell):")
+    print("\nA-Lab outcome by precision (sigma 22.5 closed-shell, 34 open-shell):")
     alab["resolved"] = alab[f"p_stability_{s}"] > 1
     print(pd.crosstab(alab.outcome, alab.resolved).to_string())
     ob = alab[alab.outcome == "obtained"][f"p_stability_{s}"]

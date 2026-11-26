@@ -1,0 +1,17 @@
+{
+ "tag": "Ti",
+ "mlip": "mace",
+ "atoms": 2,
+ "supercell": [
+  4,
+  4,
+  3
+ ],
+ "n_displacements": 1,
+ "orientations": 1,
+ "e_static_eV_atom": -7.8317809007089645,
+ "zpe_kJ_mol_atoms": 1.373804822011477,
+ "heat_content_kJ_mol_atoms": 6.03132556885142,
+ "min_frequency_THz": -1.1189087425449449,
+ "imaginary_fraction": 0.017934446505875078
+}

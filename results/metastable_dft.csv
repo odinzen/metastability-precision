@@ -1,0 +1,62 @@
+compound,family,products,note,status,mp_id,mp_sg,polymorphs,dft_meV_atom,mp_e_above_hull_meV,atoms_per_fu,open_shell,sigma
+CuFe2O4,oxide,CuO+Fe2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaabrvfn-GGA+U,Fd-3m,5.0,81.5,81.5,7.0,True,34.0
+CuMn2O4,oxide,CuO+Mn2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaabctrh-GGA+U,Fd-3m,11.0,42.7,42.7,7.0,True,34.0
+CuGa2O4,oxide,CuO+Ga2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaaabzlv-GGA,Imma,3.0,56.4,56.4,7.0,True,34.0
+CdFe2O4,oxide,CdO+Fe2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaaabfon-GGA+U,Fd-3m,6.0,-13.1,0.0,7.0,True,34.0
+CdAl2O4,oxide,CdO+Al2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaaaccny-GGA,Fd-3m,1.0,11.8,24.2,7.0,False,22.5
+NiMn2O4,oxide,NiO+Mn2O3,Navrotsky and Kleppa 1968,measured structure,mp-aaaaccnb-GGA+U,Imma,7.0,12.0,12.5,7.0,True,34.0
+Fe2TiO5,oxide,Fe2O3+TiO2,Navrotsky 1975,measured structure,mp-aaaabdtt-GGA+U,Cmcm,5.0,40.4,40.4,8.0,True,34.0
+Mg2TiO4,oxide,MgTiO3+MgO,Wechsler and Navrotsky 1984; Kelley 1954,measured structure,mp-aaabrbwp-GGA,P4_122,4.0,-2.9,0.0,7.0,False,22.5
+Fe2TiO4,oxide,FeTiO3+Fe3O4+Fe,Robie and Hemingway 1995,measured structure,mp-aaaabxvo-GGA+U,Imma,5.0,4.6,20.5,7.0,True,34.0
+CaMg3(CO3)4,oxide,CaMg(CO3)2+MgCO3,Robie and Hemingway 1995,measured structure,mp-aaaaajqy-GGA,R32,1.0,3.7,3.7,20.0,False,22.5
+CeTi2O6,oxide,CeO2+TiO2,Helean 2003,measured structure,mp-aaacjkee-GGA,C2/m,2.0,4.5,4.5,9.0,False,22.5
+ThTi2O6,oxide,ThO2+TiO2,Helean 2003,measured structure,mp-aaaaahuw-GGA,C2/m,2.0,-0.1,0.0,9.0,False,22.5
+CeSiO4,oxide,CeO2+SiO2,Strzelecki 2020,measured structure,mp-aaaaapot-GGA,I4_1/amd,1.0,33.6,33.6,6.0,False,22.5
+USiO4,oxide,UO2+SiO2,Guo 2015,measured structure,mp-aaaaagej-GGA,I4_1/amd,1.0,54.4,54.4,6.0,False,22.5
+ThSiO4,oxide,ThO2+SiO2,Mazeina 2005 vs Guo 2016 (unresolved),measured structure,mp-aaaaaiqm-GGA,I4_1/amd,2.0,-8.8,0.0,6.0,False,22.5
+LiUO3,oxide,Li2UO4+UO2,evaluated tables,"lowest entry, measured structure not stated",mp-aaaaalvz-GGA,R3c,3.0,-23.1,0.0,5.0,False,22.5
+Li2B8O13,oxide,Li2B4O7+B2O3,evaluated tables,no Materials Project entry,,,,,,,,
+KB3O5,oxide,K2B4O7+K2B8O13,evaluated tables,competing phase missing: K2B8O13,,,,,,,,
+Al6Si2O13,oxide,Al2SiO5+Al2O3,Holm and Kleppa 1966 (kyanite + corundum),no Materials Project entry,,,,,,,,
+Mg3Al2Si3O12,oxide,MgSiO3+Al2O3,Charlu 1975; Robie and Hemingway 1995,measured structure,mp-aaaaaizp-GGA,Ia-3d,1.0,20.8,39.1,20.0,False,22.5
+CaAl2SiO6,oxide,Ca3Al2(SiO4)3+Al2O3,Newton 1977; Robie and Hemingway 1995,"measured structure not in the database (C2, Cc, P1, P2/c, P2_1/c)",,,,,,,,
+Mg2Al4Si5O18,oxide,MgSiO3+Al2SiO5+SiO2,Charlu 1975,measured structure,mp-aaaaajdm-GGA,Cccm,2.0,-19.5,0.0,29.0,False,22.5
+Ca12Al14O33,oxide,CaAl2O4+CaO,Coughlin 1956,"measured structure not in the database (I-4, P1)",,,,,,,,
+Mg2SnO4,oxide,MgO+SnO2,Navrotsky and Kasper 1976,measured structure,mp-aaaabyio-GGA,Imma,3.0,-23.6,0.0,7.0,False,22.5
+ZrTiO4,oxide,ZrO2+TiO2,Rosenberg 2025; Hom 2001,ordered approximant of a disordered phase,mp-aaabqxfv-GGA,P1,2.0,43.6,43.6,6.0,False,22.5
+HfTiO4,oxide,HfO2+TiO2,Rosenberg 2025,ordered approximant of a disordered phase,mp-aaabqwfd-GGA,P1,2.0,35.1,35.1,6.0,False,22.5
+Ca2MgSi2O7,oxide,CaSiO3+CaMgSiO4,Brousse 1984; Robie and Hemingway 1995,measured structure,mp-aaaaajak-GGA,P-42_1m,3.0,22.6,22.6,12.0,False,22.5
+Ca3MgSi2O8,oxide,CaMgSiO4+Ca2SiO4,Brousse 1984; Robie and Hemingway 1995,measured structure,mp-aaabfttp-GGA,P2_1/c,2.0,37.6,37.6,14.0,False,22.5
+KAlSi2O6,oxide,KAlSi3O8+KAlSiO4,Robie and Hemingway 1995,measured structure,mp-aaabfoej-GGA,I4_1/a,2.0,3.7,3.7,10.0,False,22.5
+CaAl2Si2O8,oxide,Ca3Al2(SiO4)3+Al2SiO5+SiO2,Robie and Hemingway 1995,measured structure,mp-aaaaajrg-GGA,P-1,4.0,-22.8,0.7,13.0,False,22.5
+Fe3C,carbide,Fe+C,Meschel and Kleppa 1997,measured structure,mp-aaabdbjj-GGA,Pnma,7.0,56.1,56.1,4.0,True,34.0
+Co2C,carbide,Co+C,Meschel and Kleppa 1997,measured structure,mp-aaaabhgy-GGA,Pnnm,1.0,109.1,109.1,3.0,True,34.0
+Co3C,carbide,Co+C,Meschel and Kleppa 1997,measured structure,mp-aaaabeyv-GGA,Pnma,1.0,131.0,131.0,4.0,True,34.0
+Ni3C,carbide,Ni+C,Meschel and Kleppa 1997,measured structure,mp-aaaaalfu-GGA,R-3c,1.0,58.9,58.9,4.0,True,34.0
+W2C,carbide,W+WC,Mah 1963,measured structure,mp-aaaaadag-GGA,Pbcn,4.0,65.4,65.4,3.0,False,22.5
+MgC2,carbide,Mg+C,NBS Report 6928,measured structure,mp-aaaabsbb-GGA,P4_2/mnm,1.0,430.2,430.2,3.0,False,22.5
+Mg2C3,carbide,Mg+C,NBS Report 6928,measured structure,mp-aaaabqpl-GGA,Pnnm,1.0,172.4,172.4,5.0,False,22.5
+Cu3N,nitride,Cu+N2,Zachwieja and Jacobs 1990,measured structure,mp-aaaaacwj-GGA,Pm-3m,7.0,192.1,192.1,4.0,False,22.5
+Co3N,nitride,Co+N2,NBS 1982 tables,measured structure,mp-aaacqqac-GGA,P6_322,1.0,-16.9,22.8,4.0,True,34.0
+CuH,hydride,Cu+H2,Burtovyy 2000,measured structure,mp-aaaabjqr-GGA,P6_3mc,2.0,48.6,48.6,2.0,False,22.5
+CH3NH3PbI3,halide,CH3NH3I+PbI2,Nagabhushana 2016; Ivanov 2018,"measured structure not in the database (Cc, P1, Pm, Pnma)",,,,,,,,
+CH3NH3PbBr3,halide,CH3NH3Br+PbBr2,Nagabhushana 2016; Ivanov 2018,"measured structure not in the database (P1, Pm, Pnma)",,,,,,,,
+AuCl,halide,Au+AuCl3,NBS 1982 tables,measured structure,mp-aaaabwmu-GGA,I4_1/amd,4.0,-42.2,0.0,2.0,False,22.5
+AuBr,halide,Au+AuBr3,NBS 1982 tables,"lowest entry, measured structure not stated",mp-aaabctpe-GGA,P4_2/ncm,2.0,-31.7,0.0,2.0,False,22.5
+AgSbS2,chalcogenide,Ag3SbS3+Sb2S3,"Bryndzia and Kleppa 1988 (cubic beta form; the database holds only ordered miargyrite, so left out)","measured structure not in the database (C2/c, Cc, I4_1/amd, P4/mmm, R-3m)",,,,,,,,
+AgBiS2,chalcogenide,Ag2S+AgBi3S5,"Bryndzia and Kleppa 1988 (low-temperature beta-matildite, trigonal; central value above competitors, within error)",measured structure,mp-aaacotbt-GGA,P-3m1,5.0,16.8,16.8,4.0,False,22.5
+AgAsS2,chalcogenide,Ag3AsS3+As2S3,Bryndzia and Kleppa 1989,measured structure,mp-aaabewrp-GGA,C2/c,2.0,10.1,10.1,4.0,False,22.5
+Au2S,chalcogenide,Au+S,Osadchii and Rappo 2004,measured structure,mp-aaaaabkl-GGA,Pn-3m,1.0,-239.7,0.0,3.0,False,22.5
+Co3S4,chalcogenide,Co9S8+CoS2,low confidence,measured structure,mp-aaaaabkh-GGA,Fd-3m,1.0,-21.6,0.0,7.0,True,34.0
+Pd16S7,chalcogenide,Pd4S+PdS,low confidence,measured structure,mp-aaaaaapd-GGA,I-43m,1.0,-7.8,0.0,23.0,False,22.5
+Cu3Se2,chalcogenide,CuSe+Cu2Se,low confidence,measured structure,mp-aaaabepn-GGA,P-42_1m,1.0,-66.8,0.0,5.0,True,34.0
+BiSe,chalcogenide,Bi+Bi2Se3,low confidence,measured structure,mp-aaaabphe-GGA,P-3m1,7.0,6.5,6.5,2.0,False,22.5
+FeCr,intermetallic,Fe+Cr,Dench 1963 (sigma; composition range),measured structure not in the database (Cmmm),,,,,,,,
+CoCr,intermetallic,Co+Cr,Downie and Arslan 1983 (sigma; composition range),measured structure not in the database (Pm-3m),,,,,,,,
+Cu41Sn11,intermetallic,Cu+Cu3Sn,Flandorfer 2007,measured structure,mp-aaacrbeg-GGA,F-43m,1.0,17.4,27.4,52.0,True,34.0
+CuCr2O4,oxide,CuO+Cr2O3,Muller and Kleppa 1973,measured structure,mp-aaabcskr-GGA+U,Fd-3m,4.0,22.4,22.4,7.0,True,34.0
+AgTe,chalcogenide,Ag2Te+Te,Voronin 2017 (empressite),measured structure,mp-aaabgjjl-GGA,Pnma,1.0,-105.0,0.0,2.0,False,22.5
+Fe5Si3,intermetallic,Fe3Si+FeSi,TKV (eta-Fe5Si3),measured structure,mp-449-GGA,P6_3/mcm,2.0,34.0,34.0,8.0,True,34.0
+Na2C2,carbide,Na+C,TKV,measured structure,mp-1267-GGA,I4_1/acd,2.0,231.5,231.5,4.0,False,22.5
+Cd3N2,nitride,Cd+N2,TKV,measured structure,mp-569957-GGA,Ia-3,1.0,416.1,416.1,5.0,False,22.5
+MoC,carbide,Mo2C+C,TKV (cubic MoC),measured structure,mp-2746-GGA,Fm-3m,5.0,298.4,298.4,2.0,False,22.5

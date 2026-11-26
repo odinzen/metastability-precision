@@ -1,0 +1,16 @@
+{
+ "tag": "CaO",
+ "atoms": 2,
+ "supercell": [
+  3,
+  3,
+  3
+ ],
+ "n_displacements": 2,
+ "orientations": 12,
+ "e_static_eV_atom": -6.404271760211081,
+ "zpe_kJ_mol_atoms": 4.853359728364838,
+ "heat_content_kJ_mol_atoms": 3.71087524577643,
+ "min_frequency_THz": -1.6955082601572213e-07,
+ "imaginary_fraction": 0.0
+}

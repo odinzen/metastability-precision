@@ -1,0 +1,32 @@
+# Pre-registered predictions, written 2026-10-28 before any of these compounds is measured. Enthalpy of formation from the binary oxides, meV/atom, at 298 K. Model (scripts/preregistration_model.py): DFT minus measured = family offset + k x measured + noise growing with the size of the reaction, fitted on 197 measured compounds; intervals validated by leaving each family out (within 1 sd 0.73, within 2 sd 0.95).
+rank,compound,family,family_in_training,open_shell,binary_oxides,dft_meV_atom,predicted_measured_meV_atom,interval_68,interval_95
+1,LiZnBO3,borates,True,False,B2O3+Li2O+ZnO,-135.8,-132.6,-167.3 to -97.9,-200.6 to -64.6
+2,LiSi2BO6,borates,True,False,B2O3+Li2O+SiO2,-92.1,-84.4,-118.7 to -50.2,-151.6 to -17.3
+3,LiNbWO6,niobates,True,False,Li2O+Nb2O5+WO3,-73.6,-88.1,-124.4 to -51.8,-159.3 to -16.9
+4,Li2TiGeO5,titanates,True,False,GeO2+Li2O+TiO2,-169.1,-210.4,-245.9 to -174.8,-280.1 to -140.7
+5,NaSiBO4,borates,True,False,B2O3+Na2O+SiO2,-206.8,-210.7,-246.6 to -174.9,-281.0 to -140.4
+6,Li3Fe2(PO4)3,phosphates,True,True,Fe2O3+Li2O+P2O5,-336.1,-392.3,-432.4 to -352.1,-471.0 to -313.6
+7,Na2Al2B2O7,borates,True,False,Al2O3+B2O3+Na2O,-223.5,-229.1,-265.2 to -192.9,-300.0 to -158.1
+8,Na3V3Cr2O12,vanadates,True,True,Cr2O3+Na2O+V2O5,-262.5,-280.3,-318.3 to -242.2,-354.9 to -205.7
+9,KLi(PO3)2,phosphates,True,False,K2O+Li2O+P2O5,-499.0,-571.5,-617.7 to -525.3,-662.0 to -481.0
+10,MgTi2NiO6,titanates,True,True,MgO+NiO+TiO2,-30.2,-57.6,-91.3 to -23.8,-123.8 to 8.6
+11,KTiNbO5,titanates,True,False,K2O+Nb2O5+TiO2,-235.6,-283.6,-320.6 to -246.5,-356.2 to -211.0
+12,Li3Pr2(BO3)3,borates,True,False,B2O3+Li2O+Pr2O3,-203.8,-207.3,-243.1 to -171.5,-277.5 to -137.2
+13,Ta4PbO11,other oxides,True,False,PbO+Ta2O5,-44.9,-57.5,-90.9 to -24.1,-123.0 to 8.0
+14,Li3V2(PO4)3,phosphates,True,True,Li2O+P2O5+V2O3,-350.0,-407.5,-448.2 to -366.9,-487.1 to -328.0
+15,LiMgPO4,phosphates,True,False,Li2O+MgO+P2O5,-417.6,-481.9,-524.9 to -438.9,-566.1 to -397.6
+16,Li3PO4,phosphates,True,False,Li2O+P2O5,-526.8,-602.1,-649.4 to -554.8,-694.8 to -509.3
+17,Li3Sc2(PO4)3,phosphates,True,False,Li2O+P2O5+Sc2O3,-385.1,-446.1,-487.9 to -404.3,-528.1 to -364.2
+18,Li2TiSiO5,silicates,True,False,Li2O+SiO2+TiO2,-159.3,-184.3,-219.2 to -149.4,-252.6 to -115.9
+19,KMg3V3CuO12,vanadates,True,True,CuO+K2O+MgO+V2O5,-194.5,-205.4,-242.0 to -168.9,-277.2 to -133.7
+20,KBaPrWO6,tungstates,True,False,BaO+K2O+Pr2O3+WO3,-315.7,-369.5,-409.5 to -329.4,-447.9 to -291.0
+21,Na7Mg7Fe5(PO4)12,phosphates,True,True,Fe2O3+MgO+Na2O+P2O5,-391.8,-453.5,-495.5 to -411.5,-535.9 to -371.1
+22,Mg3NiO4,other oxides,True,True,MgO+NiO,-10.9,-20.1,-53.4 to 13.2,-85.3 to 45.1
+23,Ca3Ti3Cr2O12,titanates,True,True,CaO+Cr2O3+TiO2,-118.9,-155.2,-189.8 to -120.5,-223.1 to -87.2
+24,LiMnPO4,phosphates,True,True,Li2O+MnO+P2O5,-407.1,-470.3,-512.9 to -427.7,-553.8 to -386.8
+25,Mn3(PO4)2,phosphates,True,True,MnO+P2O5,-320.2,-374.8,-414.4 to -335.1,-452.5 to -297.1
+26,Mn2VPO7,phosphates,True,True,MnO+P2O5+V2O5,-236.1,-282.2,-319.5 to -245.0,-355.3 to -209.2
+27,NaMnFe(PO4)2,phosphates,True,True,Fe2O3+MnO+Na2O+P2O5,-366.0,-425.2,-466.3 to -384.0,-505.8 to -344.5
+28,Na3Fe3(PO4)4,phosphates,True,True,Fe2O3+Na2O+P2O5,-385.7,-446.8,-488.6 to -404.9,-528.8 to -364.8
+29,Y3In2(GaO4)3,other oxides,True,False,Ga2O3+In2O3+Y2O3,-35.8,-47.5,-80.9 to -14.1,-112.9 to 17.9
+30,Li3Y2(BO3)3,borates,True,False,B2O3+Li2O+Y2O3,-144.3,-141.9,-176.7 to -107.1,-210.2 to -73.7

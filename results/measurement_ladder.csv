@@ -1,0 +1,35 @@
+rung,test,strategy,fixed_mean,share_of_worlds_beating_random,decisions,right_K0,right_K10,right_K40,share_of_random_orders_beaten,ci,predicted,realised,scored
+1/10,synthetic errors from the model,method,4.8425,1.0,118,,,,,,,,
+1/10,synthetic errors from the model,random (mean),0.9940249999999996,,118,,,,,,,,
+3/10,real errors,method,5.1,,118,105.0,107.0,115.0,1.0,,,,
+3/10,real errors,random (mean),1.4740000000000002,,118,105.0,105.63,107.98,,,,,
+3/10,real errors,oracle,8.875,,118,105.0,115.0,115.0,,,,,
+5/10,"real errors, measured with the compiled uncertainty",method,3.443749999999999,,118,105.0,106.2,111.7,,,,,
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,3.3425000000000002,,118,105.0,106.25,111.9,,,,,
+5/10,"real errors, measured with the compiled uncertainty",most connected first,1.142499999999999,,118,105.0,104.9,108.55,,,,,
+5/10,"method minus closest calls first, bootstrap over systems",difference,0.6051249999999999,,118,,,,,-1.23 to 3.43,,,
+5/10,"method minus most connected first, bootstrap over systems",difference,2.942125,,118,,,,,-0.08 to 5.51,,,
+5/10,"method minus random, bootstrap over systems",difference,5.5365,,118,,,,,1.20 to 11.18,,,
+7/10,"predicted against realised right, K = 0",method,,,118,,,,,,104.16700639288221,105.0,
+7/10,"predicted against realised right, K = 5",method,,,118,,,,,,106.01806205770721,105.0,
+7/10,"predicted against realised right, K = 10",method,,,118,,,,,,107.37216493246508,107.0,
+7/10,"predicted against realised right, K = 20",method,,,118,,,,,,109.63874950567465,110.0,
+7/10,"predicted against realised right, K = 40",method,,,118,,,,,,113.37545984070141,115.0,
+7/10,method with wrong parameters: rho 0,method,5.45,,118,105.0,107.0,114.0,,,,,
+7/10,method with wrong parameters: sigma halved,method,5.125,,118,105.0,106.0,115.0,,,,,
+7/10,method with wrong parameters: sigma doubled,method,4.8,,118,105.0,108.0,114.0,,,,,
+9/10,"shifted errors, all decisions",method,5.675,,118,107.0,113.0,115.0,1.0,,,,118.0
+9/10,"shifted errors, all decisions",closest calls first,5.55,,118,107.0,111.0,116.0,,,,,118.0
+9/10,"shifted errors, all decisions",most connected first,0.8,,118,107.0,106.0,111.0,,,,,118.0
+9/10,"shifted errors, all decisions",oracle,7.825,,118,107.0,115.0,116.0,,,,,118.0
+9/10,"shifted errors, all decisions",random (mean),0.8151249999999994,,118,107.0,107.315,108.87,,,,,118.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,5.675,,118,23.0,29.0,31.0,1.0,,,,32.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,5.4,,118,23.0,27.0,31.0,,,,,32.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,0.8,,118,23.0,22.0,27.0,,,,,32.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,6.875,,118,23.0,30.0,31.0,,,,,32.0
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),0.7215,,118,23.0,23.25,24.6,,,,,32.0
+9/10,"shifted errors, open-shell decisions",method,2.825,,118,16.0,19.0,19.0,1.0,,,,21.0
+9/10,"shifted errors, open-shell decisions",closest calls first,2.4,,118,16.0,18.0,19.0,,,,,21.0
+9/10,"shifted errors, open-shell decisions",most connected first,0.4,,118,16.0,16.0,17.0,,,,,21.0
+9/10,"shifted errors, open-shell decisions",oracle,3.725,,118,16.0,20.0,20.0,,,,,21.0
+9/10,"shifted errors, open-shell decisions",random (mean),0.7420000000000002,,118,16.0,16.345,17.475,,,,,21.0

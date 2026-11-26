@@ -1,0 +1,16 @@
+{
+ "tag": "ZnFe2O4",
+ "atoms": 14,
+ "supercell": [
+  2,
+  2,
+  2
+ ],
+ "n_displacements": 11,
+ "orientations": 12,
+ "e_static_eV_atom": -6.048426506817749,
+ "zpe_kJ_mol_atoms": 6.052598415539459,
+ "heat_content_kJ_mol_atoms": 3.207532812850693,
+ "min_frequency_THz": -1.4730026969716378e-07,
+ "imaginary_fraction": 0.0
+}

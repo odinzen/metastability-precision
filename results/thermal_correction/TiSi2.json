@@ -1,0 +1,16 @@
+{
+ "tag": "TiSi2",
+ "atoms": 6,
+ "supercell": [
+  3,
+  3,
+  3
+ ],
+ "n_displacements": 5,
+ "orientations": 12,
+ "e_static_eV_atom": -6.770798914890334,
+ "zpe_kJ_mol_atoms": 4.939525907968949,
+ "heat_content_kJ_mol_atoms": 3.6128616140668024,
+ "min_frequency_THz": -7.01192856467003,
+ "imaginary_fraction": 0.00642519873289104
+}

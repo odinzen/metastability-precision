@@ -6,10 +6,10 @@
 2. Calibration against measured truth: for the decomposition reactions of the compiled benchmark
    (sigma_by_reaction_type.py) and the measured-metastable polymorph pairs (polymorph_decisions.py), the sign of the
    DFT reaction energy is the computed stability decision and the sign of the measured one the truth. With an unbiased Gaussian error of width sigma, the decision is right with probability
-   Phi(p), p = |margin| / sigma, sigma from sigma_model.py (22.5 closed-shell, 43 open-shell). Reported: agreement by
+   Phi(p), p = |margin| / sigma, sigma from sigma_model.py (22.5 closed-shell, 34 open-shell). Reported: agreement by
    bin and by chemistry, discrimination (AUC, Fisher test of p > 1 against p <= 1), the always-stable baseline, and the
    maximum-likelihood sigma with its profile interval. The compiled data played no part in setting 22.5; the
-   open-shell 43 is the lower end of the interval fitted on these decisions, so their agreement is not an
+   open-shell 34 is the lower end of the interval fitted on the audited open-shell decisions, so their agreement is not an
    independent test.
 3. Expected correct decisions, the sum of Phi(p), for the observed oxides and the two synthesis datasets.
 """
@@ -104,14 +104,16 @@ def calibration():
     # (polymorph_decisions.py); only pairs whose measured difference fixes the sign enter.
     poly = pd.read_csv(RES / "polymorph_decisions.csv")
     poly = poly[poly.sign_established].assign(source="polymorph")
-    d = pd.concat([d.assign(formula=d.compound), poly[[c for c in poly.columns if c in d.columns or c in ("source", "formula")]]],
+    d = pd.concat([d.assign(formula=d.compound), poly[[c for c in poly.columns if c in d.columns or c in ("source", "formula", "truth_sign")]]],
                   ignore_index=True)
     d["open_shell"] = d.formula.map(open_shell)
     d["sigma"] = d.formula.map(sigma_for)
     d["p"] = d.dft_meV_atom.abs() / d.sigma
     d["predicted"] = norm.cdf(d.p)
     d["p_single_sigma"] = d.dft_meV_atom.abs() / SIGMA_CLOSED
-    d["right"] = (np.sign(d.dft_meV_atom) == np.sign(d.measured_meV_atom)).astype(int)
+    # Ground-state verdicts carry the sign alone (truth_sign); every other decision takes the sign of its value.
+    d["truth_sign"] = np.sign(d.measured_meV_atom).fillna(d.get("truth_sign"))
+    d["right"] = (np.sign(d.dft_meV_atom) == d.truth_sign).astype(int)
     d.to_csv(RES / "precision_calibration_decisions.csv", index=False)
 
     rows = []

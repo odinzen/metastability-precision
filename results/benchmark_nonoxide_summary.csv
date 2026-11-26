@@ -1,0 +1,13 @@
+group,n,mean_signed,mean_abs,sd,max_abs,within_1sigma_raw,within_2sigma_raw,within_1sigma_trend,within_2sigma_trend
+"binaries, isovalent: Nitrides",6,6.2,39.2,48.7,68.8,0.33,0.67,0.5,0.67
+"binaries, isovalent: Sulfides",6,-3.0,11.5,12.6,13.3,1.0,1.0,0.83,1.0
+"binaries, redox: Nitrides",3,92.9,102.8,105.6,196.2,0.33,0.33,0.0,0.33
+"binaries, redox: Sulfides",4,86.8,86.8,75.2,182.2,0.25,0.5,0.5,0.5
+elements: Nitrides,11,48.4,106.4,133.6,328.5,0.18,0.27,0.09,0.27
+elements: Selenides,3,-123.4,123.4,32.1,156.6,0.0,0.0,0.0,0.0
+elements: Sulfides,8,-145.8,150.3,113.0,331.3,0.12,0.25,0.0,0.12
+"binaries, isovalent: all",12,1.6,25.4,34.2,68.8,0.67,0.83,0.67,0.83
+"binaries, redox: all",7,89.4,93.7,81.0,196.2,0.29,0.43,0.29,0.43
+elements: all,22,-45.6,124.7,148.9,331.3,0.14,0.23,0.05,0.18
+"binaries, isovalent and redox: all",19,34.0,50.5,69.3,196.2,0.53,0.68,0.53,0.68
+"chalcopyrite from the elements (spread, not in the rows above)",4,-34.4,,27.4,66.4,,,,

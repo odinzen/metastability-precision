@@ -1,0 +1,33 @@
+formula,t,c,sigma,u,source,status,range,evidence,ref,note,clear_cut
+Zr2Ag,6.3,-26.8,138.4,42.42640687119285,benchmark,equilibrium phase,to room temperature,full text,hsiao2016; antion2026,calorimetric value later called indicative,False
+HfAlNi2,24.3,-47.5,138.4,24.890158697766477,benchmark,equilibrium phase,to 1273 K (lowest studied),abstract,zhang2008,,False
+NdRh3,5.4,-12.4,138.4,23.47594513539338,benchmark,no diagram read,,,,,False
+Zr2Ni,25.5,-19.2,138.4,13.152186130069786,benchmark,equilibrium phase,to room temperature,diagram,witusiewicz2026,,False
+VPt3,5.2,-35.7,138.4,43.98204178980326,benchmark,equilibrium phase,to 973 K (lowest studied),diagram,waterstrat1973,,False
+ScAl,14.5,-27.8,138.4,21.920310216782976,benchmark,polymorph,measured B2 form metastable to an orthorhombic form at 50 at.% Sc,full text,li2015,,False
+YB2,81.8,-73.9,138.4,38.04234482783626,benchmark,no diagram read,,,,,True
+LaB4,27.8,-40.1,138.4,19.091883092036785,benchmark,equilibrium phase,to 273 K (lowest shown),diagram,tang2013,,False
+Ce5Si3,5.5,-64.1,138.4,8.76812408671319,benchmark,equilibrium phase,to 873 K (lowest shown),diagram,gschneidner1974; meschel1996,,False
+La3Si2,13.1,2.7,138.4,23.47594513539338,benchmark,equilibrium phase,to 273 K (lowest shown),diagram,bulanova2001; meschel1996,calorimetric sample two-phase,False
+Si3Os2,15.6,-160.4,138.4,30.829855659733475,benchmark,no diagram read,,,,,False
+ZrSi2,27.9,-1.9,138.4,24.890158697766477,benchmark,equilibrium phase,to 1000 K (lowest shown),diagram,chen2009,,False
+TiAg,1.2,-22.5,138.4,35.21391770309007,benchmark,equilibrium phase,to room temperature,abstract,morinaga1959,,False
+ErAg2,61.6,-101.9,138.4,33.65828278447967,benchmark,equilibrium phase,melts at 1293 K; no lower limit stated,full text,wang2010,,False
+TmAg2,34.9,-103.2,138.4,35.21391770309007,benchmark,no diagram read,,,,,False
+ZrAlNi2,61.6,-40.8,138.4,36.62813126546316,benchmark,equilibrium phase,at 1123 K (only temperature studied),full text,kondratev2012,,False
+HfInNi2,41.7,4.0,138.4,41.01219330881976,benchmark,no diagram read,,,,,False
+FeCo2Ge,23.2,-147.4,138.4,30.829855659733475,benchmark,no diagram read,,,,,False
+MnGaFe2,27.7,73.6,138.4,33.65828278447967,benchmark,no diagram read,,,,,False
+Fe3Pt,22.8,43.1,138.4,19.091883092036785,benchmark,equilibrium phase,to 473 K (lowest shown),diagram,tanaka2025; fredriksson2001,ordered L1_2,False
+Nd2Co17,14.7,-29.5,138.4,39.59797974644666,benchmark,equilibrium phase,to 1073 K (lowest studied),abstract,wu1992,,False
+TiInPd2,208.8,-87.3,138.4,36.62813126546316,benchmark,no diagram read,,,,,True
+HfSnRu2,286.8,-148.9,138.4,52.75016587651645,benchmark,no diagram read,,,,,True
+VGaNi2,84.9,-21.8,138.4,43.98204178980326,benchmark,no diagram read,,,,,False
+VFe2Sn,36.7,24.4,138.4,45.396255352176354,benchmark,equilibrium phase,at 873 K (only temperature studied),full text,romaka2015,,False
+TiInNi2,17.0,-9.6,138.4,16.122034611053284,benchmark,no diagram read,,,,,False
+MnB2,28.6,43.1,138.4,49.780317395532954,benchmark,high-temperature only,above about 1370 K,secondary,bauer2021,,False
+Zr5Si3,60.6,-56.7,138.4,70.28641404994283,benchmark,high-temperature only,above about 2000 K (disputed),abstract,kwon1990,,False
+Ce3Al,20.0,9.7,138.4,58.68986283848345,benchmark,equilibrium phase,to room temperature,diagram,gschneidner1974,hexagonal form below 523 K,False
+Co2B,39.4,23.7,138.4,33.65828278447967,benchmark,equilibrium phase,no lower limit stated,abstract,du2002,,False
+FeGe,125.4,-74.6,138.4,13.435028842544403,benchmark,high-temperature polymorph,above about 850 K,secondary,kukolova2021,,True
+Cu41Sn11,8.91,17.4,34.0,13.27,literature search,high-temperature only,above 621 K,abstract,shim1996,,False

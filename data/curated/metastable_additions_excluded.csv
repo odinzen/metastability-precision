@@ -1,0 +1,9 @@
+formula,reason
+AuCl,CRC table entry with no edition or per-entry source; provenance not traceable
+AuBr,CRC table entry with no edition or per-entry source; provenance not traceable
+"K3PrCl6, K3NdCl6","enthalpy measured only for the high-temperature form; the quenched room-temperature form was never measured (Gaune-Escard 1994, Seifert 2002)"
+"MgC2, Mg2C3 (primary)",NBS Report 7587 holds no measurement; the JANAF evaluation (NBS Report 6928) is kept
+Tl9GdTe6,"end member of the Tl5Te3-type solid solution and scored only against a borrowed Tl2Te value; out under the solid-solution rule (third chalcogenide search, 2026-11-03)"
+Fe5Si3,"TKV value rests on one EMF study (Vecher et al. 1965) while its competitors rest on calorimetry; TKV's own entropies put the stability onset at 3118 K, not the observed 1098 K, which caps the margin near 20 meV/atom against +57.5 read; held out because its size, and so its clear-cut status, is doubtful"
+MoC,"Mah 1963 calls the MoC value tentative and does not identify the phase burned; cubic MoC1-x is non-stoichiometric, and Barin places hexagonal gamma-MoC on the hull"
+Fe2C,"TKV value at 550 K with no uncertainty, from a CH4/H2 equilibrium (Browning et al. 1950) on an unidentified phase, probably Hagg carbide (chi-Fe5C2)"

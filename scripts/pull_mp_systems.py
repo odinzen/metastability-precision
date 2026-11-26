@@ -1,7 +1,7 @@
 """Pull every Materials Project entry in each automated-synthesis target's chemical system and record, per target,
 today's energy above the hull and the stable competing phases.
 
-The key is read from MP_API_KEY, else from the LLZO project's untracked key file. It is never printed or copied.
+The key is read from MP_API_KEY. It is never printed or copied.
 """
 import gzip
 import json

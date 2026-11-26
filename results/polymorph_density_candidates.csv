@@ -1,0 +1,312 @@
+formula,open_shell,n_observed_polymorphs,gga_lowest,gga_lowest_sg,gga_lowest_density,denser,denser_sg,denser_density,denser_pct,gap_meV,other_candidates,icsd_lowest,icsd_denser
+CaTiSiO5,False,2,mp-6109,P2_1/c,3.416,mp-6440,C2/c,3.522,3.1,0.1,,icsd-89785;icsd-89743;icsd-89749;icsd-89750;icsd-89746,icsd-158656;icsd-193065;icsd-89759;icsd-39870;icsd-159343
+Tb2(MoO4)3,False,2,mp-3114,Pba2,4.417,mp-1197851,P-42_1m,4.605,4.2,0.1,,icsd-200858;icsd-193882;icsd-200857,icsd-200859;icsd-200860;icsd-200861
+Ge4PbO9,False,2,mp-541156,P321,5.722,mp-559373,C2,5.963,4.2,0.1,,icsd-64910,icsd-201282
+K5In(MoO4)4,False,2,mp-1203773,Cc,3.5,mp-555710,C2/c,3.73,6.6,0.2,,icsd-201284,icsd-56868
+Mg2GeO4,False,2,mp-3051,Pnma,4.039,mp-3904,Fd-3m,4.383,8.5,0.3,,icsd-63533;icsd-41415,icsd-86505;icsd-1086;icsd-161258
+K2U(Si2O5)3,False,2,mp-1195515,C2/c,3.172,mp-1194845,P-1,3.277,3.3,0.3,,icsd-238555,icsd-238557
+V6O13,True,4,mp-1201338,P2_1/c,3.705,mp-18896,C2/m,3.927,6.0,0.5,,icsd-1536,icsd-16779;icsd-30578;icsd-50409;icsd-40489;icsd-15028
+TmNiO3,True,2,mp-1106304,P2_1/c,8.655,mp-19002,Pnma,8.984,3.8,0.5,,icsd-92049;icsd-189291;icsd-189289,icsd-189295;icsd-189296;icsd-189290
+Ba(BO2)2,False,2,mp-540659,R-3c,3.689,mp-5730,R3c,3.846,4.3,0.5,,icsd-14376,icsd-30885;icsd-280509;icsd-249135;icsd-249136;icsd-69319
+SrUO4,False,2,mp-3311,Pbcm,7.219,mp-36329,R-3m,7.861,8.9,0.6,,icsd-9470;icsd-239546;icsd-23196,icsd-31632
+Ba5P3O13,False,2,mp-1204451,P6_3,4.536,mp-727115,P6_3/m,4.682,3.2,0.8,,icsd-62283,icsd-152722
+LaPO4,False,2,mp-8133,P6_222,4.0,mp-3962,P2_1/c,5.067,26.7,0.9,,icsd-31564,icsd-201479;icsd-184555;icsd-21066;icsd-79747;icsd-92155
+CsFe(MoO4)2,True,2,mp-1104989,P-3m1,3.472,mp-1095445,P-3,3.599,3.7,1.2,,icsd-260887,icsd-191592;icsd-191591
+KAlSiO4,False,3,mp-680374,P6_3,2.541,mp-560173,P2_1,2.622,3.2,1.3,,icsd-95367,icsd-162489
+NaTb(SiO3)2,False,2,mp-1193942,P-1,3.944,mp-1198731,P2_1/c,4.204,6.6,1.4,,icsd-423606,icsd-423607
+Cd3(BO3)2,False,2,mp-1192091,P-1,5.574,mp-5560,Pnnm,5.783,3.8,1.7,,icsd-427222,icsd-66170;icsd-240724
+CoO2,True,5,mp-1062939,R-3m,4.545,mp-32686,P-3m1,5.164,13.6,1.7,,icsd-20566,icsd-88722;icsd-53994;icsd-26763
+CePO4,True,3,mp-8382,P6_222,4.115,mp-4136,P2_1/c,5.191,26.1,1.7,,icsd-31563,icsd-182583;icsd-43077;icsd-184556;icsd-182585;icsd-33598
+YO3,False,2,mp-1206099,P6_3/m,3.632,mp-1189335,Pnma,4.505,24.0,1.7,,icsd-24414,icsd-23011
+VBiPbO5,False,3,mp-560699,P1,6.812,mp-23642,P-1,7.199,5.7,1.8,"C2/m mp-23637 +17 meV, 4% denser",icsd-60577,icsd-56791;icsd-419121;icsd-419126
+Mg3(SiO3)4,False,2,mp-1200846,Cc,1.742,mp-1200396,C2/c,2.611,49.9,1.8,,icsd-27644,icsd-26741
+Ga(W3O10)4,False,2,mp-727445,I-43m,1.594,mp-736931,Cm,1.682,5.5,1.8,,icsd-153419,icsd-54962
+VSb2O5,True,2,mp-19243,C2/c,4.776,mp-622171,Pnma,4.952,3.7,1.8,,icsd-2292;icsd-27800,icsd-203130
+Na2MnP2O7,True,2,mp-1198166,P1,2.906,mp-559012,P-1,3.008,3.5,1.9,,icsd-187790,icsd-86669
+SrGeO3,False,4,mp-17464,C2/c,4.317,mp-554869,P-1,4.605,6.7,1.9,,icsd-59303,icsd-200166
+NaPO3,False,4,mp-555118,Pnma,2.576,mp-864891,P-1,2.729,5.9,2.0,"P2_1/c mp-558192 +5 meV, 4% denser",icsd-18139,icsd-174021
+CeBO3,True,2,mp-20178,P2_1/m,5.292,mp-20882,Pnma,5.484,3.6,2.1,,icsd-99690,icsd-99689
+YCu(WO4)2,False,2,mp-1178771,P1,6.611,mp-17192,P2/c,6.939,5.0,2.3,,icsd-36622,icsd-74945
+U(PO3)4,False,3,mp-1202567,C2/c,3.813,mp-1195378,P-1,4.024,5.5,2.3,,icsd-423883,icsd-429058
+VAgO3,False,2,mp-624691,C2/c,4.939,mp-559736,Cm,5.518,11.7,2.4,,icsd-50645,icsd-82079
+Cu3(AsO4)2,True,2,mp-21209,P-1,5.08,mp-554614,P2_1/c,5.246,3.3,2.4,,icsd-63057,icsd-201733
+Li3In2(PO4)3,False,2,mp-6425,R-3,3.661,mp-14488,P2_1/c,3.834,4.7,2.5,,icsd-62333;icsd-62878,icsd-60948
+In2(WO4)3,False,2,mp-553953,Pbcn,4.8,mp-694318,P2_1/c,4.992,4.0,2.6,,icsd-99606,icsd-99607
+Ca2MgSi2O7,False,2,mp-6094,P-42_1m,2.865,mp-559083,P2_1/c,2.96,3.3,2.7,,icsd-50067;icsd-50070;icsd-160352;icsd-85088;icsd-94144,icsd-163287
+Cr2FeO4,True,4,mp-1104680,I4_1/amd,4.773,mp-20168,Fd-3m,5.04,5.6,2.8,,icsd-183968,icsd-183964;icsd-183967;icsd-43269;icsd-250575;icsd-183962
+GdO2,True,2,mp-1181235,P2_1/m,6.839,mp-21149,P4/nmm,8.542,24.9,2.9,,icsd-155351,icsd-6318
+V2Cd(PO5)2,True,2,mp-19510,P2_1/c,4.096,mp-557159,Fdd2,4.23,3.3,3.0,,icsd-72458,icsd-72467
+Fe2(MoO4)3,True,3,mp-21925,Pbcn,3.298,mp-704851,P2_1,3.439,4.3,3.2,,icsd-80449,icsd-16402
+Ti6O11,False,2,mp-559964,C2/m,3.975,mp-30524,P-1,4.28,7.7,3.3,,icsd-90958,icsd-35364;icsd-9039;icsd-35121
+LaCoO3,True,5,mp-1288145,R-3,6.915,mp-19051,R-3c,7.347,6.3,3.3,"C2/c mp-1180725 +39 meV, 4% denser",icsd-201765,icsd-201762;icsd-201766;icsd-190095;icsd-201763;icsd-236314
+Na3VP2O9,False,2,mp-1193226,C2/m,2.628,mp-863292,P2_1/m,2.86,8.8,3.4,,icsd-249754,icsd-50760
+CrHgO4,False,2,mp-19380,Cmcm,5.823,mp-19155,P2_1/c,6.163,5.8,3.5,,icsd-416147,icsd-416148;icsd-2224
+FeAsO4,True,2,mp-19398,Imma,4.036,mp-21016,P2_1/c,4.301,6.6,3.5,,icsd-170945;icsd-170673,icsd-62717;icsd-73978
+NaV2O4,True,3,mp-783905,Pmmn,3.828,mp-642750,Pnma,4.48,17.0,3.6,,icsd-194368;icsd-194367,icsd-159905
+Ca2P2O7,False,2,mp-17922,P2_1/c,2.95,mp-3531,P4_1,3.152,6.8,3.7,,icsd-22225,icsd-14313;icsd-73712
+GaPO4,False,2,mp-553932,C222_1,3.26,mp-4122,P3_121,3.563,9.3,4.1,,icsd-155446;icsd-16652;icsd-97550;icsd-155445,icsd-78799;icsd-30882;icsd-62350;icsd-155439;icsd-168183
+Na4FeO3,True,2,mp-1195898,P2_1/c,2.646,mp-19026,Cc,2.795,5.6,4.1,,icsd-174310,icsd-1410;icsd-23635
+K3Mn2O8,True,2,mp-1194415,P2_1/m,2.725,mp-510713,R-3m,2.96,8.6,4.2,,icsd-55420;icsd-67580,icsd-165117
+MnMoO4,True,2,mp-19081,C2/m,4.224,mp-19455,P2/c,5.297,25.4,4.4,,icsd-78328;icsd-15615,icsd-61078
+BiAsO4,False,2,mp-27911,P2_1/c,7.184,mp-561068,I4_1/a,7.622,6.1,4.8,,icsd-27199,icsd-30636
+CaCr2O4,True,2,mp-540582,Pmmn,4.187,mp-540593,Pnma,4.797,14.6,5.0,,icsd-6131,icsd-8288
+Cs6Fe2O5,True,2,mp-505147,C2/m,4.658,mp-1105876,Cm,4.874,4.6,5.0,,icsd-73134,icsd-174313
+AlAsO4,False,2,mp-7849,I-4,2.838,mp-5189,P3_121,3.35,18.0,5.2,,icsd-24512,icsd-33254;icsd-33834;icsd-67228;icsd-33836;icsd-67230
+P2O5,False,3,mp-2452,Fdd2,2.716,mp-2173,Pnma,2.911,7.1,5.2,,icsd-77377;icsd-82688,icsd-654026;icsd-79698;icsd-29045;icsd-16611
+MgV2O6,False,2,mp-553490,C2/m,3.685,mp-1196870,Pbcn,4.058,10.1,5.6,,icsd-10391,icsd-290616
+PbO2,False,5,mp-20725,P4_2/mnm,9.34,mp-20633,Pbcn,9.623,3.0,5.8,,icsd-56002;icsd-23292;icsd-34234;icsd-647262;icsd-43460,icsd-415268;icsd-415270;icsd-647264;icsd-20754;icsd-20362
+Cu4P2O9,True,2,mp-21730,Pnma,4.308,mp-5169,P-1,4.538,5.3,6.0,,icsd-50459,icsd-1667;icsd-1666
+Y2Cu2O5,True,2,mp-510475,Pnma,5.044,mp-2882,Pna2_1,5.248,4.0,6.1,,icsd-171704;icsd-51445;icsd-171703,icsd-72058;icsd-63306;icsd-79429;icsd-202877;icsd-67119
+V2Cu3O8,True,2,mp-504747,P-1,4.129,mp-554748,P2_1/c,4.384,6.2,6.1,,icsd-27184,icsd-27310
+Ni3(AsO4)2,True,2,mp-19519,P2_1/c,5.39,mp-504969,Cmce,5.555,3.1,6.1,,icsd-63709,icsd-63708
+Si2Ag6O7,False,3,mp-560584,C2/m,6.044,mp-561313,P2/c,6.353,5.1,6.3,,icsd-33907,icsd-1299
+ZnP4O11,False,2,mp-15438,P2_1/c,2.947,mp-774868,P-1,3.095,5.0,6.4,,icsd-300229,icsd-408826
+KEr(PO3)4,False,3,mp-554615,C222_1,3.212,mp-541636,P2_1/c,3.568,11.1,6.4,"P2_1 mp-18572 +9 meV, 11% denser",icsd-65815,icsd-200796
+CsNd(PO3)4,False,2,mp-17605,P2_1,3.326,mp-561886,P2_1/c,3.713,11.6,6.5,,icsd-2424,icsd-66872
+RbIn(MoO4)2,False,2,mp-504506,P-3m1,3.844,mp-540602,Pnma,4.064,5.7,6.6,,icsd-10186,icsd-9363
+KZnPO4,False,2,mp-653973,P6_3,3.11,mp-18591,Pna2_1,3.293,5.9,6.8,,icsd-72401,icsd-88955
+LiIn(MoO4)2,False,2,mp-554101,P2_1/c,3.898,mp-20105,C2/c,5.091,30.6,6.8,,icsd-200926,icsd-91269
+Sr2MnMoO6,True,3,mp-555929,P2_1/c,5.239,mp-1095141,I4/m,5.762,10.0,6.8,,icsd-187667;icsd-187668;icsd-97744,icsd-187669
+Mn2O3,True,4,mp-1172875,Pbca,4.718,mp-510604,Ia-3,5.019,6.4,6.8,,icsd-290640;icsd-290638;icsd-290641;icsd-290639,icsd-9091;icsd-180891;icsd-43464;icsd-159865;icsd-9090
+YP5O14,False,2,mp-556335,C2/c,3.043,mp-13563,Pnma,3.153,3.6,6.9,,icsd-419078,icsd-260203
+NiO2,True,2,mp-35925,R-3m,3.171,mp-510753,P-3m1,4.807,51.6,6.9,,icsd-76650,icsd-161897;icsd-161895;icsd-109390;icsd-53993;icsd-161894
+CsPr(PO3)4,False,2,mp-17770,P2_1,3.402,mp-572543,P2_1/c,3.819,12.3,7.0,,icsd-10127,icsd-240874
+Hg2MoO4,False,2,mp-29893,P2_1/c,7.364,mp-558802,C2/c,8.081,9.7,7.3,,icsd-90083,icsd-90084
+WO3,False,8,mp-2928451,P-1,6.763,mp-1172828,Pbcn,7.124,5.3,7.3,"Pm-3m mp-19390 +7 meV, 3% denser",icsd-80054;icsd-80055;icsd-80053;icsd-1620,icsd-50730;icsd-50731;icsd-50729;icsd-50728
+EuTl(MoO4)2,True,2,mp-602551,Pbcn,5.273,mp-510531,P4/nnc,5.744,8.9,7.5,,icsd-152171,icsd-152174
+LiBO2,False,2,mp-3635,P2_1/c,2.248,mp-14232,I-42d,2.902,29.1,7.6,,icsd-16568;icsd-200891;icsd-37060,icsd-34256
+Zn3(PO6)2,False,2,mp-1199183,Pnma,2.976,mp-1188933,P-1,3.139,5.5,7.9,,icsd-18145;icsd-47194;icsd-4429;icsd-34869,icsd-16979;icsd-4430
+Pr2Si2O7,False,2,mp-5913,P2_1/c,4.84,mp-3160,P4_1,5.323,10.0,8.1,,icsd-24890;icsd-14252,icsd-23613;icsd-34585;icsd-14251
+Cu4As2O9,True,2,mp-21770,Pnma,4.764,mp-559159,P-1,5.028,5.5,8.5,,icsd-81295;icsd-239833;icsd-66929,icsd-404850
+La2Si2O7,False,3,mp-5732,P2_1/c,4.698,mp-5974,P4_1,5.106,8.7,8.6,"P-1 mp-18639 +10 meV, 5% denser",icsd-71807;icsd-74775,icsd-20775;icsd-237265;icsd-92499
+NaCuPO4,True,2,mp-581303,P2_12_12_1,3.457,mp-554777,P2_1/c,3.762,8.8,8.7,,icsd-35451,icsd-73398
+HoP5O14,False,2,mp-12237,C2/c,3.569,mp-14155,Pnma,3.697,3.6,8.7,,icsd-9258,icsd-23520
+V2O3,True,3,mp-21579,Ia-3,4.538,mp-18937,R-3c,4.95,9.1,8.7,,icsd-260212,icsd-201109;icsd-201107;icsd-64786;icsd-647636;icsd-647614
+NaY(SiO3)2,False,2,mp-560039,P2_1/c,3.193,mp-554778,C2/c,3.433,7.5,8.8,,icsd-171255,icsd-245656
+BaMnP2O7,True,2,mp-18703,P2_1/c,3.767,mp-19194,P-1,4.178,10.9,8.8,,icsd-78657,icsd-78658;icsd-192058
+MnSiO3,True,2,mp-5945,P-1,3.602,mp-17766,P2_1/c,3.768,4.6,9.1,,icsd-34343;icsd-90882;icsd-34159,icsd-77579
+CeP5O14,True,3,mp-504897,P1,3.052,mp-647391,Pmna,3.275,7.3,9.2,,icsd-49510,icsd-260053
+ErP5O14,False,2,mp-4871,C2/c,3.629,mp-3457,Pnma,3.739,3.0,9.4,,icsd-86449;icsd-23304,icsd-79822;icsd-151957
+NiMoO4,True,2,mp-505273,C2/m,4.995,mp-19019,P2/c,5.787,15.8,9.5,,icsd-81059;icsd-174488;icsd-239295,icsd-81060
+KYP2O7,False,2,mp-554508,P2_1/c,2.958,mp-561141,Cmcm,3.14,6.2,9.6,,icsd-160190,icsd-75171
+Lu(PO3)3,False,2,mp-1198201,I-43d,3.356,mp-557040,Cc,3.584,6.8,9.8,,icsd-248149,icsd-416842
+Sc(PO3)3,False,2,mp-5207,I-43d,2.42,mp-556281,Cc,2.744,13.4,9.8,,icsd-1719;icsd-200309,icsd-420120;icsd-20430
+VPO5,False,6,mp-25265,Pnma,3.256,mp-763482,P4/n,3.436,5.5,9.9,,icsd-9413;icsd-86824;icsd-291605,icsd-425536
+LaAsO4,False,2,mp-4917,P2_1/c,5.533,mp-1095309,I4_1/a,5.773,4.4,10.0,,icsd-415338;icsd-155917,icsd-430619
+FeBiO3,True,7,mp-23501,R3c,8.287,mp-645159,Pnma,8.636,4.2,10.0,,icsd-417306;icsd-237368;icsd-194663;icsd-180502;icsd-417312,icsd-168321;icsd-162895
+BaWO4,False,3,mp-19048,I4_1/a,6.254,mp-542837,P2_1/c,6.831,9.2,10.0,,icsd-155512;icsd-169094;icsd-56108;icsd-155511;icsd-187723,icsd-2144;icsd-187463;icsd-155517;icsd-290001;icsd-290000
+MoPO5,False,2,mp-1104182,Cc,3.723,mp-504818,P4/n,4.234,13.7,10.1,,icsd-169098,icsd-36095;icsd-24894
+BaNb2O6,False,3,mp-28150,P2_1/c,5.294,mp-555050,C222_1,5.49,3.7,10.3,,icsd-39272,icsd-39320
+SiO2,False,52,mp-546794,I-42d,2.224,mp-12787,C2/c,2.639,18.7,10.4,"P2_1/c mp-669426 +5 meV, 6% denser; P3_221 mp-6930 +10 meV, 18% denser; P3_121 mp-7000 +11 meV, 18% denser; P6_222 mp-6922 +13 meV, 10% denser; P6_422 mp-10851 +13 meV, 10% denser; P4_32_12 mp-559872 +13 meV, 9% denser",icsd-162246;icsd-162618;icsd-162619;icsd-162660;icsd-75648,icsd-151108;icsd-67669
+RbPO4,False,3,mp-726130,I-42d,2.451,mp-728253,P2_1,2.569,4.8,10.6,,icsd-20312;icsd-200312;icsd-200516,icsd-38421
+Ca(BO2)3,False,2,mp-729083,Pna2_1,2.601,mp-1199947,P2_1/c,2.688,3.4,10.6,,icsd-23880;icsd-22192,icsd-14254
+LiMoAsO6,False,2,mp-555962,P2_1,3.817,mp-560015,Pna2_1,4.172,9.3,10.8,,icsd-59822,icsd-15035
+KAsO3,False,4,mp-1195114,P2_1/c,3.085,mp-1194970,Pbcn,3.35,8.6,10.8,,icsd-194472;icsd-194473;icsd-194471,icsd-194476
+Fe2PO5,True,3,mp-553913,C2/c,3.986,mp-18307,Pnma,4.165,4.5,11.0,,icsd-82425,icsd-32641
+ScTl(MoO4)2,False,2,mp-19450,P-3m1,4.423,mp-605486,Pnma,4.796,8.4,11.0,,icsd-250340,icsd-250336
+La(BO2)3,False,2,mp-4658,C2/c,4.212,mp-561154,P2_1/c,4.883,15.9,11.5,,icsd-20355;icsd-23609,icsd-415962
+Sn2Bi2O7,False,2,mp-1198288,P3_1,8.047,mp-23372,Fd-3m,8.506,5.7,11.6,,icsd-262198,icsd-86845;icsd-50311;icsd-84793
+Na2BeSiO4,False,2,mp-17183,P2_1/c,2.856,mp-6236,Pca2_1,2.964,3.8,11.6,,icsd-34564;icsd-34072,icsd-69010;icsd-202719;icsd-69009
+MnPbO3,True,2,mp-1188613,P2/c,6.492,mp-510672,C2/c,8.221,26.6,11.8,,icsd-36240,icsd-246351
+NaZn(PO3)3,False,3,mp-560174,I-43d,2.698,mp-1198287,Pa-3,2.859,5.9,12.1,,icsd-35651,icsd-90484
+BaV2(P2O7)2,True,2,mp-557348,P-1,3.259,mp-17519,C2/c,3.493,7.2,12.4,,icsd-78170,icsd-66538
+AlPO4,False,27,mp-7848,I-4,2.178,mp-1019513,P2/c,2.641,21.3,12.4,"P3_121 mp-5331 +9 meV, 20% denser; P3_221 mp-3955 +9 meV, 20% denser; P6_422 mp-560151 +13 meV, 9% denser",icsd-24511,icsd-262932
+LaMnO3,True,6,mp-17554,Pnma,6.297,mp-19157,C2/c,6.765,7.4,12.6,"P4/mbm mp-1205375 +42 meV, 3% denser",icsd-90424;icsd-168694;icsd-185279;icsd-82227;icsd-50334,icsd-150258
+LiAl(SiO3)2,False,3,mp-558808,P1,2.004,mp-542874,P2_1/c,3.112,55.3,13.1,,icsd-98845,icsd-159554;icsd-158511;icsd-158512;icsd-159555
+GePbO3,False,3,mp-554699,R-3,6.356,mp-553898,P2/c,6.781,6.7,13.1,,icsd-172521,icsd-200595
+Zn(PO3)2,False,2,mp-558930,Cc,3.121,mp-8230,C2/c,3.646,16.8,13.2,,icsd-59846,icsd-36040
+BiPO4,False,3,mp-558798,P2_1/m,6.048,mp-1190564,P2_1/c,6.868,13.6,13.3,,icsd-426253;icsd-54164;icsd-426251;icsd-426249;icsd-426246,icsd-426231;icsd-189667;icsd-189668;icsd-426242;icsd-426238
+Ta2CrO6,True,2,mp-31629,P2_1/c,7.752,mp-21512,P4_2/mnm,8.402,8.4,13.4,,icsd-51175,icsd-15306;icsd-9390
+NaV2O5,True,2,mp-505821,Pmn2_1,3.185,mp-19111,Pmmn,3.516,10.4,13.8,,icsd-1898;icsd-28424;icsd-56669,icsd-88862;icsd-88864;icsd-95438;icsd-89412;icsd-59345
+CaSnO3,False,3,mp-4190,R-3,5.105,mp-4438,Pnma,5.52,8.1,14.0,,icsd-2373;icsd-29204,icsd-151598;icsd-151596;icsd-151591;icsd-151592;icsd-59160
+Gd(PO3)3,True,2,mp-579125,C2/c,3.237,mp-559288,C222_1,3.896,20.3,14.0,,icsd-416843,icsd-155301
+CaGeO3,False,3,mp-17761,P-1,3.669,mp-554549,I4_1/a,4.405,20.0,14.4,,icsd-403086,icsd-171080;icsd-171081
+TmFeO3,True,2,mp-558400,P6_3cm,7.48,mp-20651,Pnma,7.981,6.7,14.6,,icsd-55404,icsd-27283;icsd-25658;icsd-189734;icsd-98319
+Sm2Si2O7,False,3,mp-17235,P-1,5.232,mp-21794,P4_1,5.754,10.0,14.7,"P2_1/c mp-18391 +22 meV, 9% denser",icsd-84241,icsd-16167
+CrAsO4,True,2,mp-1204934,Imma,4.132,mp-19077,Pnma,4.711,14.0,14.8,,icsd-165283,icsd-62132
+Ba3SrTa2O9,False,3,mp-540950,P6_3/m,6.743,mp-7980,P-3m1,7.159,6.2,14.9,,icsd-37162,icsd-27496
+BaMnO3,True,3,mp-1205336,P6_3mc,5.765,mp-18840,R-3m,6.089,5.6,14.9,,icsd-89995;icsd-89996,icsd-66822
+BaGe2O5,False,2,mp-558184,P2_1/c,5.599,mp-28288,Cmce,5.858,4.6,15.3,,icsd-60060,icsd-60061
+Ba3CaRu2O9,False,3,mp-6443,P6_3/mmc,5.749,mp-12832,P-3m1,6.03,4.9,15.5,,icsd-9608;icsd-71209,icsd-152482
+Bi(BO2)3,False,3,mp-556548,P2_1/c,5.432,mp-554718,Pca2_1,6.363,17.1,15.6,,icsd-152400,icsd-416822
+LiAlO2,False,2,mp-3427,P4_12_12,2.643,mp-8001,R-3m,3.443,30.3,15.7,,icsd-23815;icsd-430359;icsd-430357;icsd-430358;icsd-430184,icsd-28288
+ThTi2O6,False,2,mp-5274,C2/m,6.051,mp-4733,C2/c,6.416,6.0,15.9,,icsd-14341;icsd-89068,icsd-27017;icsd-201890
+TiAs2O7,False,2,mp-17196,P2_1/c,3.766,mp-557146,C2/c,4.06,7.8,16.0,,icsd-73476,icsd-73477
+VBiO4,False,4,mp-545850,I4_1/amd,6.269,mp-23044,I4_1/a,7.074,12.9,16.1,"C2/c mp-23506 +16 meV, 9% denser; Pbcn mp-540864 +21 meV, 4% denser",icsd-100733,icsd-62707;icsd-62706;icsd-100601
+NaNbO3,False,11,mp-1078295,R-3,4.205,mp-1188528,Pna2_1,4.529,7.7,16.2,"Pmc2_1 mp-4681 +13 meV, 7% denser; Pbcm mp-3671 +14 meV, 7% denser; Pca2_1 mp-558920 +14 meV, 7% denser; Pmn2_1 mp-1190015 +17 meV, 8% denser; Cmcm mp-4748 +24 meV, 5% denser; P4/mbm mp-4419 +28 meV, 4% denser",icsd-5308;icsd-193715,icsd-247316
+P3IrO9,False,2,mp-560585,P-1,3.979,mp-554749,Cc,4.575,15.0,16.3,,icsd-195295;icsd-419717,icsd-419716;icsd-195294
+La2WO6,False,2,mp-1202686,Pmn2_1,6.624,mp-554597,P2_12_12_1,7.21,8.8,16.4,,icsd-183485,icsd-246256
+TlB3O5,False,2,mp-29155,P2_12_12_1,4.792,mp-1194874,C2/c,5.379,12.3,16.4,,icsd-84855,icsd-427689
+La3RuO7,False,2,mp-3222,Cmcm,6.6,mp-554824,P2_1/c,6.84,3.6,16.6,,icsd-416718;icsd-91746,icsd-59593
+Nb2O5,False,5,mp-581967,P2,4.3,mp-604,C2/c,5.097,18.5,16.6,,icsd-16605,icsd-16802;icsd-71317;icsd-188460;icsd-188461
+MnGeO3,True,3,mp-1106201,C2/c,4.936,mp-20798,R-3,5.593,13.3,16.8,,icsd-290044,icsd-73244;icsd-73245;icsd-73243;icsd-69591;icsd-174042
+CrPO4,True,2,mp-19401,Imma,3.446,mp-18906,Cmcm,3.954,14.7,17.0,,icsd-63153;icsd-165282;icsd-63152;icsd-60836,icsd-248485;icsd-62159
+Cr(PO3)3,True,3,mp-554600,P2_1/c,2.524,mp-9403,Cc,2.928,16.0,17.4,"C2/c mp-555540 +23 meV, 14% denser",icsd-1105;icsd-290792,icsd-290791;icsd-82729
+CsB5O8,False,3,mp-581194,Pbca,2.962,mp-1019710,Pnma,3.136,5.9,17.4,,icsd-155978,icsd-427954
+PbO,False,3,mp-19921,P4/nmm,8.81,mp-20878,Pbcm,9.142,3.8,17.9,,icsd-15466;icsd-62846;icsd-647266;icsd-99776;icsd-62841,icsd-60135;icsd-15402;icsd-653900;icsd-15403;icsd-647265
+KSbO3,False,3,mp-547792,R-3,4.514,mp-14607,Pn-3,4.704,4.2,18.4,,icsd-33546;icsd-5311,icsd-41203
+Zn3(PO4)2,False,2,mp-557920,C2/c,3.839,mp-31005,P2_1/c,4.025,4.8,18.6,,icsd-27554,icsd-34303
+Na2B4O7,False,2,mp-17941,P-1,2.303,mp-1020142,P3_221,2.68,16.3,18.7,,icsd-2040,icsd-423429
+ZnMoO4,False,2,mp-16882,P-1,4.346,mp-1095420,P2/c,5.723,31.7,18.8,,icsd-17030;icsd-411378,icsd-236416;icsd-195515;icsd-236417
+Al2SiO5,False,3,mp-4753,Pnnm,3.157,mp-5065,P-1,3.677,16.5,19.3,,icsd-100397;icsd-30679;icsd-169412;icsd-92634;icsd-30680,icsd-77539;icsd-100456;icsd-83454;icsd-16976;icsd-83452
+BaTi2O5,False,3,mp-558159,Pnma,4.689,mp-555966,C2,5.057,7.8,19.6,"C2/m mp-3943 +23 meV, 5% denser",icsd-162369,icsd-281548
+Lu2Si2O7,False,3,mp-7193,C2/m,6.355,mp-18385,P4_12_12,6.89,8.4,19.7,"P4_32_12 mp-1202190 +20 meV, 4% denser",icsd-412249,icsd-171470
+FePO4,True,6,mp-19109,P3_121,3.019,mp-25303,Cmcm,3.715,23.0,19.8,,icsd-412740;icsd-168184;icsd-98063;icsd-412739;icsd-40863,icsd-155065
+Ba3CaIr2O9,False,2,mp-17448,C2/c,7.327,mp-13369,P-3m1,7.684,4.9,19.8,,icsd-245253,icsd-246280
+Cd3(PO4)2,False,2,mp-680761,P2_1/c,5.104,mp-27600,Cmce,5.28,3.4,20.0,,icsd-63548,icsd-20202
+TaAlO4,False,2,mp-14333,C2/m,6.399,mp-8898,Pbcn,7.515,17.4,20.0,,icsd-33885,icsd-67676
+MgGeO3,False,4,mp-4819,C2/c,4.426,mp-3759,R-3,4.765,7.6,20.1,,icsd-196439;icsd-201660;icsd-201662;icsd-201663;icsd-201661,icsd-40333;icsd-171786;icsd-171788;icsd-171787;icsd-171789
+SmAsO4,False,2,mp-12929,I4_1/amd,5.767,mp-13530,I4_1/a,6.551,13.6,20.3,,icsd-415339,icsd-416479
+Fe2P2O7,True,3,mp-1102399,P1,3.686,mp-510367,P2_1/c,3.952,7.2,20.4,,icsd-17062,icsd-240243
+UPO5,False,2,mp-505225,P-1,5.558,mp-1194480,Cmce,5.968,7.4,20.5,,icsd-75358;icsd-75359;icsd-79655,icsd-417158
+Al(PO3)3,False,4,mp-1019377,P2_1/c,2.421,mp-540549,Cc,2.825,16.7,20.8,"P-3c1 mp-559996 +15 meV, 9% denser",icsd-260723,icsd-170
+In2Ge2O7,False,2,mp-5280,C2/m,5.644,mp-1190319,Fd-3m,6.999,24.0,20.8,,icsd-409548;icsd-239592;icsd-20053;icsd-74896,icsd-239593
+P3RuO9,False,3,mp-558870,P-1,3.117,mp-558399,C2/c,3.312,6.3,20.8,,icsd-80363,icsd-83631
+KB3O5,False,2,mp-559636,P2_1/c,2.225,mp-1196090,C2/c,2.63,18.2,20.8,,icsd-250224,icsd-423027
+Na2Si2O5,False,5,mp-16970,Pbcn,2.519,mp-554856,Pca2_1,2.653,5.3,20.8,"Pna2_1 mp-554383 +3 meV, 4% denser",icsd-34669,icsd-80378
+CdGeO3,False,4,mp-2951,C2/c,5.91,mp-8275,R-3,6.513,10.2,20.9,,icsd-9375;icsd-20225;icsd-77134,icsd-30971
+Ba3SrNb2O9,False,3,mp-540949,P6_3/m,5.348,mp-1103862,P-3m1,5.644,5.5,20.9,,icsd-37161,icsd-186191
+Ca(BO3)2,False,2,mp-1105926,C2/c,2.356,mp-1200311,P2_1/c,2.466,4.7,21.3,,icsd-28204,icsd-20127
+NaO2,False,3,mp-1901,Pnnm,2.326,mp-1180346,Pbca,2.479,6.5,22.0,,icsd-87179;icsd-26583;icsd-87181;icsd-87180;icsd-180562,icsd-16705
+LuFeO3,True,2,mp-1193395,P6_3cm,7.791,mp-22588,Pnma,8.258,6.0,22.2,,icsd-183152;icsd-185935,icsd-27285;icsd-189736;icsd-237341
+DyMnO3,True,2,mp-542479,P6_3cm,7.097,mp-22103,Pnma,7.517,5.9,22.3,,icsd-191974;icsd-99785;icsd-261886,icsd-91711;icsd-162205;icsd-157396
+HoCrO4,True,2,mp-19076,I4_1/amd,6.001,mp-19055,I4_1/a,6.728,12.1,22.6,,icsd-169872;icsd-173263;icsd-26985,icsd-169873;icsd-173264
+NbPO5,False,5,mp-5803,Pnma,3.254,mp-4888,P4/nmm,3.788,16.4,22.6,"P4/n mp-1104131 +24 meV, 16% denser",icsd-93769;icsd-93768;icsd-71549,icsd-51150;icsd-51147;icsd-51148;icsd-36625;icsd-51149
+V2MoO8,False,2,mp-546989,Cmm2,3.47,mp-27877,C2/m,3.755,8.2,22.6,,icsd-25378,icsd-28471
+ErCrO4,True,2,mp-19240,I4_1/amd,6.125,mp-1101893,I4_1/a,6.625,8.2,22.8,,icsd-26986;icsd-95166;icsd-96406,icsd-247773
+Zn2P2O7,False,3,mp-559319,Pbcm,3.741,mp-542331,C2/c,4.2,12.3,22.9,"C2/m mp-551741 +34 meV, 10% denser",icsd-51095,icsd-56297;icsd-18315
+CuSiO3,True,2,mp-556982,R-3,2.891,mp-16053,Pmma,3.68,27.3,23.0,,icsd-65955;icsd-247127,icsd-89669
+NaNb3O8,False,2,mp-623854,Pmmn,4.116,mp-14531,Ibam,5.097,23.8,23.0,,icsd-202400,icsd-63203
+YMnO3,True,3,mp-19385,P6_3cm,5.121,mp-20699,Pnma,5.409,5.6,23.1,,icsd-98061;icsd-280590;icsd-181183;icsd-163216;icsd-250880,icsd-166217;icsd-236365;icsd-188567;icsd-190398;icsd-56617
+TbCrO4,True,2,mp-19272,I4_1/amd,5.733,mp-1101796,I4_1/a,6.217,8.4,23.2,,icsd-22312;icsd-51904;icsd-26983;icsd-169874;icsd-166175,icsd-166176;icsd-169875;icsd-169015;icsd-169016
+ThGeO4,False,2,mp-4790,I4_1/amd,7.088,mp-9756,I4_1/a,8.044,13.5,23.5,,icsd-156945;icsd-202082,icsd-202081;icsd-156944
+Gd2(MoO4)3,True,3,mp-3572,Pba2,4.307,mp-1195696,C2/c,5.415,25.7,23.5,,icsd-2707;icsd-9486,icsd-251703
+Lu2SiO5,False,2,mp-16969,C2/c,7.592,mp-18195,P2_1/c,8.025,5.7,23.6,,icsd-279584,icsd-89624
+Zr(MoO4)2,False,5,mp-510456,P-3m1,3.792,mp-559825,C2/c,4.522,19.2,24.0,,icsd-59999,icsd-420668;icsd-169483;icsd-65722
+HfO2,False,5,mp-352,P2_1/c,10.241,mp-1858,Pbca,10.699,4.5,24.1,"P4_2/nmc mp-1018721 +55 meV, 4% denser",icsd-57385;icsd-187015;icsd-638744;icsd-60902;icsd-173158,icsd-79913;icsd-173965;icsd-71354
+RbB3O5,False,2,mp-561055,P2_12_12_1,2.953,mp-1020632,C2/c,3.245,9.9,24.3,,icsd-91545,icsd-424931
+La2O3,False,2,mp-2292,Ia-3,5.904,mp-1968,P-3m1,6.615,12.0,24.4,,icsd-96201;icsd-641600;icsd-641602;icsd-184531,icsd-184524;icsd-56771;icsd-641603;icsd-96196;icsd-100205
+V6PbO11,True,2,mp-619128,P6_3mc,5.518,mp-22371,P6_3/mmc,5.87,6.4,24.5,,icsd-93597;icsd-82275,icsd-93596;icsd-94269
+Ti2O3,False,2,mp-458,R-3c,4.602,mp-1188323,Pnma,5.275,14.6,24.5,,icsd-29286;icsd-9656;icsd-647550;icsd-54175;icsd-33640,icsd-187466
+SbO3,False,2,mp-726085,Fd-3m,3.948,mp-1105545,P2_1/c,4.844,22.7,24.6,,icsd-28652,icsd-203034
+FeO2,True,4,mp-796324,I4/m,3.789,mp-796259,Pnma,4.358,15.0,24.6,,icsd-31136,icsd-159960;icsd-163341;icsd-77327;icsd-159957;icsd-159970
+V3O5,True,2,mp-622497,P2/c,4.444,mp-30987,C2/c,4.749,6.9,24.7,,icsd-16445;icsd-647628,icsd-15899;icsd-653661;icsd-195;icsd-32587
+Y2SiO5,False,2,mp-3520,C2/c,4.424,mp-554420,P2_1/c,4.776,7.9,25.0,,icsd-28021;icsd-27003;icsd-291362;icsd-291358,icsd-153076;icsd-51591
+Er2SiO5,False,2,mp-555983,C2/c,7.079,mp-16993,P2_1/c,7.576,7.0,25.4,,icsd-419309,icsd-89622
+Pr2O3,False,2,mp-16705,Ia-3,6.169,mp-2063,P-3m1,6.9,11.8,25.5,,icsd-96203;icsd-647301;icsd-647290;icsd-184533,icsd-160207;icsd-154588;icsd-647302;icsd-184525;icsd-75481
+YCrO4,True,2,mp-18825,I4_1/amd,4.304,mp-555657,I4_1/a,4.643,7.9,25.6,,icsd-26989;icsd-95971;icsd-157933,icsd-157934
+B2O3,False,2,mp-306,P3_121,2.562,mp-717,Cmc2_1,3.099,21.0,25.7,,icsd-252682;icsd-16021;icsd-252683;icsd-51575;icsd-252681,icsd-34685
+BaO,False,3,mp-1342,Fm-3m,5.859,mp-1008500,P6_3/mmc,6.06,3.4,25.8,,icsd-58663;icsd-26961;icsd-52278;icsd-181199;icsd-180199,icsd-173921
+Zn2SiO4,False,4,mp-3789,R-3,4.246,mp-556163,I-42d,4.488,5.7,25.8,"Pbca mp-1020636 +52 meV, 4% denser",icsd-67235;icsd-20093;icsd-167187;icsd-2425;icsd-16172,icsd-9147;icsd-167188
+EuVO4,True,2,mp-22796,I4_1/amd,5.204,mp-1095395,I4_1/a,5.963,14.6,25.9,,icsd-164835;icsd-81702;icsd-194935;icsd-191367;icsd-15608,icsd-194936
+PrO2,False,2,mp-1302,Fm-3m,6.12,mp-1101864,Pnma,6.701,9.5,26.2,,icsd-53996;icsd-647303;icsd-105541;icsd-77653;icsd-28786,icsd-380398
+LiMn2O4,True,2,mp-1199729,Fddd,4.02,mp-22584,Fd-3m,4.578,13.9,26.2,,icsd-167828;icsd-54700;icsd-190809;icsd-281589;icsd-54701,icsd-85345;icsd-155665;icsd-261557;icsd-94339;icsd-40485
+SrV6O11,True,2,mp-16924,P6_3/mmc,4.658,mp-16974,P6_3mc,4.875,4.6,26.4,,icsd-261129;icsd-93594,icsd-261130;icsd-93595
+Na2CoP2O7,True,3,mp-562194,Pna2_1,2.909,mp-1011834,P1,3.094,6.4,26.6,,icsd-251080;icsd-71230;icsd-251081,icsd-71229
+Si(NiO2)2,True,2,mp-19072,Pnma,4.948,mp-18766,Fd-3m,5.378,8.7,26.8,,icsd-100645;icsd-100643;icsd-35675;icsd-100642;icsd-100644,icsd-100551;icsd-200129;icsd-40995;icsd-100548;icsd-100549
+Y2(MoO4)3,False,3,mp-556937,Pbcn,3.087,mp-556455,Pba2,3.667,18.8,27.2,"P-42_1m mp-1198660 +27 meV, 18% denser",icsd-414554,icsd-423397;icsd-160286
+Ca4Al6O13,False,2,mp-7531,I-43m,2.58,mp-680193,Pbcn,3.46,34.1,27.5,,icsd-245370,icsd-89725
+Sr2YCu3(PbO4)2,True,3,mp-1198573,Pmna,6.985,mp-578628,Pmc2_1,7.477,7.0,28.2,,icsd-71478,icsd-74073
+V2PbO6,False,2,mp-21126,C2/m,5.172,mp-607026,Pnma,5.609,8.4,28.3,,icsd-36464,icsd-6109
+BaB4O7,False,2,mp-27692,P2_1/c,3.512,mp-556974,Pnma,4.556,29.7,28.6,,icsd-185670;icsd-236882;icsd-185671;icsd-23810,icsd-419469
+HoMnO3,True,2,mp-19056,P6_3cm,7.242,mp-22081,Pnma,7.648,5.6,28.6,,icsd-162199;icsd-191215;icsd-184887;icsd-191216;icsd-191217,icsd-162206;icsd-165196;icsd-157395
+Mg3(PO4)2,False,2,mp-14396,P2_1/c,2.771,mp-554171,P-1,2.986,7.8,29.2,,icsd-261231;icsd-31005,icsd-84710
+Hf(MoO4)2,False,2,mp-687090,P-31c,4.871,mp-559188,C2/c,5.581,14.6,29.7,,icsd-59998,icsd-98065
+Nd2O3,False,2,mp-1045,Ia-3,6.487,mp-2763,P-3m1,7.241,11.6,29.7,,icsd-96204;icsd-645664;icsd-645657;icsd-191535;icsd-645662,icsd-645656;icsd-184526;icsd-169442;icsd-160208;icsd-645658
+MnO2,True,9,mp-19395,I4/m,4.285,mp-33009,Pnnm,5.22,21.8,29.8,"C2/m mp-644514 +17 meV, 17% denser; P-3m1 mp-25223 +20 meV, 4% denser; P4_2/mnm mp-510408 +30 meV, 21% denser; Fd-3m mp-25275 +33 meV, 4% denser",icsd-20227,icsd-27456;icsd-27789;icsd-26754
+Ga2O3,False,2,mp-886,C2/m,5.888,mp-1243,R-3c,6.42,9.0,29.8,,icsd-166198;icsd-34243;icsd-184327;icsd-83645;icsd-603563,icsd-33644;icsd-166199;icsd-635016;icsd-27431
+TiFe2O5,True,3,mp-20117,Cmcm,4.197,mp-19255,C2/c,4.57,8.9,30.2,,icsd-36183;icsd-24134,icsd-24416
+CdSnO3,False,2,mp-754329,R-3,7.074,mp-849371,Pnma,7.635,7.9,30.4,,icsd-180399;icsd-180400;icsd-181930,icsd-165167;icsd-180401;icsd-180402
+K2Si4O9,False,2,mp-558603,P-1,2.349,mp-8380,P6_3/m,3.097,31.8,30.7,,icsd-2155,icsd-31201
+CaB4O7,False,2,mp-556214,P2_1/c,2.735,mp-11000,Pmn2_1,3.369,23.2,30.7,,icsd-200081,icsd-412710
+V2Zn2O7,False,2,mp-17458,C2/c,3.925,mp-634381,C2/m,4.322,10.1,30.8,,icsd-2886,icsd-250002
+MnPb2WO6,True,3,mp-1194656,Pnma,8.687,mp-1078353,Fm-3m,8.99,3.5,32.3,,icsd-239436,icsd-239438
+Sr2CoMoO6,True,2,mp-510546,Fm-3m,5.502,mp-18805,I4/m,5.812,5.6,33.1,,icsd-153543;icsd-28601,icsd-153545;icsd-153544;icsd-153546;icsd-181514
+NaCoPO4,True,2,mp-562796,P2_1/c,2.926,mp-18245,Pnma,3.751,28.2,33.8,,icsd-280175,icsd-82752
+Sr2CrO4,True,2,mp-19514,Pna2_1,4.688,mp-18854,I4/mmm,5.38,14.8,33.9,,icsd-26944,icsd-245595
+LuVO4,False,3,mp-18993,I4_1/amd,6.376,mp-19295,I4_1/a,7.258,13.8,34.1,"C2/c mp-1180452 +35 meV, 9% denser",icsd-160961;icsd-164836;icsd-189235;icsd-160958;icsd-78083,icsd-160962;icsd-160959;icsd-189236
+ErMnO3,True,2,mp-19217,P6_3cm,7.39,mp-19319,Pnma,8.193,10.9,34.4,,icsd-182639;icsd-162201;icsd-280583,icsd-159309;icsd-159310;icsd-159311;icsd-162208;icsd-183141
+Ce2Si2O7,True,3,mp-662527,P2_1/c,4.645,mp-582983,Pca2_1,5.11,10.0,34.4,,icsd-75480;icsd-78379;icsd-74776,icsd-391139
+Sr(BO2)2,False,2,mp-9749,Pbcn,3.342,mp-8878,Pa-3,4.405,31.8,34.5,,icsd-203226,icsd-69102
+Pm2O3,False,2,mp-553921,Ia-3,6.727,mp-547622,P-3m1,7.497,11.4,35.0,,icsd-647284;icsd-96205,icsd-160209;icsd-96200;icsd-647285
+LaVO4,False,2,mp-19162,I4_1/amd,4.622,mp-18989,P2_1/c,5.074,9.8,35.6,,icsd-411083,icsd-400;icsd-8294;icsd-155240;icsd-191452;icsd-191451
+P2Pb3O8,False,3,mp-505799,C2/c,6.842,mp-22750,R-3m,7.344,7.3,35.6,,icsd-92582,icsd-8095
+ThSiO4,False,2,mp-5836,I4_1/amd,6.661,mp-7651,P2_1/c,7.264,9.1,35.7,,icsd-647447;icsd-10242;icsd-9507;icsd-15485;icsd-1615,icsd-1614;icsd-428352
+ErVO4,False,2,mp-18960,I4_1/amd,6.005,mp-18880,I4_1/a,6.843,14.0,35.8,,icsd-84235;icsd-16300;icsd-15671;icsd-167092;icsd-167091,icsd-69118
+SrSiO3,False,4,mp-3978,C2/c,3.642,mp-561547,P2_1/c,3.846,5.6,36.0,,icsd-59308;icsd-261228;icsd-38271,icsd-32678
+HoVO4,False,2,mp-18734,I4_1/amd,5.89,mp-1095454,I4_1/a,6.689,13.6,36.5,,icsd-246683;icsd-191368;icsd-78079;icsd-192831;icsd-9397,icsd-192832;icsd-192835
+Tm2Si2O7,False,2,mp-1095467,C2/m,6.085,mp-18318,P-1,6.682,9.8,36.6,,icsd-248719,icsd-413183
+YVO4,False,2,mp-19133,I4_1/amd,4.224,mp-1102526,I4_1/a,4.59,8.6,36.7,,icsd-246709;icsd-36060;icsd-26894;icsd-2504;icsd-15604,icsd-174550;icsd-246711;icsd-246710
+AgO,False,4,mp-1065190,C2/c,7.138,mp-1079720,P2_1/c,7.622,6.8,36.8,,icsd-27667;icsd-27659;icsd-27669;icsd-605625,icsd-43741;icsd-202543;icsd-69095
+CoO,True,3,mp-22408,F-43m,5.452,mp-19079,Fm-3m,6.495,19.1,36.9,,icsd-29082,icsd-245323;icsd-61326;icsd-191776;icsd-245319;icsd-17013
+Ca2SiO4,False,6,mp-4481,Pnma,2.963,mp-560821,Pna2_1,3.193,7.8,37.4,,icsd-417503;icsd-82994;icsd-68753;icsd-18179;icsd-181558,icsd-82996
+SmVO4,False,2,mp-19323,I4_1/amd,5.208,mp-1095337,I4_1/a,5.936,14.0,37.6,,icsd-81701;icsd-252449;icsd-152691;icsd-15609,icsd-252450;icsd-250875
+V2Cu2O7,True,3,mp-542860,C2/c,3.87,mp-687096,P-1,4.052,4.7,37.6,,icsd-23479;icsd-158375;icsd-164190;icsd-164189,icsd-171028
+Ca3UO6,False,3,mp-14252,R-3,4.931,mp-5960,P2_1/c,5.356,8.6,37.7,"P2_1 mp-1188279 +39 meV, 6% denser",icsd-35457,icsd-59172
+LiB3O5,False,2,mp-3660,Pna2_1,2.488,mp-1020025,Pnma,2.828,13.7,38.5,,icsd-415199;icsd-66708;icsd-415201;icsd-415200;icsd-1585,icsd-422922
+Nb2Bi2PbO9,False,2,mp-583454,Cmc2_1,7.753,mp-23101,I4/mmm,8.032,3.6,38.6,,icsd-50424;icsd-95920;icsd-50425,icsd-24733;icsd-61008;icsd-20668
+Fe2SiO4,True,3,mp-20313,Pnma,4.467,mp-18816,Fd-3m,4.677,4.7,38.6,,icsd-10117;icsd-158572;icsd-54032;icsd-54030;icsd-10413,icsd-238748;icsd-238745;icsd-185519;icsd-41003;icsd-238746
+TiCdO3,False,5,mp-13641,R-3,5.81,mp-5052,Pna2_1,6.273,8.0,38.7,"Pmc2_1 mp-20940 +40 meV, 4% denser; Pnma mp-14550 +43 meV, 5% denser",icsd-262708;icsd-15989;icsd-5310,icsd-16686;icsd-262711;icsd-62151
+Ca2PdWO6,False,2,mp-1188106,Pmm2,5.544,mp-19159,Fm-3m,5.751,3.7,39.0,,icsd-83259,icsd-83258
+BPO4,False,2,mp-3589,I-4,2.798,mp-11653,P3_121,3.085,10.2,39.0,,icsd-150371;icsd-413437;icsd-150379;icsd-150374;icsd-150375,icsd-413435
+Sm2O3,False,3,mp-218,Ia-3,7.079,mp-10733,P-3m1,7.88,11.3,39.5,,icsd-647450;icsd-647461;icsd-41271;icsd-165779;icsd-184535,icsd-77685;icsd-160210;icsd-647455
+BaVO3,True,2,mp-19150,P-3m1,5.779,mp-1017465,Pm-3m,6.211,7.5,39.8,,icsd-78168;icsd-78167,icsd-191203
+TbPO4,False,2,mp-4340,I4_1/amd,5.849,mp-1190577,P2_1/c,6.237,6.6,40.1,,icsd-35704;icsd-184544;icsd-29315;icsd-29316;icsd-79755,icsd-168753;icsd-168754;icsd-168752;icsd-184561
+Tb2O3,False,2,mp-1056,Ia-3,8.014,mp-2457,C2/m,8.716,8.8,40.2,,icsd-647494;icsd-184537;icsd-40474;icsd-647509;icsd-647501,icsd-28172;icsd-160227
+Ca(BO2)2,False,4,mp-8056,Pccn,2.875,mp-13827,Pa-3,3.336,16.1,40.9,,icsd-20097,icsd-23241
+GeO2,False,7,mp-733,P3_121,4.265,mp-10913,Pbcn,6.331,48.4,40.9,"Pnnm mp-1072104 +6 meV, 40% denser",icsd-53869;icsd-59635;icsd-79638;icsd-59627;icsd-59633,icsd-94240;icsd-281600
+TmMnO3,True,2,mp-554211,P6_3cm,7.52,mp-554270,Pnma,7.908,5.2,41.1,,icsd-162202,icsd-162209;icsd-183142
+TiPbO3,False,3,mp-20459,P4mm,7.802,mp-19845,Pm-3m,8.049,3.2,41.2,,icsd-90693;icsd-55061;icsd-55055;icsd-55054;icsd-162045,icsd-162043;icsd-187295;icsd-1613;icsd-162047;icsd-187505
+Ca3(PO4)2,False,2,mp-1197377,P2_1/c,2.781,mp-3487,R-3m,3.51,26.2,41.3,,icsd-923,icsd-158736;icsd-188081;icsd-200202
+V2CdO6,False,2,mp-550622,C2/m,4.199,mp-556313,Pbcn,4.925,17.3,42.6,,icsd-21065,icsd-249319
+Ce2O3,True,3,mp-542313,Ia-3,6.222,mp-2721,P-3m1,7.124,14.5,44.2,,icsd-184532;icsd-621711;icsd-96202,icsd-621706;icsd-154587;icsd-621708;icsd-96197;icsd-184523
+Ho2O3,False,2,mp-812,Ia-3,8.613,mp-558336,C2/m,9.347,8.5,45.6,,icsd-82423;icsd-80038;icsd-639523;icsd-27773;icsd-152458,icsd-420710;icsd-160229
+PrVO4,False,2,mp-19169,I4_1/amd,4.773,mp-1191389,P2_1/c,5.233,9.6,46.4,,icsd-78076;icsd-157327;icsd-15611,icsd-250874
+BAsO4,False,2,mp-3277,I-4,3.618,mp-11654,P3_121,4.02,11.1,46.8,,icsd-26891;icsd-413438,icsd-413436
+Ca(GaO2)2,False,3,mp-559849,Pna2_1,4.272,mp-4959,Pnma,5.399,26.4,47.9,,icsd-21042,icsd-155955;icsd-41662
+Fe2BO4,True,2,mp-20302,Pnma,4.296,mp-559609,Pmc2_1,4.49,4.5,48.1,,icsd-88454;icsd-88453;icsd-86865;icsd-86866;icsd-417971,icsd-417972
+Y2O3,False,2,mp-2652,Ia-3,5.026,mp-558573,C2/m,5.458,8.6,48.1,,icsd-80033;icsd-181825;icsd-77081;icsd-78581;icsd-181871,icsd-181826;icsd-192863;icsd-647650;icsd-160219
+Er2O3,False,2,mp-679,Ia-3,8.894,mp-2460,C2/m,9.648,8.5,48.2,,icsd-186592;icsd-39186;icsd-53406;icsd-184540;icsd-55832,icsd-160230;icsd-419435
+SrMnO3,True,3,mp-559975,C222_1,5.128,mp-1017466,Pm-3m,5.464,6.5,49.2,,icsd-157936,icsd-236949;icsd-188415
+In2O3,False,4,mp-22598,Ia-3,6.999,mp-1105681,Pbcn,7.431,6.2,49.5,,icsd-169429;icsd-169432;icsd-182789;icsd-640179;icsd-169426,icsd-236901;icsd-236900;icsd-181834;icsd-425685
+MoO3,False,4,mp-18856,P2_1/c,4.483,mp-796276,Cmcm,4.713,5.1,50.1,"Pnma mp-20589 +39 meV, 4% denser",icsd-644067;icsd-202324;icsd-644068,icsd-27489;icsd-36093
+LuMnO3,True,2,mp-18808,P6_3cm,7.836,mp-21125,Pnma,8.192,4.5,50.3,,icsd-158898;icsd-98059;icsd-290487;icsd-158897;icsd-162204,icsd-162211;icsd-160377;icsd-160376
+TaPO5,False,2,mp-541740,P2_1/m,4.754,mp-1104527,P4/n,5.626,18.3,50.3,,icsd-202041,icsd-87281
+VInO4,False,3,mp-22443,Cmcm,4.666,mp-1102003,P2/c,5.538,18.7,50.5,,icsd-10431;icsd-155162;icsd-237482,icsd-237483
+UCdO4,False,2,mp-545598,Cmmm,8.016,mp-14000,R-3m,8.836,10.2,51.6,,icsd-26428,icsd-26427
+Gd2O3,True,3,mp-504886,Ia-3,7.633,mp-20470,P-3m1,8.483,11.1,51.9,,icsd-165505;icsd-184595;icsd-183132;icsd-181377;icsd-193365,icsd-162247;icsd-160211
+Mn3O4,True,2,mp-18759,I4_1/amd,4.886,mp-20141,Pbcm,5.115,4.7,52.5,,icsd-109250;icsd-77478;icsd-68174;icsd-167411;icsd-76088,icsd-40110;icsd-97867;icsd-30005
+Sr2Cu3O5,True,2,mp-552089,Cmmm,5.615,mp-5700,Immm,5.792,3.2,52.8,,icsd-50089,icsd-416905;icsd-416904
+CeVO4,True,2,mp-19214,I4_1/amd,4.831,mp-1191330,P2_1/c,5.073,5.0,53.3,,icsd-202425;icsd-247450;icsd-78075;icsd-183202;icsd-183204,icsd-183205;icsd-183203;icsd-66034
+CaFeO2,True,2,mp-1079680,P-42_1m,3.975,mp-19842,P4/mmm,4.102,3.2,53.5,,icsd-246244;icsd-246245,icsd-173438
+LiFeO2,True,2,mp-18782,I4_1/amd,4.232,mp-19419,R-3m,4.36,3.0,54.7,,icsd-632440;icsd-31149;icsd-43437;icsd-174085,icsd-51207;icsd-78712;icsd-51759
+CoB4O7,True,2,mp-22829,Pbca,2.812,mp-1190897,Cmcm,3.818,35.8,55.3,,icsd-96560,icsd-420402
+ScO2,False,2,mp-1179114,Pnma,2.895,mp-1179108,Cmcm,3.297,13.9,55.9,,icsd-24304,icsd-15697
+ZnB4O7,False,2,mp-12233,Pbca,3.032,mp-558690,Cmcm,3.928,29.5,58.4,,icsd-9086;icsd-424545,icsd-412688
+CaAl2O4,False,4,mp-2963,P2_1/c,2.94,mp-12441,Pnma,3.864,31.4,58.6,,icsd-180997;icsd-159925;icsd-260;icsd-241240,icsd-172781
+VCuO3,False,2,mp-504580,R-3,5.242,mp-1105167,Im-3,5.482,4.6,58.9,,icsd-19046,icsd-195438;icsd-195439
+Eu2O3,True,3,mp-1182469,Ia-3,7.249,mp-1017564,P-3m1,8.078,11.4,59.5,,icsd-40472;icsd-96953;icsd-631468;icsd-194513;icsd-631460,icsd-659185
+Bi2O3,False,9,mp-23262,P2_1/c,9.438,mp-1188316,P6_3mc,10.25,8.6,60.3,"P-3m1 mp-1017552 +71 meV, 8% denser",icsd-94229;icsd-15072;icsd-2374;icsd-94230;icsd-190461,icsd-422451;icsd-422452
+V2O5,False,6,mp-25279,Pmmn,3.438,mp-542844,C2/c,4.049,17.8,60.6,,icsd-60767;icsd-99808;icsd-82152;icsd-24042;icsd-15798,icsd-156053;icsd-156052;icsd-156054;icsd-425510
+MnB4O7,True,2,mp-12209,Pbca,2.713,mp-557663,Cmcm,3.609,33.0,60.7,,icsd-6170,icsd-391409
+Cu3AsO7,True,2,mp-1102432,P1,4.282,mp-1202851,P2_1/c,4.492,4.9,61.2,,icsd-87869,icsd-68456;icsd-18178
+ErBO3,False,2,mp-1194043,C2/c,7.095,mp-10791,P-1,7.363,3.8,62.2,,icsd-422094,icsd-412168
+NbFeO4,True,2,mp-31761,C2/m,4.536,mp-22194,P2/c,5.49,21.1,62.9,,icsd-14016,icsd-14015;icsd-8128
+RbV(PO4)2,False,2,mp-559279,P2_1/c,2.962,mp-818600,P-1,3.255,9.9,63.3,,icsd-91566,icsd-80171
+Co2SiO4,True,3,mp-21856,Pnma,4.774,mp-19071,Fd-3m,5.038,5.5,63.7,,icsd-50072;icsd-260092;icsd-260091;icsd-65751;icsd-6248,icsd-859
+NaAlO2,False,2,mp-9212,Pna2_1,2.786,mp-7748,R-3m,3.485,25.1,65.0,,icsd-79404,icsd-22216
+TiO2,False,8,mp-554278,C2/m,3.616,mp-430,P2_1/c,4.555,26.0,65.4,"Pbca mp-1840 +20 meV, 14% denser; Pbcn mp-1439 +32 meV, 19% denser; P4_2/mnm mp-2657 +37 meV, 17% denser; Pnma mp-9173 +59 meV, 7% denser",icsd-57449;icsd-57154;icsd-41056;icsd-171670,icsd-154036;icsd-189321;icsd-154035
+Fe3(AsO8)2,True,2,mp-1190714,P-1,2.753,mp-1181316,C2/m,3.427,24.5,65.9,,icsd-429576,icsd-30646
+AlO2,False,2,mp-1182869,Pnma,2.995,mp-1096799,Cmcm,3.34,11.5,66.2,,icsd-76244;icsd-41533;icsd-17014;icsd-77326;icsd-71811,icsd-93733;icsd-59609;icsd-93731;icsd-93729;icsd-93734
+LiGaO2,False,2,mp-5854,Pna2_1,4.203,mp-8002,R-3m,4.9,16.6,66.2,,icsd-18152;icsd-93087;icsd-93086,icsd-28388
+RuO2,False,2,mp-825,P4_2/mnm,7.069,mp-8909,Pa-3,7.785,10.1,66.8,,icsd-84618;icsd-236962;icsd-84619;icsd-236963;icsd-23961,icsd-290497;icsd-251564;icsd-66939;icsd-236966;icsd-236967
+Mn2GeO4,True,3,mp-20223,Pnma,4.805,mp-21877,Pbam,5.4,12.4,67.5,,icsd-108995;icsd-23587,icsd-22046;icsd-36065
+Fe3(PO8)2,True,2,mp-1195420,P-1,2.351,mp-1181400,C2/m,2.913,23.9,67.7,,icsd-5149,icsd-200703;icsd-30645
+CuGeO3,True,3,mp-1202570,Pbam,4.792,mp-554874,P2_1/c,5.755,20.1,68.0,,icsd-56878,icsd-96085
+ZrO2,False,6,mp-2858,P2_1/c,5.777,mp-1565,Fm-3m,6.206,7.4,68.9,"Pca2_1 mp-556605 +22 meV, 4% denser; P4_2/nmc mp-2574 +36 meV, 5% denser",icsd-80042;icsd-248445;icsd-80044;icsd-80047;icsd-82544,icsd-185123;icsd-105553;icsd-291119;icsd-186672;icsd-248443
+KVPO5,True,2,mp-559431,P2_12_12_1,2.698,mp-19517,Pna2_1,3.155,16.9,69.8,,icsd-411492,icsd-69556;icsd-79651
+Mg2SiO4,False,8,mp-2895,Pnma,3.236,mp-5639,Fd-3m,3.448,6.6,71.7,,icsd-83792;icsd-88023;icsd-26374;icsd-64744;icsd-83789,icsd-162348;icsd-83779;icsd-191506;icsd-83782;icsd-83780
+HgB4O7,False,2,mp-16585,Pbca,4.49,mp-12022,Pmn2_1,5.782,28.8,72.0,,icsd-281287,icsd-415347
+CeAsO3,True,2,mp-1195015,P2_1/c,5.996,mp-1078398,P2_1/m,6.231,3.9,73.0,,icsd-291399;icsd-426720,icsd-291400
+Na2Si3O7,False,2,mp-556198,P2_1/c,2.394,mp-15113,C2/c,3.183,32.9,73.6,,icsd-95690,icsd-81134
+BaHgO2,False,2,mp-3915,R-3m,6.302,mp-556118,P6_322,6.885,9.3,74.1,,icsd-83411;icsd-74076,icsd-68616

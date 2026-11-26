@@ -1,0 +1,16 @@
+{
+ "tag": "SiO2",
+ "atoms": 9,
+ "supercell": [
+  2,
+  2,
+  2
+ ],
+ "n_displacements": 9,
+ "orientations": 12,
+ "e_static_eV_atom": -7.904724454284069,
+ "zpe_kJ_mol_atoms": 9.711894883189506,
+ "heat_content_kJ_mol_atoms": 2.420304041123801,
+ "min_frequency_THz": -0.7930932610094399,
+ "imaginary_fraction": 0.0006091617933723197
+}

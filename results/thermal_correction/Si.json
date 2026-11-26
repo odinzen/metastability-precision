@@ -1,0 +1,16 @@
+{
+ "tag": "Si",
+ "atoms": 2,
+ "supercell": [
+  3,
+  3,
+  3
+ ],
+ "n_displacements": 1,
+ "orientations": 12,
+ "e_static_eV_atom": -5.407572264811638,
+ "zpe_kJ_mol_atoms": 4.017823750095336,
+ "heat_content_kJ_mol_atoms": 1.726292571229708,
+ "min_frequency_THz": -8.586725984652356,
+ "imaginary_fraction": 0.3933481976960238
+}

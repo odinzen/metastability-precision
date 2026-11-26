@@ -1,0 +1,8 @@
+set,forecast,n,expected_right,width_meV_atom,shift_meV_atom
+known oxides,calorimetric sigma,6869,0.7794638275072091,36.4,-11.5
+known oxides,family-aware width,6869,0.7380166926473862,36.4,-11.5
+known oxides,family-aware width and shift,6869,0.7427428557959032,36.4,-11.5
+"GNoME, face value",calorimetric sigma,35934,0.7834385597708687,36.4,-11.5
+"GNoME, selection-corrected",calorimetric sigma,35934,0.5666252791351649,36.4,-11.5
+"GNoME, face value",family-aware width,35934,0.7377390640520431,36.4,-11.5
+"GNoME, selection-corrected",family-aware width,35934,0.41552870970323214,36.4,-11.5

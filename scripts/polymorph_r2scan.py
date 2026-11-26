@@ -44,7 +44,7 @@ def main():
     out = pd.DataFrame(rows)
     out["sigma"] = [sigma_for(f) for f in out.formula]
     for f in ("gga", "r2scan"):
-        right = np.sign(out[f"{f}_meV_atom"]) == np.sign(out.measured_meV_atom)
+        right = out[f"{f}_meV_atom"] > 0  # every pair is written metastable minus stable
         out[f"{f}_right"] = right.astype(object).where(out[f"{f}_meV_atom"].notna())
         out[f"{f}_p"] = (out[f"{f}_meV_atom"].abs() / out.sigma).round(3)
     out.to_csv(ROOT / "results" / "polymorph_r2scan.csv", index=False)

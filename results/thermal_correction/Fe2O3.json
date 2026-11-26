@@ -1,0 +1,16 @@
+{
+ "tag": "Fe2O3",
+ "atoms": 10,
+ "supercell": [
+  2,
+  2,
+  2
+ ],
+ "n_displacements": 5,
+ "orientations": 12,
+ "e_static_eV_atom": -6.589278848895868,
+ "zpe_kJ_mol_atoms": 6.169170077349931,
+ "heat_content_kJ_mol_atoms": 3.1302615953006656,
+ "min_frequency_THz": -1.9258281776053995e-07,
+ "imaginary_fraction": 0.0
+}

@@ -1,0 +1,16 @@
+{
+ "tag": "Ca2SiO4",
+ "atoms": 28,
+ "supercell": [
+  2,
+  2,
+  1
+ ],
+ "n_displacements": 25,
+ "orientations": 12,
+ "e_static_eV_atom": -7.240708458903709,
+ "zpe_kJ_mol_atoms": 7.11661877390057,
+ "heat_content_kJ_mol_atoms": 2.9947463977044118,
+ "min_frequency_THz": -1.6905191807013003e-07,
+ "imaginary_fraction": 0.0
+}

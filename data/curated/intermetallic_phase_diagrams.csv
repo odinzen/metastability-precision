@@ -1,0 +1,33 @@
+formula,status,range,evidence,ref,note
+Zr2Ni,equilibrium phase,to room temperature,diagram,witusiewicz2026,
+Ce3Al,equilibrium phase,to room temperature,diagram,gschneidner1974,hexagonal form below 523 K
+Ce5Si3,equilibrium phase,to 873 K (lowest shown),diagram,gschneidner1974; meschel1996,
+Fe3Pt,equilibrium phase,to 473 K (lowest shown),diagram,tanaka2025; fredriksson2001,ordered L1_2
+VPt3,equilibrium phase,to 973 K (lowest studied),diagram,waterstrat1973,
+La3Si2,equilibrium phase,to 273 K (lowest shown),diagram,bulanova2001; meschel1996,calorimetric sample two-phase
+ZrSi2,equilibrium phase,to 1000 K (lowest shown),diagram,chen2009,
+LaB4,equilibrium phase,to 273 K (lowest shown),diagram,tang2013,
+ErAg2,equilibrium phase,melts at 1293 K; no lower limit stated,full text,wang2010,
+Zr2Ag,equilibrium phase,to room temperature,full text,hsiao2016; antion2026,calorimetric value later called indicative
+ZrAlNi2,equilibrium phase,at 1123 K (only temperature studied),full text,kondratev2012,
+VFe2Sn,equilibrium phase,at 873 K (only temperature studied),full text,romaka2015,
+TiAg,equilibrium phase,to room temperature,abstract,morinaga1959,
+Co2B,equilibrium phase,no lower limit stated,abstract,du2002,
+Nd2Co17,equilibrium phase,to 1073 K (lowest studied),abstract,wu1992,
+HfAlNi2,equilibrium phase,to 1273 K (lowest studied),abstract,zhang2008,
+ScAl,polymorph,measured B2 form metastable to an orthorhombic form at 50 at.% Sc,full text,li2015,
+Cu41Sn11,high-temperature only,above 621 K,abstract,shim1996,
+Zr5Si3,high-temperature only,above about 2000 K (disputed),abstract,kwon1990,
+MnB2,high-temperature only,above about 1370 K,secondary,bauer2021,
+FeGe,high-temperature polymorph,above about 850 K,secondary,kukolova2021,
+YB2,no diagram read,,,,
+TmAg2,no diagram read,,,,
+NdRh3,no diagram read,,,,
+Si3Os2,no diagram read,,,,
+HfInNi2,no diagram read,,,,
+FeCo2Ge,no diagram read,,,,
+MnGaFe2,no diagram read,,,,
+TiInPd2,no diagram read,,,,
+HfSnRu2,no diagram read,,,,
+VGaNi2,no diagram read,,,,
+TiInNi2,no diagram read,,,,

@@ -1,0 +1,49 @@
+family,formula,measured_meV_atom,u_meV_atom,dft_meV_atom,sigma,mp_id,mp_sg,temperature,structure_match,source,ref,reaction
+oxide,CuFe2O4,31.3,1.2,81.5,34.0,mp-aaabrvfn-GGA+U,Fd-3m,970 K,measured structure,Navrotsky and Kleppa 1968,navrotsky1968,isovalent
+oxide,CuGa2O4,24.5,1.7,56.4,34.0,mp-aaaabzlv-GGA,Imma,970 K,measured structure,Navrotsky and Kleppa 1968,navrotsky1968,isovalent
+oxide,CuMn2O4,18.8,1.5,42.7,34.0,mp-aaabctrh-GGA+U,Fd-3m,970 K,measured structure,Navrotsky and Kleppa 1968,navrotsky1968,isovalent
+oxide,CdFe2O4,11.0,1.3,-13.1,34.0,mp-aaaabfon-GGA+U,Fd-3m,970 K,measured structure,Navrotsky and Kleppa 1968,navrotsky1968,isovalent
+oxide,NiMn2O4,3.0,1.2,12.0,34.0,mp-aaaaccnb-GGA+U,Imma,970 K,measured structure,Navrotsky and Kleppa 1968,navrotsky1968,isovalent
+oxide,Mg3Al2Si3O12,14.3,3.2,20.8,22.5,mp-aaaaaizp-GGA,Ia-3d,298 K,measured structure,Robie and Hemingway 1995 (Charlu 1975 at 970 K agrees),robie1995; charlu1975,isovalent
+oxide,Mg2Al4Si5O18,10.0,2.8,-19.5,22.5,mp-aaaaajdm-GGA,Cccm,298 K,measured structure,Robie and Hemingway 1995 (Charlu 1975 at 970 K: +4.3),robie1995; charlu1975,isovalent
+oxide,Ca2MgSi2O7,18.1,3.4,22.6,22.5,mp-aaaaajak-GGA,P-42_1m,298 K,measured structure,Robie and Hemingway 1995,robie1995,isovalent
+oxide,Ca3MgSi2O8,23.2,3.6,37.6,22.5,mp-aaabfttp-GGA,P2_1/c,298 K,measured structure,Robie and Hemingway 1995,robie1995,isovalent
+oxide,KAlSi2O6,12.3,3.8,3.7,22.5,mp-aaabfoej-GGA,I4_1/a,298 K,measured structure,Robie and Hemingway 1995,robie1995,isovalent
+oxide,CaAl2Si2O8,9.6,2.2,-22.8,22.5,mp-aaaaajrg-GGA,P-1,298 K,measured structure,Robie and Hemingway 1995,robie1995,isovalent
+oxide,Fe2TiO4,25.3,4.7,4.6,34.0,mp-aaaabxvo-GGA+U,Imma,298 K,measured structure,Robie and Hemingway 1995 (from equilibria),robie1995,element
+oxide,CaMg3(CO3)4,11.1,1.8,3.7,22.5,mp-aaaaajqy-GGA,R32,298 K,measured structure,Robie and Hemingway 1995,robie1995,isovalent
+oxide,LiUO3,8.9,4.1,-23.1,22.5,mp-aaaaalvz-GGA,R3c,298 K,"lowest entry, measured structure not stated",evaluated tables (NEA),grenthe1992,isovalent
+"carbide, nitride or hydride",Fe3C,48.7,11.4,56.1,34.0,mp-aaabdbjj-GGA,Pnma,298 K,measured structure,Meschel and Kleppa 1997 (R&H: +64.5),meschel1997; robie1995,element
+"carbide, nitride or hydride",Co2C,29.0,13.5,109.1,34.0,mp-aaaabhgy-GGA,Pnnm,298 K,measured structure,Meschel and Kleppa 1997,meschel1997,element
+"carbide, nitride or hydride",Co3C,24.9,11.4,131.0,34.0,mp-aaaabeyv-GGA,Pnma,298 K,measured structure,Meschel and Kleppa 1997,meschel1997,element
+"carbide, nitride or hydride",Ni3C,12.4,13.5,58.9,34.0,mp-aaaaalfu-GGA,R-3c,298 K,measured structure,Meschel and Kleppa 1997 (combustion: +99.5),meschel1997,element
+"carbide, nitride or hydride",W2C,47.7,10.4,65.4,22.5,mp-aaaaadag-GGA,Pbcn,298 K,measured structure,Mah 1963 via Barin 1995,barin1995,element
+"carbide, nitride or hydride",MgC2,303.7,72.5,430.2,22.5,mp-aaaabsbb-GGA,P4_2/mnm,298 K,measured structure,JANAF (NBS Report 6928),janaf1998; barin1995,element
+"carbide, nitride or hydride",Mg2C3,164.8,68.4,172.4,22.5,mp-aaaabqpl-GGA,Pnnm,298 K,measured structure,JANAF (NBS Report 6928),janaf1998,element
+"carbide, nitride or hydride",Co3N,21.8,,-16.9,34.0,mp-aaacqqac-GGA,P6_322,298 K,measured structure,Barin 1995 (Kubaschewski),elder1993; barin1995,element
+chalcogenide,Au2S,3.1,1.7,-239.7,22.5,mp-aaaaabkl-GGA,Pn-3m,298 K,measured structure,"Osadchii and Rappo 2004 (+4.8), Chareev 2007 (+1.4); mean, half the spread",osadchii2004; chareev2007,element
+chalcogenide,Co3S4,7.1,14.7,-21.6,34.0,mp-aaaaabkh-GGA,Fd-3m,298 K,measured structure,Cemic and Kleppa (vs Co9S8 + CoS2),cemic1988,redox
+chalcogenide,AgBiS2,4.8,17.7,16.8,22.5,mp-aaacotbt-GGA,P-3m1,298 K,measured structure,Bryndzia and Kleppa 1988 (low-temperature beta-matildite),bryndzia1988a,isovalent
+chalcogenide,Pd16S7,13.5,29.5,-7.8,22.5,mp-aaaaaapd-GGA,I-43m,298 K,measured structure,vs Pd4S + PdS (vs Pd3S + PdS: +22.3),zubkov1998,redox
+chalcogenide,Cu3Se2,4.1,14.8,-66.8,34.0,mp-aaaabepn-GGA,P-42_1m,298 K,measured structure,selected values,olin2005,redox
+chalcogenide,BiSe,12.4,34.2,6.5,22.5,mp-aaaabphe-GGA,P-3m1,298 K,measured structure,selected values,olin2005,element
+oxide,Fe2TiO5,10.8,0.8,40.4,34.0,mp-aaaabdtt-GGA+U,Cmcm,965 K,measured structure,"Navrotsky 1975 (abstract, p. 249; checked on the page 2026-11-03)",navrotsky1975,isovalent
+oxide,ZrTiO4,35.9,4.6,43.6,22.5,mp-aaabqxfv-GGA,P1,298 K,ordered approximant of a disordered phase,Rosenberg 2025 Table 2 (Hom 2001: +20.23),rosenberg2025; hom2001,isovalent
+oxide,HfTiO4,39.4,4.5,35.1,22.5,mp-aaabqwfd-GGA,P1,298 K,ordered approximant of a disordered phase,Rosenberg 2025 Table 2,rosenberg2025,isovalent
+oxide,Mg2SnO4,7.0,2.97,-23.6,22.5,mp-aaaabyio-GGA,Imma,986 K,measured structure,Navrotsky and Kasper 1976,navrotsky1976,isovalent
+oxide,CuCr2O4,15.42,1.55,22.4,34.0,mp-504573-GGA+U,Fd-3m,1173 K,measured structure,Muller and Kleppa 1973,muller1973,isovalent
+oxide,Mg2TiO4,25.02,3.26,-2.9,22.5,mp-aaabrbwp-GGA,P4_122,973 K,measured structure,Wechsler and Navrotsky 1984,wechsler1984,isovalent
+oxide,CeTi2O6,34.09,4.2,4.5,22.5,mp-aaacjkee-GGA,C2/m,298 K,measured structure,Helean 2003 (table value),helean2003,isovalent
+oxide,ThTi2O6,22.34,1.8,-0.1,22.5,mp-aaaaahuw-GGA,C2/m,298 K,measured structure,Helean 2003,helean2003,isovalent
+oxide,CeSiO4,47.5,5.35,33.6,22.5,mp-aaaaapot-GGA,I4_1/amd,298 K,measured structure,"Strzelecki 2020 (average of two anhydrous routes, 43.2 to 50.4)",strzelecki2020,isovalent
+oxide,USiO4,44.22,6.7,54.4,22.5,mp-aaaaagej-GGA,I4_1/amd,298 K,measured structure,Guo 2015,guo2015,isovalent
+"carbide, nitride or hydride",Cu3N,216.87,,192.1,22.5,mp-aaaaacwj-GGA,Pm-3m,740 K,measured structure,Zachwieja and Jacobs 1990 (own DSC measurement),zachwieja1990,element
+"carbide, nitride or hydride",CuH,142.51,2.1,48.6,22.5,mp-aaaabjqr-GGA,P6_3mc,298 K,measured structure,Burtovyy 2000,burtovyy2000,element
+chalcogenide,AgTe,8.01,0.46,-105.0,22.5,mp-568761-GGA,Pnma,298 K,measured structure,Voronin 2017 (natural empressite; enthalpy above Ag2Te + Te),voronin2017,element
+intermetallic,Cu41Sn11,8.91,13.27,17.4,34.0,mp-aaacrbeg-GGA,F-43m,298 K,measured structure,Flandorfer 2007 (measured x = 0.20),flandorfer2007,element
+chalcogenide,FeAg2SnS4,20.3,15.8,87.5,34.0,,I-42m,298 K,only entry,"EMF, measured hull of the paper's own phases (paper:moroz_2018_agfesns; vs Ag+FeAg2Sn3S8+FeS2)",moroz2018,element
+chalcogenide,TlCu2Se2,15.8,3.2,-122.8,34.0,,I4/mmm,298 K,only entry,"EMF, measured hull of the paper's own phases (paper:babanly_2011_cutlse; vs Cu2Se+TlSe)",babanly2011b,redox
+chalcogenide,TlAsSe2,7.0,7.3,-23.9,22.5,,P2_1/c,298 K,only entry,"EMF, measured hull of the paper's own phases (paper:babanly_2012_tlasse; vs As+As2Se3+Tl3AsSe4)",babanly2012b,element
+chalcogenide,Cu3AsS4,0.9,3.4,-147.9,22.5,,Pmn2_1,298 K,"lowest entry, measured structure not stated","EMF, measured hull of the paper's own phases (paper:babanly_2012_cuass; vs As2S3+Cu2S+S)",babanly2012,element
+"carbide, nitride or hydride",Na2C2,50.2,4.3,231.5,22.5,mp-1267-GGA,I4_1/acd,298 K,measured structure,TKV (Johnson et al. 1973),tkv; johnson1973,element
+"carbide, nitride or hydride",Cd3N2,334.8,9.5,416.1,22.5,mp-569957-GGA,Ia-3,298 K,measured structure,TKV (Hahn and Juza 1940),tkv; hahn1940,element

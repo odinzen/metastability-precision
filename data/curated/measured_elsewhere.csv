@@ -1,0 +1,28 @@
+# Ranked candidates for the forward predictions (measurement_value_observed.py) that already have a published experimental enthalpy of formation, or may have one. Found by the literature check of 2026-11-14 (web search of the primary literature and text search of NBS 1982, Barin 1995, Robie and Hemingway 1995, CRC and NIST-JANAF). Entered as measured, so they are not proposed for measurement. verdict: measured, or possible (a source that may hold a value but whose full text was not read; kept out to be safe).
+formula,verdict,method,source
+FeSiO3,measured,lead borate solution calorimetry (ferrosilite),Wood and Kleppa 1981 Geochim. Cosmochim. Acta 45 529 doi:10.1016/0016-7037(81)90185-X; Robie and Hemingway 1995
+FeBiO3,measured,solution and Calvet calorimetry,Phapale et al. 2008 J. Nucl. Mater. 373 137 doi:10.1016/j.jnucmat.2007.05.036
+YCuO2,measured,EMF (YSZ cell),Kale and Jacob 1989 Chem. Mater. 1 515 doi:10.1021/cm00005a010
+Na5P3O10,measured,solution calorimetry,Irving and McKerrell 1968 Trans. Faraday Soc. 64 875 doi:10.1039/TF9686400875
+Li3B7O12,possible,oxide melt solution calorimetry of lithium borates x(Li2O) 0.2-0.5,Wu et al. 2019 J. Am. Ceram. Soc. 102 4538 doi:10.1111/jace.16323
+CuMoO4,possible,decomposition pressures,Steiner et al. 1996 Z. anorg. allg. Chem. 622 1428
+Cu3Mo2O9,possible,decomposition pressures,Steiner et al. 1996 Z. anorg. allg. Chem. 622 1428
+Na2Ti6O13,measured,HF solution calorimetry,Bennington and Brown 1973 USBM RI 7778
+CaAl2SiO6,measured,lead borate solution calorimetry and phase equilibria (Ca-Tschermak pyroxene),Newton et al. 1977; Holland and Powell 1998
+Li2Mo4O13,measured,aqueous solution calorimetry,Tangri et al. 1994 J. Alloys Compd. 205 129 doi:10.1016/0925-8388(94)90778-1
+Sr2V2O7,measured,solution calorimetry,Khodos et al. 1979 Izv. Akad. Nauk SSSR Neorg. Mater. 15 125
+Fe4Bi2O9,measured,solution and Calvet calorimetry,Phapale et al. 2008 J. Nucl. Mater. 373 137 doi:10.1016/j.jnucmat.2007.05.036
+Gd3NbO7,measured,oxide melt solution calorimetry,Mielewczyk-Gryn and Navrotsky 2015 Am. Mineral. 100 1578 doi:10.2138/am-2015-5210
+TmFeO3,possible,gas equilibrium (tabulated by Petrov 2015),Katsura et al. 1978 J. Solid State Chem. 23 43 doi:10.1016/0022-4596(78)90052-x
+Ti4Bi2O11,possible,calorimetry of bismuth titanates,Xiao et al. 2025 J. Eur. Ceram. Soc. 45 116995 doi:10.1016/j.jeurceramsoc.2024.116995
+Na4Mn3P4O15,measured,oxide melt drop solution calorimetry,Jayanthi et al. 2023 J. Phys. Chem. C 127 11700 doi:10.1021/acs.jpcc.3c01975
+Li3B11O18,possible,oxide melt solution calorimetry of lithium borates x(Li2O) 0.2-0.5,Wu et al. 2019 J. Am. Ceram. Soc. 102 4538 doi:10.1111/jace.16323
+Tb3Fe5O12,possible,gas equilibrium,Katsura et al. 1978 J. Solid State Chem. 23 43 doi:10.1016/0022-4596(78)90052-x
+Ca2B6O11,measured,evaluated table,Wagman et al. 1982 NBS tables
+TbFeO3,measured,gas equilibrium,Katsura et al. 1975 Bull. Chem. Soc. Jpn. 48 1809 doi:10.1246/bcsj.48.1809
+Ca(BO2)2,measured,evaluated table,Wagman et al. 1982 NBS tables; Barin 1995
+Li3PO4,measured,evaluated table,Wagman et al. 1982 NBS tables (CRC compilation); -2095.8 kJ/mol from the elements
+Mn3(PO4)2,measured,evaluated table,Wagman et al. 1982 NBS tables p. 2-193; -3116.7 kJ/mol from the elements
+Mg3NiO4,measured,oxide melt solution calorimetry of the MgO-NiO rocksalt solid solution,Davies and Navrotsky 1981 J. Solid State Chem. 38 264 doi:10.1016/0022-4596(81)90044-x
+Li4P2O7,measured,evaluated table,Wagman et al. 1982 NBS tables (Li table); -3356 kJ/mol from the elements
+KPO3,measured,evaluated table,Wagman et al. 1982 NBS tables (K table)

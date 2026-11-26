@@ -1,27 +1,33 @@
-"""The uncertainty of a computed decision, shared by every precision script.
+"""The uncertainty of a computed decision, shared by every precision script: three regimes.
 
-Closed-shell oxides take the calorimetric scatter, 22.5 meV per atom, which the calibration supports (fitted 22, 95%
-interval 15 to 37, on the closed-shell decisions of precision_calibration.py). A decision whose target holds an
-open-shell 3d or 4f cation takes 43 meV per atom, the lowest value the open-shell compiled decisions allow (fitted 93,
-interval 43 upward), so its probabilities are upper bounds. Open shell is judged from the most likely oxidation states,
-so d0 cations such as V(V) and Cr(VI) count as closed.
+Compound decisions (a target against other compounds or its binary oxides, no open shell) take the calorimetric
+scatter, 22.5 meV per atom, fixed before any outcome was seen. Against outcomes audited with primary calorimetry the
+closed-shell compiled decisions want less (fitted 13.6, 95% interval 8 to 26; calibration_audit.py), so 22.5 is
+conservative for them. Decisions about a target with an open-shell cation take 34 meV per atom, the lowest value the
+audited open-shell decisions allow (fitted 66, interval 34 to 298), so their probabilities are upper bounds. Polymorph
+decisions, between structures of one composition, carry a systematic GGA error that favours the less dense structure
+rather than a random scatter; they get no Gaussian probability and are reported apart (regime "polymorph").
+
+Open shell is judged from the most likely oxidation states, so d0 cations such as V(V) and Cr(VI) count as closed, and
+as the calculation sees it: the Materials Project (and GNoME, with the same settings) puts the 4f electrons of most
+lanthanides in the core (Pr_3, Nd_3, Sm_3, Tb_3 to Lu_3, Yb_2), so only Ce, Eu and Gd can have an open 4f shell.
 """
 from functools import lru_cache
 
 from pymatgen.core import Composition, Element
 
 SIGMA_CLOSED = 22.5
-SIGMA_OPEN = 43.0
+SIGMA_OPEN = 34.0
 D_ELECTRONS_NEUTRAL = {"Sc": 3, "Ti": 4, "V": 5, "Cr": 6, "Mn": 7, "Fe": 8, "Co": 9, "Ni": 10, "Cu": 11, "Zn": 12}
-OPEN_CANDIDATES = {"V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho",
-                   "Er", "Tm", "Yb"}
+F_IN_VALENCE = {"Ce", "Eu", "Gd"}  # lanthanides whose GGA PAW keeps the 4f electrons in the valence
+OPEN_CANDIDATES = {"V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu"} | F_IN_VALENCE
 
 
 def _open(element, oxidation):
     if element in D_ELECTRONS_NEUTRAL:
         return 0 < D_ELECTRONS_NEUTRAL[element] - oxidation < 10
     el = Element(element)
-    if el.is_lanthanoid:
+    if element in F_IN_VALENCE:
         return 0 < el.Z - 57 - (oxidation - 3) < 14  # 4f count: La(III) 0, Lu(III) 14, Ce(IV) 0
     return False
 
@@ -41,6 +47,14 @@ def open_shell(formula):
     return any(_open(el, ox) for el, ox in guesses[0].items())
 
 
-def sigma_for(formula, closed=SIGMA_CLOSED):
-    """sigma in meV per atom for a decision about this target; `closed` sets the closed-shell value for sensitivity."""
-    return max(SIGMA_OPEN, closed) if open_shell(formula) else closed
+def regime(formula, polymorph=False):
+    """'polymorph' for a decision between structures of one composition, else 'open-shell' or 'compound'."""
+    if polymorph:
+        return "polymorph"
+    return "open-shell" if open_shell(formula) else "compound"
+
+
+def sigma_for(formula, closed=SIGMA_CLOSED, open_=SIGMA_OPEN):
+    """sigma in meV per atom for a compound or open-shell decision about this target; `closed` and `open_` set the two
+    values for sensitivity runs."""
+    return max(open_, closed) if open_shell(formula) else closed

@@ -1,0 +1,31 @@
+# Forward predictions, written 2026-11-14 before any of these compounds is measured. The 29 observed, unmeasured oxides whose calorimetric enthalpy would make the most of the 6869 stability relations of the known oxides correct (scripts/measurement_value_observed.py), with the enthalpy of formation from the binary oxides (meV/atom, 298 K) that the error model of preregistration_model.py expects calorimetry to give. Materials Project GGA/GGA+U, release 2026.09.28.
+rank,compound,family,open_shell,relations_entered,expected_gain,binary_oxides,family_in_training,dft_meV_atom,predicted_measured_meV_atom,interval_68,interval_95
+1,K5B19O31,borates,False,20,0.84,B2O3+K2O,True,-247.3,-255.3,-292.0 to -218.6,-327.2 to -183.3
+2,KBe2B3O7,borates,False,3,0.94,B2O3+BeO+K2O,True,-189.8,-192.0,-227.5 to -156.5,-261.6 to -122.4
+3,MnInO3,other oxides,True,3,0.78,In2O3+Mn2O3,True,14.6,7.9,-25.3 to 41.2,-57.3 to 73.1
+4,SrV3O7,vanadates,True,2,0.76,SrO+VO2,True,-121.7,-125.4,-160.8 to -89.9,-194.9 to -55.8
+5,LiNbZnO4,niobates,False,2,0.72,Li2O+Nb2O5+ZnO,True,-109.2,-127.3,-163.9 to -90.6,-199.1 to -55.4
+6,LiCr(SiO3)2,silicates,True,2,0.72,Cr2O3+Li2O+SiO2,True,-63.8,-79.2,-112.8 to -45.5,-145.2 to -13.2
+7,Na2MnP2O7,phosphates,True,3,0.71,MnO+Na2O+P2O5,True,-490.4,-562.0,-607.8 to -516.2,-651.8 to -472.2
+8,Si2Pb3O7,silicates,False,7,0.71,PbO+SiO2,True,-47.2,-60.9,-94.5 to -27.4,-126.7 to 4.9
+9,CaMgB2O5,borates,False,3,0.69,B2O3+CaO+MgO,True,-162.7,-162.2,-197.3 to -127.1,-230.9 to -93.4
+10,Na3B7O12,borates,False,11,0.69,B2O3+Na2O,True,-245.6,-253.3,-290.0 to -216.6,-325.2 to -181.4
+11,LiFe(SiO3)2,silicates,True,2,0.67,Fe2O3+Li2O+SiO2,True,-59.6,-74.6,-108.2 to -40.9,-140.5 to -8.6
+12,Sr4B14O25,borates,False,12,0.65,B2O3+SrO,True,-196.0,-198.7,-234.4 to -163.1,-268.6 to -128.9
+13,SrVSi2O7,silicates,True,2,0.65,SiO2+SrO+VO2,True,-115.7,-136.3,-170.5 to -102.1,-203.4 to -69.3
+14,MnBiO3,other oxides,True,5,0.64,Bi2O3+Mn2O3,True,19.4,13.2,-20.0 to 46.5,-52.0 to 78.5
+15,CaGe2O5,germanates,False,5,0.56,CaO+GeO2,True,-123.5,-140.7,-176.5 to -104.9,-210.9 to -70.5
+16,CaSiSnO5,silicates,False,2,0.55,CaO+SiO2+SnO2,True,-94.9,-113.4,-147.4 to -79.4,-180.0 to -46.8
+17,CrBiO3,other oxides,True,2,0.54,Bi2O3+Cr2O3,True,11.2,4.3,-29.0 to 37.5,-60.9 to 69.5
+18,HfPbO3,other oxides,False,3,0.53,HfO2+PbO,True,9.0,1.9,-31.4 to 35.1,-63.3 to 67.1
+19,GdAl3(BO3)4,borates,True,2,0.52,Al2O3+B2O3+Gd2O3,True,-68.9,-58.9,-93.0 to -24.8,-125.7 to 7.9
+20,Li2Si3O7,silicates,False,2,0.51,Li2O+SiO2,True,-111.4,-131.6,-165.7 to -97.4,-198.5 to -64.6
+21,Ca2Ge7O16,germanates,False,11,0.51,CaO+GeO2,True,-97.4,-111.9,-147.4 to -76.4,-181.5 to -42.3
+22,Li4Zn(PO4)2,phosphates,False,3,0.5,Li2O+P2O5+ZnO,True,-455.2,-523.2,-567.6 to -478.8,-610.3 to -436.2
+23,Ba2UCuO6,other oxides,True,2,0.49,BaO+CuO+UO3,True,-226.3,-257.0,-293.2 to -220.9,-327.8 to -186.2
+24,Mn2P2O7,phosphates,True,11,0.48,MnO+P2O5,True,-310.3,-363.8,-403.2 to -324.5,-440.9 to -286.7
+25,CaMn4(SiO3)5,silicates,True,4,0.48,CaO+MnO+SiO2,True,-69.0,-84.9,-118.7 to -51.2,-151.0 to -18.8
+26,TmSb(PbO3)2,other oxides,False,3,0.46,PbO+Sb2O5+Tm2O3,True,-100.5,-118.6,-152.5 to -84.7,-185.0 to -52.2
+27,La4Ti9O24,titanates,False,2,0.46,La2O3+TiO2,True,-65.9,-96.8,-130.9 to -62.8,-163.5 to -30.1
+28,LiSc(SiO3)2,silicates,False,2,0.46,Li2O+Sc2O3+SiO2,True,-79.1,-96.0,-129.8 to -62.2,-162.3 to -29.7
+29,LiScSiO4,silicates,False,3,0.5,Li2O+Sc2O3+SiO2,True,-114.6,-135.1,-169.3 to -100.9,-202.1 to -68.0

@@ -1,0 +1,16 @@
+{
+ "tag": "ZnO",
+ "atoms": 4,
+ "supercell": [
+  4,
+  4,
+  2
+ ],
+ "n_displacements": 4,
+ "orientations": 12,
+ "e_static_eV_atom": -4.4642645784958646,
+ "zpe_kJ_mol_atoms": 5.26969407822354,
+ "heat_content_kJ_mol_atoms": 3.701824124373421,
+ "min_frequency_THz": -0.3634356269597069,
+ "imaginary_fraction": 0.00020833333333333335
+}

@@ -1,0 +1,16 @@
+family,labels,n,called_above_0,called_above_10,called_above_22.5
+"oxide, compound",all,22,13,17,19
+"oxide, compound",beyond 1u,18,12,14,15
+"oxide, compound",beyond 2u,18,12,14,15
+"oxide, open-shell",all,9,8,8,9
+"oxide, open-shell",beyond 1u,9,8,8,9
+"oxide, open-shell",beyond 2u,9,8,8,9
+intermetallic,all,32,9,11,14
+intermetallic,beyond 1u,14,3,5,7
+intermetallic,beyond 2u,4,0,0,0
+chalcogenide and nitride,all,15,4,6,7
+chalcogenide and nitride,beyond 1u,4,1,1,1
+chalcogenide and nitride,beyond 2u,2,0,0,0
+other compiled non-oxide,all,15,12,12,13
+other compiled non-oxide,beyond 1u,12,11,11,12
+other compiled non-oxide,beyond 2u,11,11,11,11

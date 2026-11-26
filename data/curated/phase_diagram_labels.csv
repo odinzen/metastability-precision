@@ -1,0 +1,6 @@
+formula,stable_on_phase_diagram,source,doi,note
+Ca3Al2O6,True,"Hallstedt 1990, J. Am. Ceram. Soc. 73, 15",10.1111/j.1151-2916.1990.tb05083.x,"C3A is a stable subsolidus phase; Coughlin 1956 nevertheless puts it 8.8 kJ/mol above CA + 2 CaO in enthalpy"
+Ca3Si2O7,True,"Hillert, Sundman and Wang 1990, Metall. Trans. B 21, 303",10.1007/bf02664198,"rankinite; re-evaluated in Calphad 15 (1991) 10.1016/0364-5916(91)90025-f"
+BeAl6O10,True,"Lang, Fillmore and Maxwell 1952, J. Res. Natl. Bur. Stand. 48, 298",10.6028/jres.048.038,"BeO-Al2O3 edge of the BeO-Al2O3-TiO2 system"
+NaB3O5,True,"Hoch 1996, J. Phase Equilib.",10.1007/bf02665555,"Na2O.3B2O3"
+K2Si4O9,True,"source to verify (K2O-SiO2 subsolidus)",,"sensitivity only until a source is checked"

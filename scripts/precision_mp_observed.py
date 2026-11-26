@@ -3,7 +3,7 @@ population of Sun et al. 2016 on today's release: each phase's stability margin 
 Stable phases use the decomposition enthalpy (depth below the hull of all other phases); metastable phases use the
 energy above the hull. GGA/GGA+U thermo, as in the rest of the paper.
 
-Oxides take sigma from sigma_model.py (22.5 meV/atom, or 43 with an open-shell 3d or 4f cation); for other
+Oxides take sigma from sigma_model.py (22.5 meV/atom, or 34 with an open-shell 3d or 4f cation); for other
 chemistries 22.5 is an extrapolation, reported separately. `--rescore` reapplies sigma to the saved table without
 querying the database again, so the numbers stay on the release the paper used. The family offset is not added: within one phase diagram the target and its competitors share a
 chemistry, so the proportional offset largely cancels between them while the random scatter does not.

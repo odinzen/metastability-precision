@@ -7,8 +7,10 @@ Everything else is fetched from its source rather than redistributed:
   - Szymanski et al. 2023 (doi 10.1038/s41586-023-06734-w): Supplementary Data, the updated file of the corrected
     article, with recipes, outcomes and refinements
   - Wang et al. 2021 (doi 10.1038/s41598-021-94550-5): compiled experimental formation enthalpies (figshare)
+  - Merchant et al. 2023 (doi 10.1038/s41586-023-06735-9): the GNoME summaries of stable materials, GGA and r2SCAN
+    (CC BY-NC 4.0; gs://gdm_materials_discovery/gnome_data), read only by scripts/gnome_precision.py
 
-Usage: python fetch_inputs.py    (needs git on the path; about 50 MB)
+Usage: python fetch_inputs.py    (needs git on the path; about 220 MB, 175 MB of it the GNoME summaries)
 """
 import hashlib
 import subprocess
@@ -20,6 +22,7 @@ from pathlib import Path
 RAW = Path(__file__).resolve().parent / "data" / "raw"
 CHEN = "https://static-content.springer.com/esm/art%3A10.1038%2Fs44160-024-00502-y/MediaObjects/44160_2024_502_MOESM{}_ESM.xlsx"
 ALAB = "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06734-w/MediaObjects/41586_2023_6734_MOESM3_ESM.zip"
+GNOME = "https://storage.googleapis.com/gdm_materials_discovery/gnome_data/{}"
 FILES = [
     (CHEN.format(2), "chen2024/si/MOESM2_ESM.xlsx", "6b6084f75baf127813f1bb654c133dc7"),
     (CHEN.format(7), "chen2024/si/MOESM7_ESM.xlsx", "ab42d8644507077ca01c94e325af7974"),
@@ -28,6 +31,8 @@ FILES = [
     (ALAB, "alab2023/Supplementary_Data.zip", "d65e1f76c96a8c065c366b18f62723ef"),
     ("https://ndownloader.figshare.com/files/28232538", "measured/expt_formation_enthalpy_kingsbury.json.gz",
      "961033dbfa21626850ee6ee8d8e14d7c"),
+    (GNOME.format("stable_materials_summary.csv"), "gnome/stable_materials_summary.csv", "85b07d27a8d9e6b1f195f5677801ae12"),
+    (GNOME.format("stable_materials_r2scan.csv"), "gnome/stable_materials_r2scan.csv", "f74355e58af7e0fc4a8dd06c1ccff425"),
 ]
 CHEN_CODE = ("https://github.com/dd-debug/synthesis_planning_algorithm", "6dcee76")
 

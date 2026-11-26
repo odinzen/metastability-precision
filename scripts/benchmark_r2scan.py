@@ -43,7 +43,7 @@ def fit(meas, err):
 
 def calorimetric(mpr):
     gga = pd.read_csv(ROOT / "results" / "benchmark_dft_vs_measured.csv").dropna(subset=["error_meV_atom"])
-    gga = gga[gga.family != "Li cathode oxides"].drop_duplicates(["compound", "paper", "measured_kJ"])
+    gga = gga[gga.family != "Li cathode oxides"].drop_duplicates(["compound", "paper", "measured_meV_atom"])  # LaFeO3 is listed twice (-64.58, -64.6 kJ)
     df = anchors()
     rows = []
     for _, r in df.iterrows():

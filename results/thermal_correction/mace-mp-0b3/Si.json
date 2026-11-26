@@ -1,0 +1,17 @@
+{
+ "tag": "Si",
+ "mlip": "mace-mp-0b3",
+ "atoms": 2,
+ "supercell": [
+  3,
+  3,
+  3
+ ],
+ "n_displacements": 1,
+ "orientations": 1,
+ "e_static_eV_atom": -5.383559720634235,
+ "zpe_kJ_mol_atoms": 5.5172696910762555,
+ "heat_content_kJ_mol_atoms": 3.398068100560354,
+ "min_frequency_THz": 7.258548171662177e-08,
+ "imaginary_fraction": 0.0
+}

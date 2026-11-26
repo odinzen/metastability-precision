@@ -2,3 +2,14 @@
 *.gz binary
 *.png binary
 *.pdf binary
+
+# Shell scripts run on Sol; a CRLF checkout breaks them.
+*.sh text eol=lf
+*.slurm text eol=lf
+*.tsv text eol=lf
+
+# Deposited predictions: stored byte for byte so their SHA-256 checksums hold.
+results/preregistered_*.csv -text
+results/preregistered_*.sha256 -text
+results/forward_predictions_*.csv -text
+results/forward_predictions_*.sha256 -text

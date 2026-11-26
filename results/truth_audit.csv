@@ -1,0 +1,120 @@
+compound,products,dft_meV_atom,measured_compiled,u_compiled,u_from_median,measured_primary,u_primary,primary_records,truth_meV_atom,truth_u,truth_basis,p_stable,phase_diagram_stable
+Al2SiO5,Al2O3+SiO2,10.2,-16.9,12.2,True,,,,-16.9,12.2,compiled,0.917,False
+AlPO4,Al2O3+P2O5,-270.4,-252.9,10.8,True,,,,-252.9,10.8,compiled,1.0,False
+Ba2SiO4,BaO+BaSiO3,-139.5,-157.2,12.3,False,,,,-157.2,12.3,compiled,1.0,False
+Ba2TiO4,BaO+TiO2,-284.9,-286.1,19.7,False,,,,-286.1,19.7,compiled,1.0,False
+BaAl2O4,Al2O3+BaO,-193.9,-159.9,18.0,True,,,,-159.9,18.0,compiled,1.0,False
+BaSiO3,Ba2SiO4+SiO2,-49.3,-57.4,15.3,False,,,,-57.4,15.3,compiled,0.9999,False
+BaZrO3,BaO+ZrO2,-221.5,-255.9,17.2,True,,,,-255.9,17.2,compiled,1.0,False
+Be2SiO4,BeO+SiO2,-4.6,-8.3,21.7,True,,,,-8.3,21.7,compiled,0.649,False
+BeAl2O4,BeAl6O10+BeO,-13.4,-37.6,10.6,True,,,,-37.6,10.6,compiled,0.9998,False
+BeAl6O10,Al2O3+BeAl2O4,1.1,8.2,13.1,True,,,,8.2,13.1,compiled,0.2657,True
+Ca2B2O5,CaB4O7+CaO,-123.9,-115.3,6.9,False,,,,-115.3,6.9,compiled,1.0,False
+Ca2Fe2O5,Ca(FeO2)2+CaO,-33.1,-22.2,6.3,False,,,,-22.2,6.3,compiled,0.9998,False
+Ca2P2O7,Ca3(PO4)2+P2O5,-76.0,-85.1,25.3,False,,,,-85.1,25.3,compiled,0.9996,False
+Ca2SiO4,Ca3Si2O7+Ca3SiO5,-33.0,-56.2,10.9,False,-33.8,2.5,meas:abdul2023:dHf_gC2S_298 meas:abdul2023:dHf_rankinite_298 meas:abdul2023:dHf_tricC3S_298,-33.8,2.5,primary calorimetry,1.0,False
+Ca2V2O7,Ca3V2O8+CaV2O6,-46.4,-27.8,7.9,False,,,,-27.8,7.9,compiled,0.9998,False
+Ca3(PO4)2,Ca2P2O7+CaO,-98.0,-116.0,26.0,False,,,,-116.0,26.0,compiled,1.0,False
+Ca3Al2O6,CaAl2O4+CaO,2.3,5.8,5.0,False,8.3,1.9,meas:coughlin1956:formation_enthalpy_ox_Ca3Al2O6 meas:coughlin1956:formation_enthalpy_ox_CaAl2O4,8.3,1.9,primary calorimetry,0.0,True
+Ca3Si2O7,Ca2SiO4+CaSiO3,2.4,18.1,12.0,False,-2.9,3.7,meas:abdul2023:dHf_rankinite_298 meas:abdul2023:dHf_gC2S_298 meas:abdul2023:dHf_wollastonite_298,-2.9,3.7,primary calorimetry,0.7834,True
+Ca3SiO5,Ca2SiO4+CaO,20.1,39.7,11.1,False,27.6,1.4,meas:abdul2023:dHf_tricC3S_298 meas:abdul2023:dHf_gC2S_298,27.6,1.4,primary calorimetry,0.0,False
+Ca3V2O8,Ca2V2O7+CaO,-4.4,-47.8,8.6,False,,,,-47.8,8.6,compiled,1.0,False
+Ca3WO6,CaO+CaWO4,-98.4,-40.4,21.1,False,,,,-40.4,21.1,compiled,0.9722,False
+Ca4Ti3O10,CaO+CaTiO3,1.5,-33.6,14.7,False,,,,-33.6,14.7,compiled,0.9889,False
+CaAl2O4,Ca3Al2O6+CaAl4O7,-11.1,-12.4,3.9,False,,,,-12.4,3.9,compiled,0.9993,False
+CaAl4O7,Al2O3+CaAl2O4,-21.2,-4.4,8.5,True,,,,-4.4,8.5,compiled,0.6976,False
+CaB4O7,B2O3+Ca2B2O5,-60.6,-59.8,6.3,False,,,,-59.8,6.3,compiled,1.0,False
+CaCr2O4,CaO+Cr2O3,-66.0,-89.0,21.8,True,,,,-89.0,21.8,compiled,1.0,False
+CaGeO3,CaO+GeO2,-181.3,-188.8,15.9,True,,,,-188.8,15.9,compiled,1.0,False
+CaMoO4,CaO+MoO3,-254.6,-286.6,6.0,False,,,,-286.6,6.0,compiled,1.0,False
+CaNb2O6,CaO+Nb2O5,-142.9,-162.1,20.4,False,,,,-162.1,20.4,compiled,1.0,False
+CaSiO3,Ca2SiO4+SiO2,-35.1,-34.7,7.3,False,-42.5,1.4,meas:abdul2023:dHf_wollastonite_298 meas:abdul2023:dHf_gC2S_298,-42.5,1.4,primary calorimetry,1.0,False
+CaTiO3,Ca4Ti3O10+TiO2,-34.4,-13.8,14.2,False,,,,-13.8,14.2,compiled,0.8344,False
+CaUO4,CaO+UO3,-185.3,-241.1,7.1,False,,,,-241.1,7.1,compiled,1.0,False
+CaV2O6,Ca2V2O7+V2O5,-32.5,-14.2,7.4,False,,,,-14.2,7.4,compiled,0.9725,False
+CaWO4,Ca3WO6+WO3,-57.0,-146.4,23.2,False,,,,-146.4,23.2,compiled,1.0,False
+CaZrO3,CaO+ZrO2,-59.6,-70.8,22.9,True,,,,-70.8,22.9,compiled,0.999,False
+CdSiO3,CdO+SiO2,-38.6,-46.8,7.9,False,,,,-46.8,7.9,compiled,1.0,False
+CeAlO3,Al2O3+Ce2O3,-22.9,-138.6,11.2,True,,,,-138.6,11.2,compiled,1.0,False
+CeCrO3,Ce2O3+Cr2O3,97.0,-136.4,25.5,False,,,,-136.4,25.5,compiled,1.0,False
+Co2SiO4,CoO+SiO2,-24.6,-22.2,7.5,False,,,,-22.2,7.5,compiled,0.9985,False
+CoWO4,CoO+WO3,-50.0,-106.8,8.3,False,,,,-106.8,8.3,compiled,1.0,False
+Cs2CrO4,CrO3+Cs2O,-698.0,-734.3,18.7,True,,,,-734.3,18.7,compiled,1.0,False
+Cs2MoO4,Cs2O+MoO3,-598.3,-626.3,20.4,True,,,,-626.3,20.4,compiled,1.0,False
+Cs2SiO3,Cs2O+SiO2,-383.2,-524.1,27.9,True,,,,-524.1,27.9,compiled,1.0,False
+Cs2UO4,Cs2O+UO3,-448.9,-527.3,10.7,True,,,,-527.3,10.7,compiled,1.0,False
+CsBO2,B2O3+Cs2O,-410.9,-432.3,54.6,True,,,,-432.3,54.6,compiled,1.0,False
+K2B4O7,KB3O5+KBO2,-11.5,-17.9,23.7,True,,,,-17.9,23.7,compiled,0.775,False
+K2CrO4,CrO3+K2O,-666.3,-651.7,19.1,True,,,,-651.7,19.1,compiled,1.0,False
+K2Si2O5,K2Si4O9+K2SiO3,-12.5,-43.8,14.0,True,,,,-43.8,14.0,compiled,0.9991,False
+K2Si4O9,K2Si2O5+SiO2,-18.1,6.6,12.2,False,,,,6.6,12.2,compiled,0.2943,True
+K2SiO3,K2O+K2Si2O5,-184.1,-193.7,20.6,True,,,,-193.7,20.6,compiled,1.0,False
+K3PO4,K2O+P2O5,-771.5,-895.1,15.1,True,,,,-895.1,15.1,compiled,1.0,False
+KBO2,K2B4O7+K2O,-160.8,-183.1,26.8,True,,,,-183.1,26.8,compiled,1.0,False
+LaAlO3,Al2O3+La2O3,-71.8,-129.3,12.0,True,-144.3,6.7,meas:cheng_navrotsky_2003:formation_enthalpy_ox_LaAlO3,-144.3,6.7,primary calorimetry,1.0,False
+LaPO4,La2O3+P2O5,-466.7,-453.5,19.4,False,,,,-453.5,19.4,compiled,1.0,False
+Li2B4O7,LiB3O5+LiBO2,-16.6,-10.5,22.8,True,,,,-10.5,22.8,compiled,0.6774,False
+Li2SiO3,Li2O+Li2Si2O5,-105.6,-121.1,23.4,True,,,,-121.1,23.4,compiled,1.0,False
+Li2ZrO3,Li2O+ZrO2,-102.6,-115.6,15.5,True,,,,-115.6,15.5,compiled,1.0,False
+Li3AsO4,As2O5+Li2O,-428.0,-345.3,14.1,False,,,,-345.3,14.1,compiled,1.0,False
+LiAlO2,Al2O3+Li2O,-168.2,-144.3,16.0,True,,,,-144.3,16.0,compiled,1.0,False
+LiB3O5,B2O3+Li2B4O7,-7.8,-13.9,23.1,True,,,,-13.9,23.1,compiled,0.7263,False
+LiBO2,Li2B4O7+Li2O,-72.4,-75.6,15.8,True,,,,-75.6,15.8,compiled,1.0,False
+LiPO3,Li2O+P2O5,-376.5,-421.5,11.1,False,,,,-421.5,11.1,compiled,1.0,False
+LiTaO3,Li2O+Ta2O5,-179.8,-201.2,19.2,True,,,,-201.2,19.2,compiled,1.0,False
+Mg2SiO4,MgO+MgSiO3,-42.6,-39.7,8.6,True,-38.8,1.3,meas:charlu_newton_kleppa_1975:formation_enthalpy_ox_Mg2SiO4_298K meas:householder2023:dHf_ox_orthoEn,-38.8,1.3,primary calorimetry,1.0,False
+Mg2V2O7,MgO+MgV2O6,-55.4,-30.4,10.0,True,,,,-30.4,10.0,compiled,0.9988,False
+Mg3(PO4)2,MgO+P2O5,-343.0,-347.1,21.4,True,,,,-347.1,21.4,compiled,1.0,False
+MgAl2O4,Al2O3+MgO,-54.4,-43.5,23.6,True,-54.0,1.8,meas:navrotsky_kleppa_1968:formation_enthalpy_ox_MgAl2O4,-54.0,1.8,primary calorimetry,1.0,False
+MgGeO3,GeO2+MgO,-92.4,-98.2,17.0,True,,,,-98.2,17.0,compiled,1.0,False
+MgMoO4,MgO+MoO3,-110.4,-92.6,10.7,True,,,,-92.6,10.7,compiled,1.0,False
+MgSiO3,Mg2SiO4+SiO2,5.1,-12.2,8.5,False,-8.1,1.8,meas:householder2023:dHf_ox_orthoEn meas:charlu_newton_kleppa_1975:formation_enthalpy_ox_Mg2SiO4_298K,-8.1,1.8,primary calorimetry,1.0,False
+MgTi2O5,MgTiO3+TiO2,-7.6,9.4,18.9,True,,,,9.4,18.9,compiled,0.3095,False
+MgTiO3,MgO+MgTi2O5,-17.2,-35.5,16.0,True,,,,-35.5,16.0,compiled,0.9867,False
+MgUO4,MgO+UO3,-36.4,-54.4,8.3,True,,,,-54.4,8.3,compiled,1.0,False
+MgV2O6,Mg2V2O7+V2O5,-1.7,-9.6,7.9,False,,,,-9.6,7.9,compiled,0.8879,False
+MgWO4,MgO+WO3,-92.9,-123.6,20.3,True,,,,-123.6,20.3,compiled,1.0,False
+Mn2SiO4,MnO+MnSiO3,-36.6,-37.2,7.5,False,,,,-37.2,7.5,compiled,1.0,False
+MnAl2O4,Al2O3+MnO,-34.7,-70.1,16.4,True,,,,-70.1,16.4,compiled,1.0,False
+MnSiO3,Mn2SiO4+SiO2,6.2,-2.7,7.0,False,,,,-2.7,7.0,compiled,0.6501,False
+Na2B4O7,Na2B8O13+NaBO2,-17.5,-6.5,19.1,True,,,,-6.5,19.1,compiled,0.6332,False
+Na2B8O13,B2O3+NaB3O5,-17.2,-22.0,15.3,True,,,,-22.0,15.3,compiled,0.9248,False
+Na2CrO4,CrO3+Na2O,-508.6,-491.9,21.2,False,,,,-491.9,21.2,compiled,1.0,False
+Na2Mo2O7,MoO3+Na2O,-316.1,-429.2,12.0,False,,,,-429.2,12.0,compiled,1.0,False
+Na2Si2O5,Na2SiO3+SiO2,-16.2,-0.4,22.6,True,,,,-0.4,22.6,compiled,0.5071,False
+Na2SiO3,Na2Si2O5+Na4SiO4,-52.3,-65.1,25.4,True,,,,-65.1,25.4,compiled,0.9948,False
+Na3PO4,Na2O+Na4P2O7,-130.4,-163.4,15.4,True,,,,-163.4,15.4,compiled,1.0,False
+Na4P2O7,Na3PO4+NaPO3,-42.9,-23.5,18.8,True,,,,-23.5,18.8,compiled,0.8944,False
+Na4SiO4,Na2O+Na2SiO3,-111.1,-143.6,31.5,True,,,,-143.6,31.5,compiled,1.0,False
+NaAlO2,Al2O3+Na2O,-252.9,-237.3,22.1,True,,,,-237.3,22.1,compiled,1.0,False
+NaB3O5,Na2B4O7+Na2B8O13,-2.4,5.3,20.1,True,,,,5.3,20.1,compiled,0.396,True
+NaBO2,Na2B4O7+Na2O,-113.5,-136.7,16.5,True,,,,-136.7,16.5,compiled,1.0,False
+NaCrO2,Cr2O3+Na2O,-242.0,-263.3,15.4,False,,,,-263.3,15.4,compiled,1.0,False
+NaPO3,Na4P2O7+P2O5,-91.1,-108.3,13.5,True,,,,-108.3,13.5,compiled,1.0,False
+NiWO4,NiO+WO3,-37.4,-80.2,6.6,False,,,,-80.2,6.6,compiled,1.0,False
+RbBO2,B2O3+Rb2O,-449.7,-440.6,54.6,True,,,,-440.6,54.6,compiled,1.0,False
+Sr2SiO4,SrO+SrSiO3,-85.3,-114.7,9.3,False,,,,-114.7,9.3,compiled,1.0,False
+Sr2TiO4,SrO+TiO2,-185.2,-236.6,18.2,False,,,,-236.6,18.2,compiled,1.0,False
+SrAl2O4,Al2O3+SrO,-132.5,-116.6,28.7,True,,,,-116.6,28.7,compiled,1.0,False
+SrB4O7,B2O3+SrO,-172.6,-167.2,23.6,False,,,,-167.2,23.6,compiled,1.0,False
+SrHfO3,HfO2+SrO,-170.2,-153.6,26.5,False,,,,-153.6,26.5,compiled,1.0,False
+SrSiO3,SiO2+Sr2SiO4,-66.5,-57.6,8.8,False,,,,-57.6,8.8,compiled,1.0,False
+SrZrO3,SrO+ZrO2,-143.2,-161.4,33.2,True,,,,-161.4,33.2,compiled,1.0,False
+Zn2SiO4,SiO2+ZnO,-24.8,-50.0,5.8,False,,,,-50.0,5.8,compiled,1.0,False
+ZnCr2O4,Cr2O3+ZnO,-75.1,-93.1,13.1,False,,,,-93.1,13.1,compiled,1.0,False
+ZnWO4,WO3+ZnO,-1.6,-65.1,14.6,False,,,,-65.1,14.6,compiled,1.0,False
+ZrSiO4,SiO2+ZrO2,-19.8,-31.4,21.1,True,,,,-31.4,21.1,compiled,0.9316,False
+B4PbO7,B2O3+PbO,-71.0,-80.0,19.2,True,,,,-80.0,19.2,compiled,1.0,False
+KB3O5,B2O3+K2B4O7,-32.8,-14.8,23.1,True,,,,-14.8,23.1,compiled,0.7391,False
+Li2Si2O5,Li2SiO3+SiO2,-5.9,-3.6,22.6,True,,,,-3.6,22.6,compiled,0.5633,False
+SiPbO3,Si(PbO2)2+SiO2,-26.1,-3.9,22.9,True,,,,-3.9,22.9,compiled,0.5676,False
+Si(PbO2)2,PbO+SiPbO3,1.4,-22.0,23.6,True,,,,-22.0,23.6,compiled,0.8244,False
+Cr2CoO4,CoO+Cr2O3,-89.2,-88.8,14.9,False,,,,-88.8,14.9,compiled,1.0,False
+Cr2NiO4,Cr2O3+NiO,4.6,-2.1,12.9,False,,,,-2.1,12.9,compiled,0.5647,False
+Cr2CuO4,Cr2O3+CuO,22.3,-4.0,16.6,True,,,,-4.0,16.6,compiled,0.5952,False
+Zn(FeO2)2,Fe2O3+ZnO,-14.0,-4.8,16.0,True,-16.5,1.4,meas:navrotsky_kleppa_1968:formation_enthalpy_ox_ZnFe2O4_solventA,-16.5,1.4,primary calorimetry,1.0,False
+Al2CoO4,Al2O3+CoO,-63.0,-60.9,14.5,True,-55.1,1.4,meas:navrotsky_kleppa_1968:formation_enthalpy_ox_CoAl2O4,-55.1,1.4,primary calorimetry,1.0,False
+Al2NiO4,Al2O3+NiO,16.5,-19.0,15.1,True,-4.6,1.5,meas:navrotsky_kleppa_1968:formation_enthalpy_ox_NiAl2O4,-4.6,1.5,primary calorimetry,0.9989,False
+TiNiO3,NiO+TiO2,-8.5,-38.4,13.4,False,,,,-38.4,13.4,compiled,0.9979,False
+Al2CuO4,Al2O3+CuO,62.9,-181.8,15.9,True,32.0,1.2,meas:navrotsky_kleppa_1968:formation_enthalpy_ox_CuAl2O4,32.0,1.2,primary calorimetry,0.0,False
+Si(NiO2)2,NiO+SiO2,-19.1,-19.6,14.4,False,,,,-19.6,14.4,compiled,0.9133,False

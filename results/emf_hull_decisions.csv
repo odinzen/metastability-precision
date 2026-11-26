@@ -1,0 +1,94 @@
+paper,compound,products,measured_meV_atom,u_meV_atom,borrowed,status,dft_meV_atom,mp_sg,polymorphs,sigma
+paper:aliev_2010_sbsei,SbSeI,Sb2Se3+SbI3,6.3,6.2,,ok,140.7,Pnma,1.0,22.5
+paper:alverdiev_2017_ag8gese6,Ag8GeSe6,Ag2Se+GeSe2,-21.7,3.9,Ag2Se,ok,-42.6,Pmn2_1,1.0,22.5
+paper:alverdiev_2019_agsnse,Ag8SnSe6,Ag2Se+AgSnSe2+Se,-29.3,4.4,Ag2Se,ok,-42.7,Pmn2_1,1.0,22.5
+paper:alverdiev_2019_agsnse,AgSnSe2,Ag8SnSe6+SnSe+SnSe2,-28.2,12.4,,ok,-14.5,R-3m,1.0,22.5
+paper:aspiala_2016_agsbs,Ag3SbS3,Ag2S+AgSbS2,-50.9,0.7,Ag2S,ok,0.7,P2_1/c,4.0,22.5
+paper:aspiala_2016_agsbs,AgSbS2,Ag3SbS3+Sb2S3,-39.2,0.5,Sb2S3,ok,-8.4,C2/c,7.0,22.5
+paper:babanly_2009_agasse,Ag3AsSe3,Ag7AsSe6+AgAsSe2+As,-9.8,6.8,,ok,-33.3,Pnma,2.0,22.5
+paper:babanly_2009_agasse,Ag7AsSe6,Ag2Se+Ag3AsSe3+Se,-12.2,4.8,,ok,-28.8,P2_13,1.0,22.5
+paper:babanly_2009_agasse,AgAs3Se5,AgAsSe2+As2Se3,-1.6,0.6,,missing from the database,,,,
+paper:babanly_2009_agasse,AgAsSe2,Ag3AsSe3+AgAs3Se5,-2.1,9.1,,missing from the database,,,,
+paper:babanly_2010_cubise,Cu3BiSe3,Cu2Se+CuBiSe2,22.6,8.4,Cu2Se,missing from the database,,,,
+paper:babanly_2010_cubise,CuBi3Se5,Bi2Se3+CuBiSe2,0.1,6.7,,missing from the database,,,,
+paper:babanly_2010_cubise,CuBiSe2,Cu2Se+CuBi3Se5,-3.3,6.5,Cu2Se,missing from the database,,,,
+paper:babanly_2010_cutls,TlCu3S2,Cu2S+TlCuS,22.5,16.9,Cu2S,missing from the database,,,,
+paper:babanly_2010_cutls,TlCu9S5,Cu2S+TlCuS,36.0,14.8,Cu2S,missing from the database,,,,
+paper:babanly_2010_cutls,TlCuS,Cu2S+Tl2S,-8.4,7.3,Cu2S;Tl2S,missing from the database,,,,
+paper:babanly_2010_cutls,TlCuS2,CuS+Tl4S3+TlS2,-3.7,3.6,,missing from the database,,,,
+paper:babanly_2011_cutlse,Tl(CuSe)2,Cu2Se+TlSe,15.8,3.2,Cu2Se,ok,-122.8,I4/mmm,1.0,34.0
+paper:babanly_2011_cutlse,TlCuSe,Cu2Se+Tl2Se,-8.6,2.9,Cu2Se;Tl2Se,missing from the database,,,,
+paper:babanly_2011_cutlse,TlCuSe2,Cu2Se+Se+TlSe,-11.2,2.5,Cu2Se,ok,-145.6,I-42d,1.0,22.5
+paper:babanly_2011_cutlte,Tl(CuTe)2,Te+Tl2Te+TlCu3Te2,-0.9,14.5,Tl2Te,ok,-111.5,I4/mmm,1.0,34.0
+paper:babanly_2011_cutlte,TlCu3Te2,Tl2Te+TlCu9Te5,-17.1,8.6,Tl2Te,missing from the database,,,,
+paper:babanly_2011_cutlte,TlCu9Te5,Cu2Te+TlCu3Te2,-6.7,9.7,,missing from the database,,,,
+paper:babanly_2012_cuass,Cu3AsS3,As2S3+Cu2S,13.3,4.0,Cu2S,ok,-37.6,I-43m,1.0,22.5
+paper:babanly_2012_cuass,Cu3AsS4,As2S3+Cu2S+S,0.9,3.4,Cu2S,ok,-147.9,Pmn2_1,3.0,22.5
+paper:babanly_2012_cuass,Cu4As2S5,As2S3+Cu2S,11.4,4.3,Cu2S,missing from the database,,,,
+paper:babanly_2012_cuass,Cu6As4S9,As2S3+Cu2S,11.1,4.5,Cu2S,ok,-73.3,P1,1.0,22.5
+paper:babanly_2012_cuass,CuAsS,As+AsS+Cu2S,-8.1,5.9,Cu2S,ok,-64.6,Pnma,1.0,34.0
+paper:babanly_2012_cutlte,Tl(CuTe)2,TlCu3Te2+TlCuTe2,-0.8,4.4,,missing from the database,,,,
+paper:babanly_2012_cutlte,TlCu3Te2,Tl2Te+TlCu9Te5,-6.6,4.7,Tl2Te,missing from the database,,,,
+paper:babanly_2012_cutlte,TlCu9Te5,Cu2Te+TlCu3Te2,-0.4,6.8,Cu2Te,missing from the database,,,,
+paper:babanly_2012_cutlte,TlCuTe2,Cu4Te3+Tl(CuTe)2+Tl2Te3,-7.2,3.4,,missing from the database,,,,
+paper:babanly_2012_tlasse,Tl3AsSe3,As+Tl2Se+Tl3AsSe4,-8.8,5.6,Tl2Se,missing from the database,,,,
+paper:babanly_2012_tlasse,Tl3AsSe4,Se+Tl3AsSe3,-43.5,4.8,,ok,-65.1,Pnma,1.0,22.5
+paper:babanly_2012_tlasse,TlAsSe2,As+As2Se3+Tl3AsSe4,7.0,7.3,,ok,-23.9,P2_1/c,1.0,22.5
+paper:babanly_2018_agtlse,TlAg3Se2,TlAg7Se4+TlAgSe,-3.5,2.4,,missing from the database,,,,
+paper:babanly_2018_agtlse,TlAg7Se4,Ag2Se+TlAg3Se2,-1.2,2.2,Ag2Se,missing from the database,,,,
+paper:babanly_2018_agtlse,TlAgSe,Tl2Se+TlAg3Se2,-19.4,2.8,Tl2Se,missing from the database,,,,
+paper:babanly_2019_agtlte,Tl2Ag8Te5,Tl3AgTe2+TlAg5Te3,-4.6,2.5,,missing from the database,,,,
+paper:babanly_2019_agtlte,Tl3AgTe2,Tl2Ag8Te5+Tl2Te,-8.1,2.8,Tl2Te,missing from the database,,,,
+paper:babanly_2019_agtlte,TlAg5Te3,Ag2Te+Tl2Ag8Te5,-0.6,2.5,Ag2Te,missing from the database,,,,
+paper:babanly_2019_agtlte,TlAg9Te5,Ag2Te+TlAg5Te3,6.1,2.5,Ag2Te,missing from the database,,,,
+paper:babanly_2019_agtlte,TlAgTe,Tl2Ag8Te5+Tl3AgTe2,6.7,3.1,,missing from the database,,,,
+paper:babanly_2019_agtlte,TlAgTe2,Te+Tl2Ag8Te5+Tl2Te3,-16.6,2.3,,missing from the database,,,,
+paper:chareev_2007_agaux,Ag3AuS2,Ag2S+AgAuS,-2.5,2.1,,missing from the database,,,,
+paper:chareev_2007_agaux,Ag3AuSe2,Ag2Se+Au+AuSe,-25.4,1.1,,ok,-19.5,I4_132,1.0,22.5
+paper:chareev_2007_agaux,AgAuS,Ag3AuS2+Au+S,-20.9,4.2,,missing from the database,,,,
+paper:echmaeva_2009_agause_agaute,Ag3AuSe2,Ag2Se+Au+AuSe,-25.4,1.1,,ok,-19.5,I4_132,1.0,22.5
+paper:echmaeva_2009_agause_agaute,Ag3Te2Au,Ag2Te+Au+Te2Au,-1.0,,,ok,94.8,I4_132,1.0,22.5
+paper:gasanova_2014_agass,Ag3AsS3,Ag2S+AgAsS2,-19.1,4.1,Ag2S,ok,-11.1,C2/c,4.0,22.5
+paper:gasanova_2014_agass,Ag7AsS6,Ag2S+Ag3AsS3+S,-11.0,4.4,Ag2S,ok,-26.3,P2_13,1.0,22.5
+paper:gasanova_2014_agass,AgAsS2,Ag3AsS3+As2S3,-10.0,4.1,,ok,1.1,R-3,2.0,22.5
+paper:guseinov_2009_tl6scl4,Tl6SCl4,Cl+Tl+Tl2S,-791.7,13.2,Tl2S,ok,-951.8,P4/mnc,1.0,22.5
+paper:imamaliyeva_2018_tlgdte,Gd(Tl3Te2)3,GdTlTe2+Tl2Te,17.6,14.9,Tl2Te,ok,17.2,I4/m,1.0,34.0
+paper:imamaliyeva_2018_tlgdte,GdTlTe2,Gd+Gd(Tl3Te2)3+Te,-1128.9,8.3,,ok,-1007.1,R-3m,1.0,34.0
+paper:imamaliyeva_2019_bixi,Bi19(S9I)3,Bi2S3+BiSI,-75.8,3.8,Bi2S3,ok,10.8,R3,1.0,22.5
+paper:imamaliyeva_2019_bixi,Bi2TeI,Bi2Te3+Bi4Te1I1.25+BiTeI,-42.9,7.5,Bi2Te3,missing from the database,,,,
+paper:imamaliyeva_2019_bixi,Bi4Te1I1.25,Bi+Bi2TeI+BiI3,-13.5,7.5,,missing from the database,,,,
+paper:imamaliyeva_2019_bixi,BiSI,Bi19(S9I)3+BiI3,-12.9,8.6,,ok,-4.1,Pnma,1.0,22.5
+paper:imamaliyeva_2019_bixi,BiSeI,Bi2Se3+BiI3,-19.0,8.6,Bi2Se3,ok,170.2,Pnma,1.0,22.5
+paper:imamaliyeva_2019_bixi,BiTeI,Bi2Te3+BiI3,-23.1,8.3,Bi2Te3,ok,116.0,P3m1,1.0,22.5
+paper:imamaliyeva_2021_tltbte,TbTlTe2,Tb+Te+Tl2Te3,-1185.9,7.8,,ok,-990.1,R-3m,1.0,22.5
+paper:jafarov_2011_tlsbs,Tl3SbS3,Tl2S+TlSbS2,-32.6,6.2,Tl2S,ok,-0.4,R3m,1.0,22.5
+paper:jafarov_2011_tlsbs,Tl3SbS4,S+Tl3SbS3,-8.7,5.3,,ok,-63.8,P-1,1.0,22.5
+paper:jafarov_2011_tlsbs,TlSb3S5,TlSb5S8+TlSbS2,-1.0,9.3,,ok,0.7,P2_1/c,1.0,22.5
+paper:jafarov_2011_tlsbs,TlSb5S8,Sb2S3+TlSb3S5,-0.4,9.7,,ok,1.4,Pc,1.0,22.5
+paper:jafarov_2011_tlsbs,TlSbS2,Tl3SbS3+TlSb3S5,-8.1,8.0,,ok,-26.2,P-1,4.0,22.5
+paper:jafarov_2011_tlsbs,TlSbS3,S+TlSbS2,-3.9,6.2,,missing from the database,,,,
+paper:mammadli_2021_cu3sbs4,Cu3SbS4,Cu2S+S+Sb2S3,-66.1,3.0,Cu2S,ok,-138.9,I-42m,3.0,22.5
+paper:mashadiyeva_2021_cusbs,Cu12Sb4S13,Cu3SbS3+Cu3SbS4,-8.9,4.0,,ok,-20.2,I-43m,1.0,22.5
+paper:mashadiyeva_2021_cusbs,Cu3SbS3,Cu12Sb4S13+Cu2S+Sb,-4.1,3.8,,ok,15.5,P2_12_12_1,3.0,22.5
+paper:mashadiyeva_2021_cusbs,Cu3SbS4,Cu12Sb4S13+S,-19.9,3.0,,ok,-70.5,I-42m,3.0,22.5
+paper:mashadiyeva_2021_cusbs,CuSbS2,Cu12Sb4S13+Sb+Sb2S3,-15.8,6.2,,ok,-13.6,Pnma,1.0,22.5
+paper:moroz_2015_aggese,Ag2GeSe3,Ag8GeSe6+GeSe2,14.5,1.8,GeSe2,ok,1.0,Cmc2_1,1.0,22.5
+paper:moroz_2015_aggese,Ag8GeSe6,Ag2GeSe3+Ag2Se,-41.0,0.5,Ag2Se,ok,-32.3,Pmn2_1,1.0,22.5
+paper:moroz_2018_agfesns,FeAg2Sn3S8,FeAg2SnS4+SnS2,-45.4,17.9,SnS2,ok,-52.0,R-3m,1.0,34.0
+paper:moroz_2018_agfesns,FeAg2SnS4,Ag+FeAg2Sn3S8+FeS2,20.3,15.8,FeS2,ok,87.5,I-42m,1.0,34.0
+paper:moroz_2018_agin2te3x,Ag3TeBr,Ag+Ag2Te+Br,-209.8,,,missing from the database,,,,
+paper:moroz_2020_agfepbse,Fe(AgSe)2,Ag+FeAgSe2,-27.2,31.1,,missing from the database,,,,
+paper:moroz_2020_agfepbse,FeAg2PbSe4,Ag2Se+FeAgSe2+PbSe+Se,-1.4,19.4,,missing from the database,,,,
+paper:moroz_2020_agfepbse,FeAgSe2,Fe(AgSe)2+FeSe2,-9.1,38.9,,missing from the database,,,,
+paper:moroz_2022_aginse,In11AgSe17,In2Se3+In5AgSe8,-0.3,7.3,,missing from the database,,,,
+paper:moroz_2022_aginse,In5AgSe8,Ag2Se+In11AgSe17,-5.0,8.0,Ag2Se,missing from the database,,,,
+paper:moroz_2025_agfegas,FeAgS2,Ag+FeS2,-29.0,9.6,FeS2,ok,186.0,R3m,2.0,34.0
+paper:moroz_2025_agfegas,Ga20Fe(AgS16)2,Ag+FeAgS2+Ga2S3,-6.5,20.4,,missing from the database,,,,
+paper:orujlu_2026_mnbite,Mn(Bi3Te5)2,MnBi4Te7+MnBi8Te13,-0.1,1.5,,missing from the database,,,,
+paper:orujlu_2026_mnbite,Mn(BiTe2)2,MnBi4Te7+MnTe,-6.2,1.8,,missing from the database,,,,
+paper:orujlu_2026_mnbite,MnBi4Te7,Mn(Bi3Te5)2+Mn(BiTe2)2,-0.4,1.6,,missing from the database,,,,
+paper:orujlu_2026_mnbite,MnBi8Te13,Bi2Te3+Mn(Bi3Te5)2,-0.8,1.4,,missing from the database,,,,
+paper:osadchii_2004_agaus,AgAuS,Ag2S+Au+S,-30.4,4.2,,missing from the database,,,,
+paper:osadchii_2007_agause,Ag3AuSe2,Ag2Se+Au+AuSe,-25.4,1.1,,ok,-19.5,I4_132,1.0,22.5
+paper:voronin_2013_agbis,AgBi3S5,AgBiS2+Bi2S3,-1.6,4.6,,ok,-13.8,C2/m,1.0,22.5
+paper:voronin_2013_agbis,AgBiS2,Ag2S+AgBi3S5,-3.1,4.2,Ag2S,ok,16.8,P-3m1,5.0,22.5

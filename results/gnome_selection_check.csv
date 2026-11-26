@@ -1,0 +1,3 @@
+regime,n_r2scan,n_near_hull,shift_at_hull,shift_lo95,shift_hi95,exponential_shift,exponential_visible_lo,exponential_visible_hi,visible_share_calorimetric,visible_share_compiled,offset_no_selection,offset_lo95,offset_hi95,visible_after_offset,implied_shift_lo,implied_shift_hi
+compound,6180,4845,-0.27,-2.02,1.36,12.8,3.9,6.8,0.53,0.3,-4.2,-9.5,0.9,3.9,7.3,12.8
+open-shell,2448,2138,2.18,-0.15,4.53,41.4,12.5,18.2,0.3,0.44,-29.5,-64.8,-14.6,31.7,72.0,104.9

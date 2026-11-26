@@ -1,0 +1,985 @@
+rung,test,strategy,K,right
+3/10,real errors,method,0,105.0
+3/10,real errors,method,1,105.0
+3/10,real errors,method,2,106.0
+3/10,real errors,method,3,106.0
+3/10,real errors,method,4,106.0
+3/10,real errors,method,5,105.0
+3/10,real errors,method,6,105.0
+3/10,real errors,method,7,106.0
+3/10,real errors,method,8,107.0
+3/10,real errors,method,9,108.0
+3/10,real errors,method,10,107.0
+3/10,real errors,method,11,107.0
+3/10,real errors,method,12,107.0
+3/10,real errors,method,13,107.0
+3/10,real errors,method,14,107.0
+3/10,real errors,method,15,108.0
+3/10,real errors,method,16,109.0
+3/10,real errors,method,17,109.0
+3/10,real errors,method,18,109.0
+3/10,real errors,method,19,109.0
+3/10,real errors,method,20,110.0
+3/10,real errors,method,21,110.0
+3/10,real errors,method,22,110.0
+3/10,real errors,method,23,111.0
+3/10,real errors,method,24,111.0
+3/10,real errors,method,25,111.0
+3/10,real errors,method,26,112.0
+3/10,real errors,method,27,113.0
+3/10,real errors,method,28,113.0
+3/10,real errors,method,29,113.0
+3/10,real errors,method,30,113.0
+3/10,real errors,method,31,114.0
+3/10,real errors,method,32,114.0
+3/10,real errors,method,33,114.0
+3/10,real errors,method,34,114.0
+3/10,real errors,method,35,114.0
+3/10,real errors,method,36,114.0
+3/10,real errors,method,37,115.0
+3/10,real errors,method,38,115.0
+3/10,real errors,method,39,115.0
+3/10,real errors,method,40,115.0
+3/10,real errors,random (mean),0,105.0
+3/10,real errors,random (mean),1,105.06
+3/10,real errors,random (mean),2,105.155
+3/10,real errors,random (mean),3,105.21
+3/10,real errors,random (mean),4,105.275
+3/10,real errors,random (mean),5,105.355
+3/10,real errors,random (mean),6,105.415
+3/10,real errors,random (mean),7,105.46
+3/10,real errors,random (mean),8,105.54
+3/10,real errors,random (mean),9,105.565
+3/10,real errors,random (mean),10,105.63
+3/10,real errors,random (mean),11,105.7
+3/10,real errors,random (mean),12,105.81
+3/10,real errors,random (mean),13,105.875
+3/10,real errors,random (mean),14,105.935
+3/10,real errors,random (mean),15,106.01
+3/10,real errors,random (mean),16,106.145
+3/10,real errors,random (mean),17,106.18
+3/10,real errors,random (mean),18,106.225
+3/10,real errors,random (mean),19,106.315
+3/10,real errors,random (mean),20,106.385
+3/10,real errors,random (mean),21,106.48
+3/10,real errors,random (mean),22,106.575
+3/10,real errors,random (mean),23,106.66
+3/10,real errors,random (mean),24,106.71
+3/10,real errors,random (mean),25,106.78
+3/10,real errors,random (mean),26,106.845
+3/10,real errors,random (mean),27,106.925
+3/10,real errors,random (mean),28,107.01
+3/10,real errors,random (mean),29,107.115
+3/10,real errors,random (mean),30,107.22
+3/10,real errors,random (mean),31,107.265
+3/10,real errors,random (mean),32,107.365
+3/10,real errors,random (mean),33,107.465
+3/10,real errors,random (mean),34,107.535
+3/10,real errors,random (mean),35,107.615
+3/10,real errors,random (mean),36,107.685
+3/10,real errors,random (mean),37,107.765
+3/10,real errors,random (mean),38,107.82
+3/10,real errors,random (mean),39,107.9
+3/10,real errors,random (mean),40,107.98
+3/10,real errors,oracle,0,105.0
+3/10,real errors,oracle,1,106.0
+3/10,real errors,oracle,2,107.0
+3/10,real errors,oracle,3,108.0
+3/10,real errors,oracle,4,109.0
+3/10,real errors,oracle,5,110.0
+3/10,real errors,oracle,6,111.0
+3/10,real errors,oracle,7,112.0
+3/10,real errors,oracle,8,113.0
+3/10,real errors,oracle,9,114.0
+3/10,real errors,oracle,10,115.0
+3/10,real errors,oracle,11,115.0
+3/10,real errors,oracle,12,115.0
+3/10,real errors,oracle,13,115.0
+3/10,real errors,oracle,14,115.0
+3/10,real errors,oracle,15,115.0
+3/10,real errors,oracle,16,115.0
+3/10,real errors,oracle,17,115.0
+3/10,real errors,oracle,18,115.0
+3/10,real errors,oracle,19,115.0
+3/10,real errors,oracle,20,115.0
+3/10,real errors,oracle,21,115.0
+3/10,real errors,oracle,22,115.0
+3/10,real errors,oracle,23,115.0
+3/10,real errors,oracle,24,115.0
+3/10,real errors,oracle,25,115.0
+3/10,real errors,oracle,26,115.0
+3/10,real errors,oracle,27,115.0
+3/10,real errors,oracle,28,115.0
+3/10,real errors,oracle,29,115.0
+3/10,real errors,oracle,30,115.0
+3/10,real errors,oracle,31,115.0
+3/10,real errors,oracle,32,115.0
+3/10,real errors,oracle,33,115.0
+3/10,real errors,oracle,34,115.0
+3/10,real errors,oracle,35,115.0
+3/10,real errors,oracle,36,115.0
+3/10,real errors,oracle,37,115.0
+3/10,real errors,oracle,38,115.0
+3/10,real errors,oracle,39,115.0
+3/10,real errors,oracle,40,115.0
+5/10,"real errors, measured with the compiled uncertainty",method,0,105.0
+5/10,"real errors, measured with the compiled uncertainty",method,1,105.0
+5/10,"real errors, measured with the compiled uncertainty",method,2,105.8
+5/10,"real errors, measured with the compiled uncertainty",method,3,105.8
+5/10,"real errors, measured with the compiled uncertainty",method,4,105.6
+5/10,"real errors, measured with the compiled uncertainty",method,5,105.0
+5/10,"real errors, measured with the compiled uncertainty",method,6,104.85
+5/10,"real errors, measured with the compiled uncertainty",method,7,105.85
+5/10,"real errors, measured with the compiled uncertainty",method,8,106.2
+5/10,"real errors, measured with the compiled uncertainty",method,9,107.2
+5/10,"real errors, measured with the compiled uncertainty",method,10,106.2
+5/10,"real errors, measured with the compiled uncertainty",method,11,106.1
+5/10,"real errors, measured with the compiled uncertainty",method,12,106.1
+5/10,"real errors, measured with the compiled uncertainty",method,13,106.0
+5/10,"real errors, measured with the compiled uncertainty",method,14,106.0
+5/10,"real errors, measured with the compiled uncertainty",method,15,106.85
+5/10,"real errors, measured with the compiled uncertainty",method,16,107.85
+5/10,"real errors, measured with the compiled uncertainty",method,17,107.7
+5/10,"real errors, measured with the compiled uncertainty",method,18,107.7
+5/10,"real errors, measured with the compiled uncertainty",method,19,107.7
+5/10,"real errors, measured with the compiled uncertainty",method,20,108.6
+5/10,"real errors, measured with the compiled uncertainty",method,21,108.25
+5/10,"real errors, measured with the compiled uncertainty",method,22,108.25
+5/10,"real errors, measured with the compiled uncertainty",method,23,109.25
+5/10,"real errors, measured with the compiled uncertainty",method,24,109.15
+5/10,"real errors, measured with the compiled uncertainty",method,25,109.55
+5/10,"real errors, measured with the compiled uncertainty",method,26,109.9
+5/10,"real errors, measured with the compiled uncertainty",method,27,110.9
+5/10,"real errors, measured with the compiled uncertainty",method,28,110.7
+5/10,"real errors, measured with the compiled uncertainty",method,29,110.25
+5/10,"real errors, measured with the compiled uncertainty",method,30,110.25
+5/10,"real errors, measured with the compiled uncertainty",method,31,111.1
+5/10,"real errors, measured with the compiled uncertainty",method,32,111.1
+5/10,"real errors, measured with the compiled uncertainty",method,33,111.1
+5/10,"real errors, measured with the compiled uncertainty",method,34,110.95
+5/10,"real errors, measured with the compiled uncertainty",method,35,110.95
+5/10,"real errors, measured with the compiled uncertainty",method,36,110.95
+5/10,"real errors, measured with the compiled uncertainty",method,37,111.85
+5/10,"real errors, measured with the compiled uncertainty",method,38,111.8
+5/10,"real errors, measured with the compiled uncertainty",method,39,111.7
+5/10,"real errors, measured with the compiled uncertainty",method,40,111.7
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,0,105.0
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,1,104.4
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,2,104.75
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,3,105.75
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,4,105.6
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,5,106.6
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,6,106.4
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,7,106.4
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,8,105.4
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,9,106.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,10,106.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,11,106.15
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,12,107.05
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,13,107.0
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,14,106.9
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,15,107.7
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,16,108.6
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,17,108.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,18,108.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,19,108.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,20,108.05
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,21,109.05
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,22,108.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,23,108.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,24,108.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,25,108.5
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,26,108.9
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,27,109.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,28,109.25
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,29,109.1
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,30,108.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,31,109.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,32,110.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,33,110.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,34,110.95
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,35,110.85
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,36,110.85
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,37,110.85
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,38,111.3
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,39,111.3
+5/10,"real errors, measured with the compiled uncertainty",closest calls first,40,111.9
+5/10,"real errors, measured with the compiled uncertainty",most connected first,0,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,1,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,2,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,3,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,4,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,5,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,6,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,7,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,8,105.0
+5/10,"real errors, measured with the compiled uncertainty",most connected first,9,104.95
+5/10,"real errors, measured with the compiled uncertainty",most connected first,10,104.9
+5/10,"real errors, measured with the compiled uncertainty",most connected first,11,104.9
+5/10,"real errors, measured with the compiled uncertainty",most connected first,12,105.7
+5/10,"real errors, measured with the compiled uncertainty",most connected first,13,105.7
+5/10,"real errors, measured with the compiled uncertainty",most connected first,14,104.7
+5/10,"real errors, measured with the compiled uncertainty",most connected first,15,104.1
+5/10,"real errors, measured with the compiled uncertainty",most connected first,16,104.5
+5/10,"real errors, measured with the compiled uncertainty",most connected first,17,104.5
+5/10,"real errors, measured with the compiled uncertainty",most connected first,18,105.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,19,105.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,20,105.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,21,105.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,22,106.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,23,106.3
+5/10,"real errors, measured with the compiled uncertainty",most connected first,24,106.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,25,107.25
+5/10,"real errors, measured with the compiled uncertainty",most connected first,26,108.05
+5/10,"real errors, measured with the compiled uncertainty",most connected first,27,108.05
+5/10,"real errors, measured with the compiled uncertainty",most connected first,28,107.95
+5/10,"real errors, measured with the compiled uncertainty",most connected first,29,107.6
+5/10,"real errors, measured with the compiled uncertainty",most connected first,30,107.6
+5/10,"real errors, measured with the compiled uncertainty",most connected first,31,107.5
+5/10,"real errors, measured with the compiled uncertainty",most connected first,32,107.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,33,107.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,34,107.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,35,106.9
+5/10,"real errors, measured with the compiled uncertainty",most connected first,36,107.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,37,107.35
+5/10,"real errors, measured with the compiled uncertainty",most connected first,38,107.7
+5/10,"real errors, measured with the compiled uncertainty",most connected first,39,107.7
+5/10,"real errors, measured with the compiled uncertainty",most connected first,40,108.55
+7/10,method with wrong parameters: rho 0,method,0,105.0
+7/10,method with wrong parameters: rho 0,method,1,105.0
+7/10,method with wrong parameters: rho 0,method,2,106.0
+7/10,method with wrong parameters: rho 0,method,3,105.0
+7/10,method with wrong parameters: rho 0,method,4,105.0
+7/10,method with wrong parameters: rho 0,method,5,105.0
+7/10,method with wrong parameters: rho 0,method,6,105.0
+7/10,method with wrong parameters: rho 0,method,7,104.0
+7/10,method with wrong parameters: rho 0,method,8,105.0
+7/10,method with wrong parameters: rho 0,method,9,106.0
+7/10,method with wrong parameters: rho 0,method,10,107.0
+7/10,method with wrong parameters: rho 0,method,11,107.0
+7/10,method with wrong parameters: rho 0,method,12,108.0
+7/10,method with wrong parameters: rho 0,method,13,108.0
+7/10,method with wrong parameters: rho 0,method,14,108.0
+7/10,method with wrong parameters: rho 0,method,15,109.0
+7/10,method with wrong parameters: rho 0,method,16,109.0
+7/10,method with wrong parameters: rho 0,method,17,110.0
+7/10,method with wrong parameters: rho 0,method,18,110.0
+7/10,method with wrong parameters: rho 0,method,19,111.0
+7/10,method with wrong parameters: rho 0,method,20,112.0
+7/10,method with wrong parameters: rho 0,method,21,112.0
+7/10,method with wrong parameters: rho 0,method,22,112.0
+7/10,method with wrong parameters: rho 0,method,23,112.0
+7/10,method with wrong parameters: rho 0,method,24,113.0
+7/10,method with wrong parameters: rho 0,method,25,114.0
+7/10,method with wrong parameters: rho 0,method,26,114.0
+7/10,method with wrong parameters: rho 0,method,27,114.0
+7/10,method with wrong parameters: rho 0,method,28,114.0
+7/10,method with wrong parameters: rho 0,method,29,114.0
+7/10,method with wrong parameters: rho 0,method,30,114.0
+7/10,method with wrong parameters: rho 0,method,31,114.0
+7/10,method with wrong parameters: rho 0,method,32,114.0
+7/10,method with wrong parameters: rho 0,method,33,114.0
+7/10,method with wrong parameters: rho 0,method,34,114.0
+7/10,method with wrong parameters: rho 0,method,35,114.0
+7/10,method with wrong parameters: rho 0,method,36,114.0
+7/10,method with wrong parameters: rho 0,method,37,114.0
+7/10,method with wrong parameters: rho 0,method,38,114.0
+7/10,method with wrong parameters: rho 0,method,39,114.0
+7/10,method with wrong parameters: rho 0,method,40,114.0
+7/10,method with wrong parameters: sigma halved,method,0,105.0
+7/10,method with wrong parameters: sigma halved,method,1,105.0
+7/10,method with wrong parameters: sigma halved,method,2,106.0
+7/10,method with wrong parameters: sigma halved,method,3,105.0
+7/10,method with wrong parameters: sigma halved,method,4,105.0
+7/10,method with wrong parameters: sigma halved,method,5,105.0
+7/10,method with wrong parameters: sigma halved,method,6,104.0
+7/10,method with wrong parameters: sigma halved,method,7,104.0
+7/10,method with wrong parameters: sigma halved,method,8,105.0
+7/10,method with wrong parameters: sigma halved,method,9,105.0
+7/10,method with wrong parameters: sigma halved,method,10,106.0
+7/10,method with wrong parameters: sigma halved,method,11,106.0
+7/10,method with wrong parameters: sigma halved,method,12,107.0
+7/10,method with wrong parameters: sigma halved,method,13,107.0
+7/10,method with wrong parameters: sigma halved,method,14,107.0
+7/10,method with wrong parameters: sigma halved,method,15,108.0
+7/10,method with wrong parameters: sigma halved,method,16,108.0
+7/10,method with wrong parameters: sigma halved,method,17,109.0
+7/10,method with wrong parameters: sigma halved,method,18,110.0
+7/10,method with wrong parameters: sigma halved,method,19,110.0
+7/10,method with wrong parameters: sigma halved,method,20,110.0
+7/10,method with wrong parameters: sigma halved,method,21,110.0
+7/10,method with wrong parameters: sigma halved,method,22,111.0
+7/10,method with wrong parameters: sigma halved,method,23,111.0
+7/10,method with wrong parameters: sigma halved,method,24,112.0
+7/10,method with wrong parameters: sigma halved,method,25,112.0
+7/10,method with wrong parameters: sigma halved,method,26,112.0
+7/10,method with wrong parameters: sigma halved,method,27,113.0
+7/10,method with wrong parameters: sigma halved,method,28,114.0
+7/10,method with wrong parameters: sigma halved,method,29,114.0
+7/10,method with wrong parameters: sigma halved,method,30,114.0
+7/10,method with wrong parameters: sigma halved,method,31,115.0
+7/10,method with wrong parameters: sigma halved,method,32,115.0
+7/10,method with wrong parameters: sigma halved,method,33,115.0
+7/10,method with wrong parameters: sigma halved,method,34,115.0
+7/10,method with wrong parameters: sigma halved,method,35,115.0
+7/10,method with wrong parameters: sigma halved,method,36,115.0
+7/10,method with wrong parameters: sigma halved,method,37,115.0
+7/10,method with wrong parameters: sigma halved,method,38,115.0
+7/10,method with wrong parameters: sigma halved,method,39,115.0
+7/10,method with wrong parameters: sigma halved,method,40,115.0
+7/10,method with wrong parameters: sigma doubled,method,0,105.0
+7/10,method with wrong parameters: sigma doubled,method,1,105.0
+7/10,method with wrong parameters: sigma doubled,method,2,106.0
+7/10,method with wrong parameters: sigma doubled,method,3,106.0
+7/10,method with wrong parameters: sigma doubled,method,4,106.0
+7/10,method with wrong parameters: sigma doubled,method,5,106.0
+7/10,method with wrong parameters: sigma doubled,method,6,107.0
+7/10,method with wrong parameters: sigma doubled,method,7,108.0
+7/10,method with wrong parameters: sigma doubled,method,8,108.0
+7/10,method with wrong parameters: sigma doubled,method,9,107.0
+7/10,method with wrong parameters: sigma doubled,method,10,108.0
+7/10,method with wrong parameters: sigma doubled,method,11,109.0
+7/10,method with wrong parameters: sigma doubled,method,12,109.0
+7/10,method with wrong parameters: sigma doubled,method,13,109.0
+7/10,method with wrong parameters: sigma doubled,method,14,109.0
+7/10,method with wrong parameters: sigma doubled,method,15,109.0
+7/10,method with wrong parameters: sigma doubled,method,16,108.0
+7/10,method with wrong parameters: sigma doubled,method,17,108.0
+7/10,method with wrong parameters: sigma doubled,method,18,108.0
+7/10,method with wrong parameters: sigma doubled,method,19,108.0
+7/10,method with wrong parameters: sigma doubled,method,20,108.0
+7/10,method with wrong parameters: sigma doubled,method,21,108.0
+7/10,method with wrong parameters: sigma doubled,method,22,109.0
+7/10,method with wrong parameters: sigma doubled,method,23,110.0
+7/10,method with wrong parameters: sigma doubled,method,24,110.0
+7/10,method with wrong parameters: sigma doubled,method,25,110.0
+7/10,method with wrong parameters: sigma doubled,method,26,111.0
+7/10,method with wrong parameters: sigma doubled,method,27,112.0
+7/10,method with wrong parameters: sigma doubled,method,28,112.0
+7/10,method with wrong parameters: sigma doubled,method,29,112.0
+7/10,method with wrong parameters: sigma doubled,method,30,112.0
+7/10,method with wrong parameters: sigma doubled,method,31,113.0
+7/10,method with wrong parameters: sigma doubled,method,32,113.0
+7/10,method with wrong parameters: sigma doubled,method,33,113.0
+7/10,method with wrong parameters: sigma doubled,method,34,113.0
+7/10,method with wrong parameters: sigma doubled,method,35,113.0
+7/10,method with wrong parameters: sigma doubled,method,36,113.0
+7/10,method with wrong parameters: sigma doubled,method,37,114.0
+7/10,method with wrong parameters: sigma doubled,method,38,114.0
+7/10,method with wrong parameters: sigma doubled,method,39,114.0
+7/10,method with wrong parameters: sigma doubled,method,40,114.0
+9/10,"shifted errors, all decisions",method,0,107.0
+9/10,"shifted errors, all decisions",method,1,108.0
+9/10,"shifted errors, all decisions",method,2,109.0
+9/10,"shifted errors, all decisions",method,3,109.0
+9/10,"shifted errors, all decisions",method,4,109.0
+9/10,"shifted errors, all decisions",method,5,109.0
+9/10,"shifted errors, all decisions",method,6,110.0
+9/10,"shifted errors, all decisions",method,7,111.0
+9/10,"shifted errors, all decisions",method,8,111.0
+9/10,"shifted errors, all decisions",method,9,112.0
+9/10,"shifted errors, all decisions",method,10,113.0
+9/10,"shifted errors, all decisions",method,11,113.0
+9/10,"shifted errors, all decisions",method,12,113.0
+9/10,"shifted errors, all decisions",method,13,113.0
+9/10,"shifted errors, all decisions",method,14,113.0
+9/10,"shifted errors, all decisions",method,15,113.0
+9/10,"shifted errors, all decisions",method,16,113.0
+9/10,"shifted errors, all decisions",method,17,113.0
+9/10,"shifted errors, all decisions",method,18,113.0
+9/10,"shifted errors, all decisions",method,19,113.0
+9/10,"shifted errors, all decisions",method,20,112.0
+9/10,"shifted errors, all decisions",method,21,112.0
+9/10,"shifted errors, all decisions",method,22,112.0
+9/10,"shifted errors, all decisions",method,23,112.0
+9/10,"shifted errors, all decisions",method,24,112.0
+9/10,"shifted errors, all decisions",method,25,112.0
+9/10,"shifted errors, all decisions",method,26,113.0
+9/10,"shifted errors, all decisions",method,27,114.0
+9/10,"shifted errors, all decisions",method,28,114.0
+9/10,"shifted errors, all decisions",method,29,114.0
+9/10,"shifted errors, all decisions",method,30,114.0
+9/10,"shifted errors, all decisions",method,31,114.0
+9/10,"shifted errors, all decisions",method,32,114.0
+9/10,"shifted errors, all decisions",method,33,115.0
+9/10,"shifted errors, all decisions",method,34,115.0
+9/10,"shifted errors, all decisions",method,35,115.0
+9/10,"shifted errors, all decisions",method,36,115.0
+9/10,"shifted errors, all decisions",method,37,115.0
+9/10,"shifted errors, all decisions",method,38,115.0
+9/10,"shifted errors, all decisions",method,39,115.0
+9/10,"shifted errors, all decisions",method,40,115.0
+9/10,"shifted errors, all decisions",closest calls first,0,107.0
+9/10,"shifted errors, all decisions",closest calls first,1,107.0
+9/10,"shifted errors, all decisions",closest calls first,2,107.0
+9/10,"shifted errors, all decisions",closest calls first,3,108.0
+9/10,"shifted errors, all decisions",closest calls first,4,108.0
+9/10,"shifted errors, all decisions",closest calls first,5,109.0
+9/10,"shifted errors, all decisions",closest calls first,6,110.0
+9/10,"shifted errors, all decisions",closest calls first,7,110.0
+9/10,"shifted errors, all decisions",closest calls first,8,111.0
+9/10,"shifted errors, all decisions",closest calls first,9,111.0
+9/10,"shifted errors, all decisions",closest calls first,10,111.0
+9/10,"shifted errors, all decisions",closest calls first,11,111.0
+9/10,"shifted errors, all decisions",closest calls first,12,111.0
+9/10,"shifted errors, all decisions",closest calls first,13,112.0
+9/10,"shifted errors, all decisions",closest calls first,14,112.0
+9/10,"shifted errors, all decisions",closest calls first,15,112.0
+9/10,"shifted errors, all decisions",closest calls first,16,113.0
+9/10,"shifted errors, all decisions",closest calls first,17,113.0
+9/10,"shifted errors, all decisions",closest calls first,18,113.0
+9/10,"shifted errors, all decisions",closest calls first,19,113.0
+9/10,"shifted errors, all decisions",closest calls first,20,112.0
+9/10,"shifted errors, all decisions",closest calls first,21,113.0
+9/10,"shifted errors, all decisions",closest calls first,22,113.0
+9/10,"shifted errors, all decisions",closest calls first,23,114.0
+9/10,"shifted errors, all decisions",closest calls first,24,114.0
+9/10,"shifted errors, all decisions",closest calls first,25,114.0
+9/10,"shifted errors, all decisions",closest calls first,26,114.0
+9/10,"shifted errors, all decisions",closest calls first,27,114.0
+9/10,"shifted errors, all decisions",closest calls first,28,114.0
+9/10,"shifted errors, all decisions",closest calls first,29,114.0
+9/10,"shifted errors, all decisions",closest calls first,30,114.0
+9/10,"shifted errors, all decisions",closest calls first,31,114.0
+9/10,"shifted errors, all decisions",closest calls first,32,114.0
+9/10,"shifted errors, all decisions",closest calls first,33,114.0
+9/10,"shifted errors, all decisions",closest calls first,34,114.0
+9/10,"shifted errors, all decisions",closest calls first,35,115.0
+9/10,"shifted errors, all decisions",closest calls first,36,115.0
+9/10,"shifted errors, all decisions",closest calls first,37,116.0
+9/10,"shifted errors, all decisions",closest calls first,38,116.0
+9/10,"shifted errors, all decisions",closest calls first,39,116.0
+9/10,"shifted errors, all decisions",closest calls first,40,116.0
+9/10,"shifted errors, all decisions",most connected first,0,107.0
+9/10,"shifted errors, all decisions",most connected first,1,107.0
+9/10,"shifted errors, all decisions",most connected first,2,107.0
+9/10,"shifted errors, all decisions",most connected first,3,107.0
+9/10,"shifted errors, all decisions",most connected first,4,107.0
+9/10,"shifted errors, all decisions",most connected first,5,107.0
+9/10,"shifted errors, all decisions",most connected first,6,107.0
+9/10,"shifted errors, all decisions",most connected first,7,107.0
+9/10,"shifted errors, all decisions",most connected first,8,107.0
+9/10,"shifted errors, all decisions",most connected first,9,106.0
+9/10,"shifted errors, all decisions",most connected first,10,106.0
+9/10,"shifted errors, all decisions",most connected first,11,105.0
+9/10,"shifted errors, all decisions",most connected first,12,106.0
+9/10,"shifted errors, all decisions",most connected first,13,106.0
+9/10,"shifted errors, all decisions",most connected first,14,105.0
+9/10,"shifted errors, all decisions",most connected first,15,105.0
+9/10,"shifted errors, all decisions",most connected first,16,106.0
+9/10,"shifted errors, all decisions",most connected first,17,106.0
+9/10,"shifted errors, all decisions",most connected first,18,107.0
+9/10,"shifted errors, all decisions",most connected first,19,107.0
+9/10,"shifted errors, all decisions",most connected first,20,107.0
+9/10,"shifted errors, all decisions",most connected first,21,107.0
+9/10,"shifted errors, all decisions",most connected first,22,108.0
+9/10,"shifted errors, all decisions",most connected first,23,108.0
+9/10,"shifted errors, all decisions",most connected first,24,108.0
+9/10,"shifted errors, all decisions",most connected first,25,109.0
+9/10,"shifted errors, all decisions",most connected first,26,109.0
+9/10,"shifted errors, all decisions",most connected first,27,109.0
+9/10,"shifted errors, all decisions",most connected first,28,109.0
+9/10,"shifted errors, all decisions",most connected first,29,109.0
+9/10,"shifted errors, all decisions",most connected first,30,109.0
+9/10,"shifted errors, all decisions",most connected first,31,109.0
+9/10,"shifted errors, all decisions",most connected first,32,109.0
+9/10,"shifted errors, all decisions",most connected first,33,110.0
+9/10,"shifted errors, all decisions",most connected first,34,110.0
+9/10,"shifted errors, all decisions",most connected first,35,110.0
+9/10,"shifted errors, all decisions",most connected first,36,110.0
+9/10,"shifted errors, all decisions",most connected first,37,110.0
+9/10,"shifted errors, all decisions",most connected first,38,110.0
+9/10,"shifted errors, all decisions",most connected first,39,110.0
+9/10,"shifted errors, all decisions",most connected first,40,111.0
+9/10,"shifted errors, all decisions",oracle,0,107.0
+9/10,"shifted errors, all decisions",oracle,1,108.0
+9/10,"shifted errors, all decisions",oracle,2,109.0
+9/10,"shifted errors, all decisions",oracle,3,110.0
+9/10,"shifted errors, all decisions",oracle,4,111.0
+9/10,"shifted errors, all decisions",oracle,5,112.0
+9/10,"shifted errors, all decisions",oracle,6,113.0
+9/10,"shifted errors, all decisions",oracle,7,114.0
+9/10,"shifted errors, all decisions",oracle,8,115.0
+9/10,"shifted errors, all decisions",oracle,9,115.0
+9/10,"shifted errors, all decisions",oracle,10,115.0
+9/10,"shifted errors, all decisions",oracle,11,115.0
+9/10,"shifted errors, all decisions",oracle,12,115.0
+9/10,"shifted errors, all decisions",oracle,13,115.0
+9/10,"shifted errors, all decisions",oracle,14,115.0
+9/10,"shifted errors, all decisions",oracle,15,115.0
+9/10,"shifted errors, all decisions",oracle,16,115.0
+9/10,"shifted errors, all decisions",oracle,17,115.0
+9/10,"shifted errors, all decisions",oracle,18,115.0
+9/10,"shifted errors, all decisions",oracle,19,115.0
+9/10,"shifted errors, all decisions",oracle,20,116.0
+9/10,"shifted errors, all decisions",oracle,21,116.0
+9/10,"shifted errors, all decisions",oracle,22,116.0
+9/10,"shifted errors, all decisions",oracle,23,116.0
+9/10,"shifted errors, all decisions",oracle,24,116.0
+9/10,"shifted errors, all decisions",oracle,25,116.0
+9/10,"shifted errors, all decisions",oracle,26,116.0
+9/10,"shifted errors, all decisions",oracle,27,116.0
+9/10,"shifted errors, all decisions",oracle,28,116.0
+9/10,"shifted errors, all decisions",oracle,29,116.0
+9/10,"shifted errors, all decisions",oracle,30,116.0
+9/10,"shifted errors, all decisions",oracle,31,116.0
+9/10,"shifted errors, all decisions",oracle,32,116.0
+9/10,"shifted errors, all decisions",oracle,33,116.0
+9/10,"shifted errors, all decisions",oracle,34,116.0
+9/10,"shifted errors, all decisions",oracle,35,116.0
+9/10,"shifted errors, all decisions",oracle,36,116.0
+9/10,"shifted errors, all decisions",oracle,37,116.0
+9/10,"shifted errors, all decisions",oracle,38,116.0
+9/10,"shifted errors, all decisions",oracle,39,116.0
+9/10,"shifted errors, all decisions",oracle,40,116.0
+9/10,"shifted errors, all decisions",random (mean),0,107.0
+9/10,"shifted errors, all decisions",random (mean),1,107.06
+9/10,"shifted errors, all decisions",random (mean),2,107.095
+9/10,"shifted errors, all decisions",random (mean),3,107.11
+9/10,"shifted errors, all decisions",random (mean),4,107.135
+9/10,"shifted errors, all decisions",random (mean),5,107.205
+9/10,"shifted errors, all decisions",random (mean),6,107.23
+9/10,"shifted errors, all decisions",random (mean),7,107.23
+9/10,"shifted errors, all decisions",random (mean),8,107.255
+9/10,"shifted errors, all decisions",random (mean),9,107.29
+9/10,"shifted errors, all decisions",random (mean),10,107.315
+9/10,"shifted errors, all decisions",random (mean),11,107.325
+9/10,"shifted errors, all decisions",random (mean),12,107.335
+9/10,"shifted errors, all decisions",random (mean),13,107.37
+9/10,"shifted errors, all decisions",random (mean),14,107.385
+9/10,"shifted errors, all decisions",random (mean),15,107.44
+9/10,"shifted errors, all decisions",random (mean),16,107.46
+9/10,"shifted errors, all decisions",random (mean),17,107.515
+9/10,"shifted errors, all decisions",random (mean),18,107.525
+9/10,"shifted errors, all decisions",random (mean),19,107.585
+9/10,"shifted errors, all decisions",random (mean),20,107.675
+9/10,"shifted errors, all decisions",random (mean),21,107.73
+9/10,"shifted errors, all decisions",random (mean),22,107.77
+9/10,"shifted errors, all decisions",random (mean),23,107.845
+9/10,"shifted errors, all decisions",random (mean),24,107.945
+9/10,"shifted errors, all decisions",random (mean),25,108.005
+9/10,"shifted errors, all decisions",random (mean),26,108.075
+9/10,"shifted errors, all decisions",random (mean),27,108.145
+9/10,"shifted errors, all decisions",random (mean),28,108.22
+9/10,"shifted errors, all decisions",random (mean),29,108.255
+9/10,"shifted errors, all decisions",random (mean),30,108.29
+9/10,"shifted errors, all decisions",random (mean),31,108.33
+9/10,"shifted errors, all decisions",random (mean),32,108.365
+9/10,"shifted errors, all decisions",random (mean),33,108.45
+9/10,"shifted errors, all decisions",random (mean),34,108.475
+9/10,"shifted errors, all decisions",random (mean),35,108.55
+9/10,"shifted errors, all decisions",random (mean),36,108.59
+9/10,"shifted errors, all decisions",random (mean),37,108.63
+9/10,"shifted errors, all decisions",random (mean),38,108.71
+9/10,"shifted errors, all decisions",random (mean),39,108.815
+9/10,"shifted errors, all decisions",random (mean),40,108.87
+9/10,"shifted errors, hard decisions (p <= 1)",method,0,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,1,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,2,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,3,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,4,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,5,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,6,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,7,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,8,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,9,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,10,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,11,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,12,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,13,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,14,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,15,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,16,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,17,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,18,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,19,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,20,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,21,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,22,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,23,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,24,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,25,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,26,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,27,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,28,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,29,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,30,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,31,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,32,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,33,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,34,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,35,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,36,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,37,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,38,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,39,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",method,40,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,0,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,1,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,2,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,3,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,4,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,5,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,6,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,7,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,8,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,9,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,10,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,11,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,12,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,13,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,14,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,15,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,16,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,17,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,18,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,19,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,20,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,21,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,22,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,23,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,24,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,25,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,26,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,27,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,28,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,29,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,30,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,31,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,32,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,33,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,34,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,35,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,36,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,37,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,38,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,39,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",closest calls first,40,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,0,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,1,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,2,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,3,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,4,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,5,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,6,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,7,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,8,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,9,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,10,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,11,21.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,12,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,13,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,14,21.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,15,21.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,16,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,17,22.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,18,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,19,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,20,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,21,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,22,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,23,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,24,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,25,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,26,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,27,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,28,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,29,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,30,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,31,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,32,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,33,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,34,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,35,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,36,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,37,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,38,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,39,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",most connected first,40,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,0,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,1,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,2,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,3,25.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,4,26.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,5,27.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,6,28.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,7,29.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,8,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,9,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,10,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,11,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,12,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,13,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,14,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,15,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,16,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,17,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,18,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,19,30.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,20,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,21,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,22,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,23,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,24,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,25,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,26,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,27,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,28,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,29,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,30,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,31,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,32,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,33,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,34,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,35,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,36,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,37,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,38,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,39,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",oracle,40,31.0
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),0,23.0
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),1,23.01
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),2,23.055
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),3,23.08
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),4,23.08
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),5,23.125
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),6,23.14
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),7,23.15
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),8,23.185
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),9,23.2
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),10,23.25
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),11,23.255
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),12,23.285
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),13,23.3
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),14,23.355
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),15,23.38
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),16,23.43
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),17,23.46
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),18,23.545
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),19,23.585
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),20,23.665
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),21,23.715
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),22,23.78
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),23,23.855
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),24,23.885
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),25,23.9
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),26,23.965
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),27,24.0
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),28,24.06
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),29,24.08
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),30,24.13
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),31,24.195
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),32,24.25
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),33,24.325
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),34,24.335
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),35,24.37
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),36,24.42
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),37,24.46
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),38,24.485
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),39,24.515
+9/10,"shifted errors, hard decisions (p <= 1)",random (mean),40,24.6
+9/10,"shifted errors, open-shell decisions",method,0,16.0
+9/10,"shifted errors, open-shell decisions",method,1,17.0
+9/10,"shifted errors, open-shell decisions",method,2,18.0
+9/10,"shifted errors, open-shell decisions",method,3,18.0
+9/10,"shifted errors, open-shell decisions",method,4,18.0
+9/10,"shifted errors, open-shell decisions",method,5,18.0
+9/10,"shifted errors, open-shell decisions",method,6,18.0
+9/10,"shifted errors, open-shell decisions",method,7,19.0
+9/10,"shifted errors, open-shell decisions",method,8,19.0
+9/10,"shifted errors, open-shell decisions",method,9,19.0
+9/10,"shifted errors, open-shell decisions",method,10,19.0
+9/10,"shifted errors, open-shell decisions",method,11,19.0
+9/10,"shifted errors, open-shell decisions",method,12,19.0
+9/10,"shifted errors, open-shell decisions",method,13,19.0
+9/10,"shifted errors, open-shell decisions",method,14,19.0
+9/10,"shifted errors, open-shell decisions",method,15,19.0
+9/10,"shifted errors, open-shell decisions",method,16,19.0
+9/10,"shifted errors, open-shell decisions",method,17,19.0
+9/10,"shifted errors, open-shell decisions",method,18,19.0
+9/10,"shifted errors, open-shell decisions",method,19,19.0
+9/10,"shifted errors, open-shell decisions",method,20,19.0
+9/10,"shifted errors, open-shell decisions",method,21,19.0
+9/10,"shifted errors, open-shell decisions",method,22,19.0
+9/10,"shifted errors, open-shell decisions",method,23,19.0
+9/10,"shifted errors, open-shell decisions",method,24,19.0
+9/10,"shifted errors, open-shell decisions",method,25,19.0
+9/10,"shifted errors, open-shell decisions",method,26,19.0
+9/10,"shifted errors, open-shell decisions",method,27,19.0
+9/10,"shifted errors, open-shell decisions",method,28,19.0
+9/10,"shifted errors, open-shell decisions",method,29,19.0
+9/10,"shifted errors, open-shell decisions",method,30,19.0
+9/10,"shifted errors, open-shell decisions",method,31,19.0
+9/10,"shifted errors, open-shell decisions",method,32,19.0
+9/10,"shifted errors, open-shell decisions",method,33,19.0
+9/10,"shifted errors, open-shell decisions",method,34,19.0
+9/10,"shifted errors, open-shell decisions",method,35,19.0
+9/10,"shifted errors, open-shell decisions",method,36,19.0
+9/10,"shifted errors, open-shell decisions",method,37,19.0
+9/10,"shifted errors, open-shell decisions",method,38,19.0
+9/10,"shifted errors, open-shell decisions",method,39,19.0
+9/10,"shifted errors, open-shell decisions",method,40,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,0,16.0
+9/10,"shifted errors, open-shell decisions",closest calls first,1,16.0
+9/10,"shifted errors, open-shell decisions",closest calls first,2,16.0
+9/10,"shifted errors, open-shell decisions",closest calls first,3,16.0
+9/10,"shifted errors, open-shell decisions",closest calls first,4,16.0
+9/10,"shifted errors, open-shell decisions",closest calls first,5,17.0
+9/10,"shifted errors, open-shell decisions",closest calls first,6,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,7,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,8,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,9,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,10,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,11,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,12,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,13,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,14,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,15,18.0
+9/10,"shifted errors, open-shell decisions",closest calls first,16,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,17,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,18,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,19,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,20,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,21,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,22,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,23,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,24,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,25,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,26,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,27,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,28,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,29,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,30,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,31,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,32,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,33,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,34,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,35,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,36,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,37,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,38,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,39,19.0
+9/10,"shifted errors, open-shell decisions",closest calls first,40,19.0
+9/10,"shifted errors, open-shell decisions",most connected first,0,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,1,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,2,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,3,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,4,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,5,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,6,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,7,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,8,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,9,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,10,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,11,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,12,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,13,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,14,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,15,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,16,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,17,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,18,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,19,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,20,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,21,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,22,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,23,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,24,16.0
+9/10,"shifted errors, open-shell decisions",most connected first,25,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,26,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,27,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,28,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,29,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,30,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,31,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,32,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,33,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,34,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,35,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,36,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,37,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,38,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,39,17.0
+9/10,"shifted errors, open-shell decisions",most connected first,40,17.0
+9/10,"shifted errors, open-shell decisions",oracle,0,16.0
+9/10,"shifted errors, open-shell decisions",oracle,1,17.0
+9/10,"shifted errors, open-shell decisions",oracle,2,17.0
+9/10,"shifted errors, open-shell decisions",oracle,3,18.0
+9/10,"shifted errors, open-shell decisions",oracle,4,19.0
+9/10,"shifted errors, open-shell decisions",oracle,5,19.0
+9/10,"shifted errors, open-shell decisions",oracle,6,19.0
+9/10,"shifted errors, open-shell decisions",oracle,7,20.0
+9/10,"shifted errors, open-shell decisions",oracle,8,20.0
+9/10,"shifted errors, open-shell decisions",oracle,9,20.0
+9/10,"shifted errors, open-shell decisions",oracle,10,20.0
+9/10,"shifted errors, open-shell decisions",oracle,11,20.0
+9/10,"shifted errors, open-shell decisions",oracle,12,20.0
+9/10,"shifted errors, open-shell decisions",oracle,13,20.0
+9/10,"shifted errors, open-shell decisions",oracle,14,20.0
+9/10,"shifted errors, open-shell decisions",oracle,15,20.0
+9/10,"shifted errors, open-shell decisions",oracle,16,20.0
+9/10,"shifted errors, open-shell decisions",oracle,17,20.0
+9/10,"shifted errors, open-shell decisions",oracle,18,20.0
+9/10,"shifted errors, open-shell decisions",oracle,19,20.0
+9/10,"shifted errors, open-shell decisions",oracle,20,20.0
+9/10,"shifted errors, open-shell decisions",oracle,21,20.0
+9/10,"shifted errors, open-shell decisions",oracle,22,20.0
+9/10,"shifted errors, open-shell decisions",oracle,23,20.0
+9/10,"shifted errors, open-shell decisions",oracle,24,20.0
+9/10,"shifted errors, open-shell decisions",oracle,25,20.0
+9/10,"shifted errors, open-shell decisions",oracle,26,20.0
+9/10,"shifted errors, open-shell decisions",oracle,27,20.0
+9/10,"shifted errors, open-shell decisions",oracle,28,20.0
+9/10,"shifted errors, open-shell decisions",oracle,29,20.0
+9/10,"shifted errors, open-shell decisions",oracle,30,20.0
+9/10,"shifted errors, open-shell decisions",oracle,31,20.0
+9/10,"shifted errors, open-shell decisions",oracle,32,20.0
+9/10,"shifted errors, open-shell decisions",oracle,33,20.0
+9/10,"shifted errors, open-shell decisions",oracle,34,20.0
+9/10,"shifted errors, open-shell decisions",oracle,35,20.0
+9/10,"shifted errors, open-shell decisions",oracle,36,20.0
+9/10,"shifted errors, open-shell decisions",oracle,37,20.0
+9/10,"shifted errors, open-shell decisions",oracle,38,20.0
+9/10,"shifted errors, open-shell decisions",oracle,39,20.0
+9/10,"shifted errors, open-shell decisions",oracle,40,20.0
+9/10,"shifted errors, open-shell decisions",random (mean),0,16.0
+9/10,"shifted errors, open-shell decisions",random (mean),1,16.035
+9/10,"shifted errors, open-shell decisions",random (mean),2,16.065
+9/10,"shifted errors, open-shell decisions",random (mean),3,16.08
+9/10,"shifted errors, open-shell decisions",random (mean),4,16.11
+9/10,"shifted errors, open-shell decisions",random (mean),5,16.15
+9/10,"shifted errors, open-shell decisions",random (mean),6,16.185
+9/10,"shifted errors, open-shell decisions",random (mean),7,16.225
+9/10,"shifted errors, open-shell decisions",random (mean),8,16.265
+9/10,"shifted errors, open-shell decisions",random (mean),9,16.305
+9/10,"shifted errors, open-shell decisions",random (mean),10,16.345
+9/10,"shifted errors, open-shell decisions",random (mean),11,16.385
+9/10,"shifted errors, open-shell decisions",random (mean),12,16.41
+9/10,"shifted errors, open-shell decisions",random (mean),13,16.445
+9/10,"shifted errors, open-shell decisions",random (mean),14,16.48
+9/10,"shifted errors, open-shell decisions",random (mean),15,16.535
+9/10,"shifted errors, open-shell decisions",random (mean),16,16.59
+9/10,"shifted errors, open-shell decisions",random (mean),17,16.625
+9/10,"shifted errors, open-shell decisions",random (mean),18,16.66
+9/10,"shifted errors, open-shell decisions",random (mean),19,16.7
+9/10,"shifted errors, open-shell decisions",random (mean),20,16.75
+9/10,"shifted errors, open-shell decisions",random (mean),21,16.78
+9/10,"shifted errors, open-shell decisions",random (mean),22,16.815
+9/10,"shifted errors, open-shell decisions",random (mean),23,16.855
+9/10,"shifted errors, open-shell decisions",random (mean),24,16.86
+9/10,"shifted errors, open-shell decisions",random (mean),25,16.895
+9/10,"shifted errors, open-shell decisions",random (mean),26,16.94
+9/10,"shifted errors, open-shell decisions",random (mean),27,16.98
+9/10,"shifted errors, open-shell decisions",random (mean),28,17.03
+9/10,"shifted errors, open-shell decisions",random (mean),29,17.055
+9/10,"shifted errors, open-shell decisions",random (mean),30,17.1
+9/10,"shifted errors, open-shell decisions",random (mean),31,17.14
+9/10,"shifted errors, open-shell decisions",random (mean),32,17.18
+9/10,"shifted errors, open-shell decisions",random (mean),33,17.195
+9/10,"shifted errors, open-shell decisions",random (mean),34,17.23
+9/10,"shifted errors, open-shell decisions",random (mean),35,17.26
+9/10,"shifted errors, open-shell decisions",random (mean),36,17.305
+9/10,"shifted errors, open-shell decisions",random (mean),37,17.38
+9/10,"shifted errors, open-shell decisions",random (mean),38,17.415
+9/10,"shifted errors, open-shell decisions",random (mean),39,17.445
+9/10,"shifted errors, open-shell decisions",random (mean),40,17.475

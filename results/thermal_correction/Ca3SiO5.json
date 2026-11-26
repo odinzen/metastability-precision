@@ -1,0 +1,16 @@
+{
+ "tag": "Ca3SiO5",
+ "atoms": 162,
+ "supercell": [
+  1,
+  1,
+  1
+ ],
+ "n_displacements": 249,
+ "orientations": 1,
+ "e_static_eV_atom": -7.033274159180188,
+ "zpe_kJ_mol_atoms": 6.521741917216358,
+ "heat_content_kJ_mol_atoms": 3.228026460917098,
+ "min_frequency_THz": -1.5865798901351753,
+ "imaginary_fraction": 0.00411522633744856
+}

@@ -1,0 +1,5 @@
+sigma_open,label,open_n,open_n_low,open_right_low,open_pred_low,open_n_high,open_right_high,open_pred_high,open_brier,chen_selection_n,chen_selection_resolved,chen_selection_expected_right,chen_stability_n,chen_stability_resolved,chen_stability_expected_right,alab_stability_n,alab_stability_resolved,alab_stability_expected_right,mp_n,mp_resolved_share,mp_expected_right_share
+22.5,one sigma,21,7,0.429,0.711,14,0.929,0.961,0.1569,35,23,29.7,35,13,26.4,54,13,37.4,6869,0.462,0.799
+25.2,fit without CeCrO3,21,9,0.556,0.722,12,0.917,0.97,0.1549,35,22,29.6,35,12,26.3,54,13,36.9,6869,0.448,0.793
+34.0,adopted,21,10,0.6,0.688,11,0.909,0.944,0.1537,35,22,29.3,35,11,26.0,54,10,35.9,6869,0.409,0.779
+65.8,"fit, all 21",21,16,0.75,0.662,5,0.8,0.911,0.1656,35,18,28.6,35,10,25.5,54,9,34.2,6869,0.342,0.749

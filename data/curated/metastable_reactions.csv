@@ -1,0 +1,62 @@
+compound,family,products,note,structures,disordered
+CuFe2O4,oxide,CuO+Fe2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,False
+CuMn2O4,oxide,CuO+Mn2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,False
+CuGa2O4,oxide,CuO+Ga2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,True
+CdFe2O4,oxide,CdO+Fe2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,False
+CdAl2O4,oxide,CdO+Al2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,False
+NiMn2O4,oxide,NiO+Mn2O3,Navrotsky and Kleppa 1968,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,True
+Fe2TiO5,oxide,Fe2O3+TiO2,Navrotsky 1975,Cmcm,False
+Mg2TiO4,oxide,MgTiO3+MgO,Wechsler and Navrotsky 1984; Kelley 1954,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,True
+Fe2TiO4,oxide,FeTiO3+Fe3O4+Fe,Robie and Hemingway 1995,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,True
+CaMg3(CO3)4,oxide,CaMg(CO3)2+MgCO3,Robie and Hemingway 1995,R32,False
+CeTi2O6,oxide,CeO2+TiO2,Helean 2003,C2/m,False
+ThTi2O6,oxide,ThO2+TiO2,Helean 2003,C2/m,False
+CeSiO4,oxide,CeO2+SiO2,Strzelecki 2020,I4_1/amd,False
+USiO4,oxide,UO2+SiO2,Guo 2015,I4_1/amd,False
+ThSiO4,oxide,ThO2+SiO2,Mazeina 2005 vs Guo 2016 (unresolved),I4_1/amd,False
+LiUO3,oxide,Li2UO4+UO2,evaluated tables,,False
+Li2B8O13,oxide,Li2B4O7+B2O3,evaluated tables,,False
+KB3O5,oxide,K2B4O7+K2B8O13,evaluated tables,,False
+Al6Si2O13,oxide,Al2SiO5+Al2O3,Holm and Kleppa 1966 (kyanite + corundum),Pbam,True
+Mg3Al2Si3O12,oxide,MgSiO3+Al2O3,Charlu 1975; Robie and Hemingway 1995,Ia-3d,False
+CaAl2SiO6,oxide,Ca3Al2(SiO4)3+Al2O3,Newton 1977; Robie and Hemingway 1995,C2/c,False
+Mg2Al4Si5O18,oxide,MgSiO3+Al2SiO5+SiO2,Charlu 1975,Cccm,False
+Ca12Al14O33,oxide,CaAl2O4+CaO,Coughlin 1956,I-43d,False
+Mg2SnO4,oxide,MgO+SnO2,Navrotsky and Kasper 1976,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,True
+ZrTiO4,oxide,ZrO2+TiO2,Rosenberg 2025; Hom 2001,Pbcn,True
+HfTiO4,oxide,HfO2+TiO2,Rosenberg 2025,Pbcn,True
+Ca2MgSi2O7,oxide,CaSiO3+CaMgSiO4,Brousse 1984; Robie and Hemingway 1995,P-42_1m,False
+Ca3MgSi2O8,oxide,CaMgSiO4+Ca2SiO4,Brousse 1984; Robie and Hemingway 1995,P2_1/c,False
+KAlSi2O6,oxide,KAlSi3O8+KAlSiO4,Robie and Hemingway 1995,I4_1/a,False
+CaAl2Si2O8,oxide,Ca3Al2(SiO4)3+Al2SiO5+SiO2,Robie and Hemingway 1995,P-1,False
+Fe3C,carbide,Fe+C,Meschel and Kleppa 1997,Pnma,False
+Co2C,carbide,Co+C,Meschel and Kleppa 1997,Pnnm,False
+Co3C,carbide,Co+C,Meschel and Kleppa 1997,Pnma,False
+Ni3C,carbide,Ni+C,Meschel and Kleppa 1997,R-3c;Pnma,False
+W2C,carbide,W+WC,Mah 1963,P-3m1;P-31m;P6_3/mmc;Pbcn,False
+MgC2,carbide,Mg+C,NBS Report 6928,P4_2/mnm,False
+Mg2C3,carbide,Mg+C,NBS Report 6928,Pnnm,False
+Cu3N,nitride,Cu+N2,Zachwieja and Jacobs 1990,Pm-3m,False
+Co3N,nitride,Co+N2,NBS 1982 tables,P6_322;P6_3/mmc,False
+CuH,hydride,Cu+H2,Burtovyy 2000,P6_3mc,False
+CH3NH3PbI3,halide,CH3NH3I+PbI2,Nagabhushana 2016; Ivanov 2018,I4cm;I4/mcm,False
+CH3NH3PbBr3,halide,CH3NH3Br+PbBr2,Nagabhushana 2016; Ivanov 2018,Pm-3m,False
+AuCl,halide,Au+AuCl3,NBS 1982 tables,I4_1/amd,False
+AuBr,halide,Au+AuBr3,NBS 1982 tables,,False
+AgSbS2,chalcogenide,Ag3SbS3+Sb2S3,"Bryndzia and Kleppa 1988 (cubic beta form; the database holds only ordered miargyrite, so left out)",Fm-3m,False
+AgBiS2,chalcogenide,Ag2S+AgBi3S5,"Bryndzia and Kleppa 1988 (low-temperature beta-matildite, trigonal; central value above competitors, within error)",P-3m1,False
+AgAsS2,chalcogenide,Ag3AsS3+As2S3,Bryndzia and Kleppa 1989,P2/n;P2_1/n;P2/c;P2_1/c;C2/c,False
+Au2S,chalcogenide,Au+S,Osadchii and Rappo 2004,Pn-3m,False
+Co3S4,chalcogenide,Co9S8+CoS2,low confidence,Fd-3m,False
+Pd16S7,chalcogenide,Pd4S+PdS,low confidence,I-43m,False
+Cu3Se2,chalcogenide,CuSe+Cu2Se,low confidence,P-42_1m,False
+BiSe,chalcogenide,Bi+Bi2Se3,low confidence,P-3m1,False
+FeCr,intermetallic,Fe+Cr,Dench 1963 (sigma; composition range),P4_2/mnm,False
+CoCr,intermetallic,Co+Cr,Downie and Arslan 1983 (sigma; composition range),P4_2/mnm,False
+Cu41Sn11,intermetallic,Cu+Cu3Sn,Flandorfer 2007,F-43m,False
+CuCr2O4,oxide,CuO+Cr2O3,Muller and Kleppa 1973,Fd-3m;I4_1/amd;Imma;P4_122;P4_322,False
+AgTe,chalcogenide,Ag2Te+Te,Voronin 2017 (empressite),Pnma;Pmnb,False
+Fe5Si3,intermetallic,Fe3Si+FeSi,TKV (eta-Fe5Si3),P6_3/mcm,False
+Na2C2,carbide,Na+C,TKV,I4_1/acd,False
+Cd3N2,nitride,Cd+N2,TKV,Ia-3,False
+MoC,carbide,Mo2C+C,TKV (cubic MoC),Fm-3m,False

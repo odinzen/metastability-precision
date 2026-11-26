@@ -1,0 +1,23 @@
+compound,source,record,basis,oxides,measured_meV_atom,dft_meV_atom,error_meV_atom,residual_meV_atom,open_shell,sigma,z,z_raw
+Al2Fe3(SiO4)3,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_Fe3Al2Si3O12,"adopted_evaluated, from elements",1 Al2O3+3 FeO+3 SiO2,-28.8,-13.7,15.1,2.9,True,34.0,0.08,0.44
+BaWO4,paper:barin1995,meas:barin1995:formation_enthalpy_BaWO4,"adopted_evaluated, from elements",1 BaO+1 WO3,-358.7,-327.3,31.4,-28.0,False,22.5,-1.24,1.4
+Ca12Al14O33,paper:coughlin1956,meas:coughlin1956:formation_enthalpy_ox_Ca12Al14O33,"measured_fact, from oxides",12 CaO+7 Al2O3,-13.9,-59.1,-45.1,-55.2,False,22.5,-2.46,-2.01
+Ca2MgSi2O7,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_Ca2MgSi2O7,"adopted_evaluated, from elements",2 CaO+1 MgO+2 SiO2,-152.7,-132.7,20.1,-9.9,False,22.5,-0.44,0.89
+Ca3Al2(SiO4)3,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_Ca3Al2Si3O12,"adopted_evaluated, from elements",3 CaO+1 Al2O3+3 SiO2,-177.4,-127.0,50.4,16.9,False,22.5,0.75,2.24
+Ca3Fe2(SiO4)3,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_Ca3Fe2Si3O12,"adopted_evaluated, from elements",3 CaO+1 Fe2O3+3 SiO2,-163.7,-126.8,36.9,5.4,True,34.0,0.16,1.09
+Ca3Mg(SiO4)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_Ca3MgSi2O8,"adopted_evaluated, from elements",3 CaO+1 MgO+2 SiO2,-157.9,-130.0,27.9,-2.8,False,22.5,-0.12,1.24
+CaAl2(SiO4)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_CaAl2Si2O8,"adopted_evaluated, from elements",1 CaO+1 Al2O3+2 SiO2,-91.2,-92.0,-0.8,-21.9,False,22.5,-0.98,-0.04
+CaFe(SiO3)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_CaFeSi2O6,"adopted_evaluated, from elements",1 CaO+1 FeO+2 SiO2,-120.6,-93.5,27.1,1.7,True,34.0,0.05,0.8
+CaMg(SiO3)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_CaMgSi2O6,"adopted_evaluated, from elements",1 CaO+1 MgO+2 SiO2,-153.8,-114.7,39.1,9.0,False,22.5,0.4,1.74
+CaTiSiO5,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_CaTiSiO5,"adopted_evaluated, from elements",1 CaO+1 TiO2+1 SiO2,-141.7,-125.3,16.4,-12.0,False,22.5,-0.53,0.73
+KAl(SiO3)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_KAlSi2O6,"adopted_evaluated, from elements",0.5 K2O+0.5 Al2O3+2 SiO2,-213.0,-218.7,-5.6,-44.2,False,22.5,-1.96,-0.25
+KAlSiO4,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_KAlSiO4,"adopted_evaluated, from elements",0.5 K2O+0.5 Al2O3+1 SiO2,-297.2,-297.7,-0.4,-51.0,False,22.5,-2.27,-0.02
+La2Ti2O7,paper:helean_2004_re_titanate_pyrochlore,meas:helean_2004_re_titanate_pyrochlore:formation_enthalpy_La2Ti2O7,"measured_fact, from oxides",1 La2O3+2 TiO2,-194.1,-144.4,49.7,13.8,False,22.5,0.61,2.21
+Li6Zr2O7,paper:wyers_1989,meas:wyers_1989:formation_enthalpy_el_Li6Zr2O7,"measured_fact, from elements",3 Li2O+2 ZrO2,-81.9,-103.0,-21.1,-41.0,False,22.5,-1.82,-0.94
+Mg2Al4Si5O18,paper:charlu_newton_kleppa_1975,meas:charlu_newton_kleppa_1975:formation_enthalpy_ox_Mg2Al4Si5O18_synthetic_298K,"measured_fact, from oxides",2 MgO+2 Al2O3+5 SiO2,-17.8,-40.4,-22.6,-33.3,False,22.5,-1.48,-1.0
+Mg3Al2(SiO4)3,paper:charlu_newton_kleppa_1975,meas:charlu_newton_kleppa_1975:formation_enthalpy_ox_Mg3Al2Si3O12_298K,"measured_fact, from oxides",3 MgO+1 Al2O3+3 SiO2,-37.2,-15.0,22.2,8.8,False,22.5,0.39,0.99
+MoPbO4,paper:barin1995,meas:barin1995:formation_enthalpy_PbMoO4,"adopted_evaluated, from elements",1 MoO3+1 PbO,-153.8,-157.7,-3.9,-34.0,False,22.5,-1.51,-0.17
+NaAl(SiO3)2,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_NaAlSi2O6,"adopted_evaluated, from elements",0.5 Na2O+0.5 Al2O3+2 SiO2,-177.3,-144.8,32.5,-1.0,False,22.5,-0.04,1.44
+NaAlSiO4,paper:robie_hemingway_1995,meas:robie_hemingway_1995:formation_enthalpy_NaAlSiO4,"adopted_evaluated, from elements",0.5 Na2O+0.5 Al2O3+1 SiO2,-208.0,-217.8,-9.8,-47.7,False,22.5,-2.12,-0.44
+TiAl2O5,paper:barin1995,meas:barin1995:formation_enthalpy_Al2TiO5,"adopted_evaluated, from elements",1 TiO2+1 Al2O3,-21.6,-0.7,20.9,9.7,False,22.5,0.43,0.93
+TiPbO3,paper:barin1995,meas:barin1995:formation_enthalpy_PbTiO3,"adopted_evaluated, from elements",1 TiO2+1 PbO,-76.0,-64.3,11.7,-7.3,False,22.5,-0.33,0.52
