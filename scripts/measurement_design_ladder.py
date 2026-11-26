@@ -33,7 +33,6 @@ Writes results/measurement_ladder.csv, results/measurement_ladder_curves.csv, re
 results/measurement_real_entry.csv and results/preregistered_predictions.csv (+ .sha256).
 """
 import gzip
-import hashlib
 import json
 import sys
 from datetime import date
@@ -49,6 +48,7 @@ from scipy.stats import norm
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import measurement_value as mv  # noqa: E402
 from benchmark_compiled import compiled  # noqa: E402
+from deposited import write_hashed  # noqa: E402
 from sigma_model import open_shell, sigma_for  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -441,9 +441,7 @@ def rung11(eps_compiled):
               "GGA/GGA+U energy through the calorimetric trend, measured = (DFT - 8.1) / 0.857, with sigma 22.5 "
               "(34 open-shell) divided by 0.857. Families outside the calorimetric benchmark (borates, most "
               "phosphates) are an extrapolation of the trend.\n")
-    path.write_text(header + pre.to_csv(index=False), encoding="utf-8")
-    digest = hashlib.sha256(path.read_bytes()).hexdigest()
-    (RES / "preregistered_predictions.csv.sha256").write_text(f"{digest}  preregistered_predictions.csv\n", encoding="utf-8")
+    digest = write_hashed(path, header, pre)
     return blind, entry, pre, digest
 
 

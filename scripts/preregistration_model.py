@@ -23,7 +23,6 @@ they enter, with the model fitted on all data. Written with a SHA-256 hash.
 Writes results/preregistration_validation.csv, results/preregistration_model.json,
 results/preregistered_predictions.csv and results/preregistered_decisions.csv (+ .sha256).
 """
-import hashlib
 import json
 import sys
 from datetime import date
@@ -36,6 +35,7 @@ from scipy.optimize import minimize
 from scipy.stats import norm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import deposited  # noqa: E402
 import measurement_design_ladder as L  # noqa: E402
 import measurement_value as mv  # noqa: E402
 from precision_mp_observed import family  # noqa: E402
@@ -282,11 +282,7 @@ def preregister(d, model):
     return pd.DataFrame(comp_rows), pd.DataFrame(dec_rows), diffs, check
 
 
-def write_hashed(path, header, df):
-    path.write_text(header + df.to_csv(index=False), encoding="utf-8")
-    digest = hashlib.sha256(path.read_bytes()).hexdigest()
-    path.with_suffix(path.suffix + ".sha256").write_text(f"{digest}  {path.name}\n", encoding="utf-8")
-    return digest
+write_hashed = deposited.write_hashed  # measurement_value_observed calls P.write_hashed
 
 
 def main():

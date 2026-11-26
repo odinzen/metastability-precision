@@ -69,6 +69,9 @@ def run(target, loader):
     sp = sp_mod.SynthesisPathways(target, exclude_reactants=["O2"], selected_reactions_to_csv=False)
     ranked = [(tuple(sorted(norm(e.name) for e in r.reactants)), 1000 * r.reactE, 1000 * r.invE)
               for r in sp.selected_reactions]
+    # Chen's code sorts on the inverse hull energy alone, so pairs with equal values came out in Python's hash order and
+    # the first-ranked pair changed between runs. Ties now go to the larger reaction driving force, then by name.
+    ranked.sort(key=lambda r: (round(r[2], 6), round(r[1], 6), r[0]))
     allp = {tuple(sorted(norm(e.name) for e in r.reactants)): (1000 * r.reactE, 1000 * r.invE)
             for r in sp.all_pairwise_reactions}
     return ranked, allp

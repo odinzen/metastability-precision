@@ -51,12 +51,8 @@ also query the current release, so a rerun can move with it: `pull_mp_systems.py
 `sol/make_structures.py`. `precision_mp_observed.py` queries every observed phase of the current release, and
 `--rescore` reapplies sigma to the saved table instead.
 
-Set `PYTHONHASHSEED=0` before the scripts that rank precursors with the selection code of Chen et al.
-(`rerun_chen_today.py`, then `precision_analysis.py`, `calorimetric_correction.py` and `chen_ranking_robustness.py`).
-Precursor pairs that score the same are ranked in the hash order of the Python run, so without a fixed seed which pair
-ranks first can change for LiMnPO4 and KTiNbO5. Seed 0 reproduces `chen_rerun_today.csv`, `precision_chen.csv` and `correction_chen.csv`. The
-`p_top` column of `chen_ranking_robustness.csv` (the share of draws in which the tested pair ranks first) moves by up
-to 0.09 between runs; its `p_selected` column does not.
+The selection code of Chen et al. sorts precursor pairs by inverse hull energy alone. `rerun_chen_today.py` breaks
+exact ties by the more negative reaction energy and then by name, so the ranking is the same in every run.
 
 The steps in the order they depend on each other, and the tables they write:
 
@@ -90,9 +86,9 @@ The steps in the order they depend on each other, and the tables they write:
 | 0 K energy against 298 K enthalpy | `scripts/thermal_correction_structures.py`, `scripts/thermal_correction.py` | `data/thermal_correction/`, `results/thermal_correction*.csv`, `results/thermal_correction/` |
 | Figures | `figures/make_figures.py` | `figures/*.png`, `figures/*.pdf` |
 
-`measurement_design_ladder.py`, `preregistration_model.py` and `measurement_value_observed.py` also rewrite the
-deposited prediction files (`results/preregistered_*.csv`, `results/forward_predictions_observed_*.csv`) and their
-checksums. The copies here are the deposited ones; compare a rerun against them rather than committing it.
+The prediction files in `results/` (`preregistered_*.csv`, `forward_predictions_observed_*.csv`) are the deposited
+ones. `measurement_design_ladder.py`, `preregistration_model.py` and `measurement_value_observed.py` leave them as they
+are and write a rerun beside them as `*.rerun.csv` (`scripts/deposited.py`), to be compared with the deposit.
 
 The entropy scripts import Hermes (version 0.2.0, doi 10.5281/zenodo.23573417) from a checkout named by the
 `HERMES_DIR` environment variable. They read the molecular-dynamics trajectories, which are deposited on Zenodo (about

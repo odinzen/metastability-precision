@@ -23,13 +23,13 @@ Li3V2(PO4)3,LiPO3+V2O3,True,True,-24.0,True,True,-29.2,True,True,-28.1
 NaSiBO4,NaBO2+SiO2,True,True,-6.2,True,True,-8.9,True,True,-7.2
 KBaPO4,BaO+KPO3,True,True,-315.5,True,True,-370.8,True,True,-368.1
 KTiPO5,KPO3+TiO2,True,True,-57.3,True,True,-70.4,True,True,-66.9
-LiMnPO4,LiPO3+MnO,True,False,-61.0,True,False,-72.6,True,False,-71.2
+LiMnPO4,LiPO3+MnO,True,True,-61.0,True,True,-72.6,True,True,-71.2
 KNbWO6,KNbO3+WO3,True,True,-21.7,True,True,-28.1,True,True,-25.3
 LiMgPO4,LiPO3+MgO,True,True,-31.7,True,True,-37.7,True,True,-37.0
 LiZnPO4,LiPO3+ZnO,True,True,-103.9,True,True,-123.9,True,True,-121.2
 KTa2PO8,KPO3+Ta2O5,True,True,-15.0,True,True,-17.5,True,True,-17.5
 LiNbGeO5,GeO2+LiNbO3,True,True,-23.5,True,True,-31.0,True,True,-27.5
-KTiNbO5,KNbO3+TiO2,True,False,-6.2,True,True,-7.3,True,False,-7.3
+KTiNbO5,KNbO3+TiO2,True,False,-6.2,True,False,-7.3,True,False,-7.3
 Li2TiGeO5,GeO2+Li2TiO3,True,True,-18.5,True,True,-31.9,True,True,-21.6
 LiSi2BO6,LiBO2+SiO2,False,False,-0.0,False,False,-4.1,False,False,-0.0
 NaSrBO3,NaBO2+SrO,True,True,-117.6,True,True,-140.4,True,True,-137.3
