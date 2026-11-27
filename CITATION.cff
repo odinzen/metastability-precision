@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below, together with the article and the Zenodo deposits listed in the README."
+title: "metastability-precision: code and data for the paper on integrating calorimetry and computation to quantify metastability in materials discovery"
+type: software
+version: 1.0.0
+date-released: 2026-11-26
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/odinzen/metastability-precision"
+authors:
+  - family-names: Bustamante
+    given-names: Michael E.
+    orcid: "https://orcid.org/0009-0009-9001-8151"
+    affiliation: "Odinzen LLC, Houston, TX, United States"
+keywords:
+  - metastability
+  - calorimetry
+  - enthalpy of formation
+  - density functional theory
+  - materials discovery
+  - uncertainty
+references:
+  - type: data
+    title: "Pre-registered predictions: calorimetric enthalpies of 30 oxides and 45 computed synthesis decisions"
+    doi: 10.5281/zenodo.23741115
+    authors:
+      - family-names: Bustamante
+        given-names: Michael E.
+      - family-names: Lilova
+        given-names: Kristina
+  - type: data
+    title: "Forward predictions: calorimetric enthalpies of 29 oxides and 116 stability relations of the known oxides"
+    doi: 10.5281/zenodo.24237166
+    authors:
+      - family-names: Bustamante
+        given-names: Michael E.
+      - family-names: Lilova
+        given-names: Kristina
